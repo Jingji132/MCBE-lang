@@ -1,2 +1,2 @@
 # Language files in Minecraft BE beta
-Version: 1.17.40.20
+Version: 1.17.40.21
