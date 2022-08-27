@@ -1,2 +1,2 @@
 # Language files in Minecraft BE Preview (en_US/zh_CN)
-Version: 1.19.30.22
+Version: 1.19.30.23
