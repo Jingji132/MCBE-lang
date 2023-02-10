@@ -1,2 +1,2 @@
 # Language files in Minecraft BE
-Version: 1.19.50 release
+Version: 1.19.60 release
