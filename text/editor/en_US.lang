@@ -184,6 +184,7 @@ resourcePack.editor.datatransferaccessors.lighting_group=Global Lighting
 resourcePack.editor.datatransferaccessors.pbr_fallbacks=PBR Fallbacks
 resourcePack.editor.datatransferaccessors.point_lights=Point Lights
 resourcePack.editor.datatransferaccessors.water=Water
+resourcePack.editor.datatransferaccessors.shadows=Shadows
 
 
 resourcePack.editor.deferredLightingSettings.menu.title=Deferred Lighting Settings
@@ -217,7 +218,8 @@ resourcePack.editor.exportProject.advancedSettings.immediateRespawn=Immediate Re
 resourcePack.editor.exportProject.advancedSettings.respawnRadius=Respawn Radius
 resourcePack.editor.exportProject.advancedSettings.simulationDistance=Simulation Distance
 resourcePack.editor.exportProject.advancedSettings.bedsWork=Beds Work
-resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Required Sleeping Players (%1%)
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers=Required Sleeping Players (%1$s)
+resourcePack.editor.exportProject.advancedSettings.requiredSleepingPlayers.onePlayerMessage=Only 1 player
 resourcePack.editor.exportProject.multiplayerSettings=Multiplayer Settings
 resourcePack.editor.exportProject.multiplayerSettings.multiplayerGame=Multiplayer Game
 resourcePack.editor.exportProject.multiplayerSettings.playerAccess=Player Access
@@ -580,10 +582,15 @@ resourcePack.editor.server.name=Editor Resources
 
 
 resourcePack.editor.toolRail.Terrain.title=Terrain
+resourcePack.editor.toolRail.Terrain.keybinding.toggleTool=Toggle Terrain Tool
+resourcePack.editor.toolRail.Terrain.keyBinding.switch=Switch Terrain Mode
 resourcePack.editor.toolRail.Terrain.Mode.title=Terrain Mode
 resourcePack.editor.toolRail.Terrain.Smooth.mode.title=Smooth Mode
 resourcePack.editor.toolRail.Terrain.Smooth.tooltip=Smooth over terrain based on smoothing strength
 resourcePack.editor.toolRail.Terrain.SmoothStrength=Smooth Strength
+resourcePack.editor.toolRail.Terrain.Roughen.mode.title=Roughen Mode
+resourcePack.editor.toolRail.Terrain.Roughen.tooltip=Roughen terrain based on roughening strength
+resourcePack.editor.toolRail.Terrain.RoughenStrength=Roughen Strength
 resourcePack.editor.toolRail.Terrain.description=Terrain tool smooths or roughens terrain
 
 
