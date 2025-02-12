@@ -44,8 +44,6 @@ edu.cloudError.generic.linkDescription=了解有关此错误的更多信息	#
 edu.cloudError.generic.message=将您的世界上传到云端时出错了。	#
 edu.cloudError.generic.download.message=从云端下载您的世界时出错了。	#
 edu.cloudError.generic.upload.title=上传失败 	##### {MaxLength="45"}
-edu.cloudError.largeWorld.message=此世界只能保存到这个本地设备。云端上传支持的最大文件大小为 250MB。	#
-edu.cloudError.largeWorld.title=世界太大了 	##### {MaxLength="45"}
 edu.cloudError.local.download.title=世界下载错误 	##### {MaxLength="45"}
 edu.cloudError.local.download.message=从云端下载最新版本时出现问题。您可以打开上次在此设备上保存的版本，并在之后决定要保留哪个世界版本。	#
 edu.cloudError.local.download.linkDescription=了解有关下载错误的更多信息	#
@@ -55,6 +53,7 @@ edu.cloudError.local.sync.message=同步至云端时出现问题。您的世界�
 edu.cloudError.notfound.download.message=我们无法在云端找到这个世界。退出并返回“我的世界”以获取您的世界的刷新视图。	#
 edu.cloudError.notfound.download.title=在 OneDrive 上找不到文件 	##### {MaxLength="45"}
 edu.cloudError.outOfStorage.linkDescription=如何在 OneDrive 上空间不足时备份世界 	##### {MaxLength="64"}
+edu.cloudError.outOfStorage.download.linkDescription=了解有关本地存储的更多信息	#
 edu.cloudError.outOfStorage.download.message=您的设备空间不足！为什么不删除一些不需要的东西，便于您保存新内容？	#
 edu.cloudError.outOfStorage.message=您的 OneDrive 空间不足，无法保存此世界。	#
 edu.cloudError.outOfStorage.title=未能成功上传至云端 	##### {MaxLength="45"}
@@ -112,6 +111,8 @@ library.item.description=说明	#
 library.item.overview=概览	#
 library.item.expandable.readLess=折叠内容	#
 library.item.expandable.readMore=阅读更多	#
+library.item.download.noSpace.title=空间不足	#
+library.item.download.noSpace.body=您的设备上没有足够的空间，无法下载此世界。	#
 
 library.item.section.languages=支持的预言	#
 library.item.section.languages.tip=如果此课程不能以您的首选语言提供，则沉浸式阅读器可用于翻译课程内文本，包括书籍、告示牌、告示板和非用户角色对话。	#
@@ -548,3 +549,5 @@ worlds.storage.permission.settings=请打开 Android 设置并更新 Minecraft E
 worlds.storage.android.settings=打开 Android 设置	#
 worlds.storage.permission.dialog.title=需要设备权限	#
 worlds.storage.missing=您的世界不见了吗？请尝试更改《我的世界》的存储位置：	#
+
+bookAndQuill.unsignedName=未签名的书	#
