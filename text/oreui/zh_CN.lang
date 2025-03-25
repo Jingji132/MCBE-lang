@@ -37,8 +37,8 @@ hbui.AchievementDetailsRoute.titleNarration=成就详情屏幕	#
 hbui.AchievementDetailsRoute.viewReward=查看奖励	#
 hbui.AchievementDisabledModal.closeInputLegend=关闭	#
 hbui.AchievementDisabledModal.goBackButtonText=返回	#
-hbui.AchievementDisabledModal.multipleSettingsMessageCNW=使用当前设置，您将无法在这个世界中获得成就。如果您想获得成就，请在创建世界之前更改这些设置：	#
-hbui.AchievementDisabledModal.multipleSettingsMessageEW=使用当前设置，您将无法在这个世界中获得成就。如果您想获得成就，请更改这些设置：	#
+hbui.AchievementDisabledModal.multipleSettingsMessageCNW=使用当前设置，将无法在这个世界中获得成就。若想获得成就，请在创建世界之前更改这些设置：	#
+hbui.AchievementDisabledModal.multipleSettingsMessageEW=使用当前设置，将无法在这个世界中获得成就。若想获得成就，请更改这些设置：	#
 hbui.AchievementDisabledModal.oneSettingMessageCNW=使用当前设置，您将无法在这个世界中获得成就。如果您想获得成就，请在创建世界之前更改此设置：	#
 hbui.AchievementDisabledModal.oneSettingMessageEW=使用当前设置，您将无法在这个世界中获得成就。如果您想获得成就，请更改此设置：	#
 hbui.AchievementDisabledModal.title=您无法获得成就	#
@@ -54,6 +54,18 @@ hbui.AchievementListItem.rewardLockedNarration=奖励已锁定	#
 hbui.AchievementListItem.rewardUnlockedNarration=奖励已解锁	#
 hbui.AchievementListItem.siblingNarration=%1$s 个按钮 共 %2$s 个	#
 hbui.AchievementListItem.view=查看细节	#
+hbui.AchievementPermanentlyDisabledModal.cheats=已启用作弊		#### Reason why the world has achievements disabled, world has cheats enabled {MaxLength="150"}
+hbui.AchievementPermanentlyDisabledModal.close=关闭		#### Button to dismiss the modal {MaxLength="40"}
+hbui.AchievementPermanentlyDisabledModal.creative=已在创造模式创建世界		#### Reason why the world has achievements disabled, world is in creative mode {MaxLength="150"}
+hbui.AchievementPermanentlyDisabledModal.description=依照这个世界的设置，你将无法在游玩时获得成就。现在更改这个世界设置也无法使其生效。你需要访问其他世界才能获得成就。		#### Text shown in the modal when the world have the achievements permanently disabled {MaxLength="600"}
+hbui.AchievementPermanentlyDisabledModal.experiments=测试版功能已启用		#### Reason why the world has achievements disabled, experiments are turned on in the world {MaxLength="150"}
+hbui.AchievementPermanentlyDisabledModal.flat=这个世界是以平坦世界的设置创建		#### Reason why the world has achievements disabled, world is in flat mode {MaxLength="150"}
+hbui.AchievementPermanentlyDisabledModal.pack=行为包已激活		#### Reason why the world has achievements disabled, the world has a behaviour pack enabled {MaxLength="150"}
+hbui.AchievementPermanentlyDisabledModal.permissions=世界创建者拥有操作员特权		#### Reason why the world has achievements disabled, player has operator permissions by default {MaxLength="150"}
+hbui.AchievementPermanentlyDisabledModal.reasonText=以下情况在这个世界中无法获得成就：		#### Text shown in the modal when the world have the achievements permanently disabled {MaxLength="150"}
+hbui.AchievementPermanentlyDisabledModal.template=世界由模板建造而来		#### Reason why the world has achievements disabled, the world was created from a template {MaxLength="150"}
+hbui.AchievementPermanentlyDisabledModal.title=你无法获得成就		#### Title of modal shown to let the player that in this world achievements are permanently disabled {MaxLength="40"}
+hbui.AchievementPermanentlyDisabledModal.trial=世界创建者使用的是《我的世界》试用版 		#### Reason why the world has achievements disabled, player is using a trial version of the game {MaxLength="150"}
 hbui.AchievementReward.narration.rewardLocked=奖励已锁定	#
 hbui.AchievementReward.narration.rewardUnlocked=奖励已解锁	#
 hbui.AchievementReward.reward=奖励	#
@@ -223,8 +235,8 @@ hbui.Bedtime.messageAllPlayersSleeping=整夜睡觉	#
 hbui.Bedtime.messageWaitingForOthersPlural=如果再有 %1$s 名玩家入睡，夜晚将跳过。	#
 hbui.Bedtime.messageWaitingForOthersSingular=如果再有一名其他玩家入睡，夜晚将跳过。	#
 hbui.Bedtime.openChatButton=打开聊天栏	#
-hbui.Bedtime.sleepingNotPossibleNotWorldOwner=“通过睡觉跳过夜晚”设置已关闭。此世界的所有者需要在编辑世界中打开此设置。	#
-hbui.Bedtime.sleepingNotPossibleWorldOwner=“通过睡觉跳过夜晚”设置已关闭。请在编辑世界中的高级设置下打开此设置。	#
+hbui.Bedtime.sleepingNotPossibleNotWorldOwner=“通过睡觉跳过夜晚”设置已关闭。此世界的所有者需要在编辑世界中打开此设置。		####This string refers to name of a specific setting (Skip night by sleeping) in a specific screen (Edit world) of the game.{MaxLength=240}
+hbui.Bedtime.sleepingNotPossibleWorldOwner=“通过睡觉跳过夜晚”设置已关闭。请在编辑世界中的高级设置下打开此设置。		####This string refers to name of a specific setting (Skip night by sleeping) in specifc UI tab (advanced) a specific screen (Edit world) of the game.{MaxLength=290}
 hbui.ChooseRealmRoute.addNewBetaRealm=添加测试版 Realm	#
 hbui.ChooseRealmRoute.addNewPreviewRealm=添加预览版 Realm	#
 hbui.ChooseRealmRoute.adventure=冒险	#
@@ -268,12 +280,6 @@ hbui.CompareStatsRoute.header=统计比较	#
 hbui.CompareStatsRoute.playerItemsListRole=水平列表	#
 hbui.CompareStatsRoute.playerItemsNarration=比较两名玩家的统计数据	#
 hbui.ConnectionErrorRoute.backToMenu=返回菜单	#
-hbui.ConnectionErrorRoute.codewordDetailsHelp=使用上方的密码搜索 help.Minecraft.net，以获取更多信息。	#
-hbui.ConnectionErrorRoute.codewordHelp=有关更多信息，请在 help.Minecraft.net 上搜索 "%1$s"。	#
-hbui.ConnectionErrorRoute.errorDetailsHelp=如需进一步帮助，请提交支持凭证，并附上这些详细信息的屏幕截图。	#
-hbui.ConnectionErrorRoute.header=错误详情	#
-hbui.ConnectionErrorRoute.learnMore=了解更多	#
-hbui.ConnectionErrorRoute.showDetails=显示详情	#
 hbui.ControllerSpecificButtonNarration.Gamepad.A.KEYBOARD=按下 “A”	#
 hbui.ControllerSpecificButtonNarration.Gamepad.A.PS=按下 “A”	#
 hbui.ControllerSpecificButtonNarration.Gamepad.A.QUEST=按下 “A”	#
@@ -671,13 +677,13 @@ hbui.CreateNewWorld.all.narrationSuffixDisablesAchievements=您无法通过此�
 hbui.CreateNewWorld.all.narrationSuffixEnablesAchievements=您现在可以在此世界上获得成就	#
 hbui.CreateNewWorld.all.narrationSuffixSettingsAvailable=其他设置已启用。	#
 hbui.CreateNewWorld.all.narrationSuffixTemplateLocked=解锁设置以作此更改	#
-hbui.CreateNewWorld.behaviorPacks.activatedAllPacksMessageDescription=您拥有的所有包都已激活。在线获取更多包！	#
+hbui.CreateNewWorld.behaviorPacks.activatedAllPacksMessageDescription=你拥有的所有包都已激活。在线获取更多包！	#
 hbui.CreateNewWorld.behaviorPacks.activatedAllPacksMessageTitle=您已激活所有包	#
 hbui.CreateNewWorld.behaviorPacks.changesDisabledMessage=世界设置被锁定时无法更改	#
 hbui.CreateNewWorld.behaviorPacks.emptyLocalActivePacksMessageDescription=改变世界中的物品和生物的行为方式。在“可用”下开始操作	#
 hbui.CreateNewWorld.behaviorPacks.emptyLocalActivePacksMessageTitle=无活跃行为包	#
 hbui.CreateNewWorld.behaviorPacks.inactivePacksEmptyBody=前往市场或在线查找包，以不同的方式玩您的世界！	#
-hbui.CreateNewWorld.behaviorPacks.inactivePacksEmptyTitle=您尚未拥有任何包	#
+hbui.CreateNewWorld.behaviorPacks.inactivePacksEmptyTitle=你尚未拥有任何包	#
 hbui.CreateNewWorld.behaviorPacks.noInternetConnection=行为包无法加载！	#
 hbui.CreateNewWorld.behaviorPacks.noInternetConnectionMessage=请重试或检查您的网络连接	#
 hbui.CreateNewWorld.behaviorPacks.noPacksAvailableBody=行为包改变物品和生物的行为	#
@@ -686,12 +692,12 @@ hbui.CreateNewWorld.behaviorPacks.packPriorityInfoMessage=如果多个包对同�
 hbui.CreateNewWorld.behaviorPacks.tryAgainButton=再试一次	#
 hbui.CreateNewWorld.behaviorPacksRemoveModal.activateTitle=更新世界？	#
 hbui.CreateNewWorld.behaviorPacksRemoveModal.addPackLabel=仍要添加包	#
-hbui.CreateNewWorld.behaviorPacksRemoveModal.deactivateTitle=这很危险！	#
+hbui.CreateNewWorld.behaviorPacksRemoveModal.continueLabel=直接继续	#
+hbui.CreateNewWorld.behaviorPacksRemoveModal.copyContinueLabel=复制并继续	#
+hbui.CreateNewWorld.behaviorPacksRemoveModal.deactivateTitle=稍等！	#
 hbui.CreateNewWorld.behaviorPacksRemoveModal.dontAddPackLabel=不添加包	#
-hbui.CreateNewWorld.behaviorPacksRemoveModal.keepLabel=保留该包	#
 hbui.CreateNewWorld.behaviorPacksRemoveModal.messageActivate=这个世界的景象和行为方式可能与未修改的世界有所不同。在继续之前，您可能需要保存您的世界的副本。	#
-hbui.CreateNewWorld.behaviorPacksRemoveModal.messageDeactivate=在游玩一个世界后再添加或删除包，可能破坏这个世界并导致您丢失所创建的内容。	#
-hbui.CreateNewWorld.behaviorPacksRemoveModal.removeLabel=仍要删除该包	#
+hbui.CreateNewWorld.behaviorPacksRemoveModal.messageDeactivate=删除此前已游玩世界的资源包可能导致数据永久丢失。我们强烈建议优先创建一个世界的副本！	#
 hbui.CreateNewWorld.cheats.commandBlocksDescription=使用命令对这些方块进行编程	#
 hbui.CreateNewWorld.cheats.commandBlocksTitle=命令方块	#
 hbui.CreateNewWorld.cheats.daylightCycleAlwaysDayDescription=游戏内时间锁定为中午	#
@@ -856,7 +862,7 @@ hbui.CreateNewWorld.multiplayer.friendlyFireTitle=误伤	#
 hbui.CreateNewWorld.multiplayer.microsoftPlayerAccessTitle=Microsoft 玩家访问权限	#
 hbui.CreateNewWorld.multiplayer.microsoftSignInButtonLabel=登录至 Microsoft 账户	#
 hbui.CreateNewWorld.multiplayer.microsoftSignInButtonTitle=与跨平台朋友在线玩游戏	#
-hbui.CreateNewWorld.multiplayer.multiplayerGameDescription=其他玩家可以加入您的世界	#
+hbui.CreateNewWorld.multiplayer.multiplayerGameDescription=其他玩家可以加入你的世界	#
 hbui.CreateNewWorld.multiplayer.multiplayerGameTitle=多人游戏	#
 hbui.CreateNewWorld.multiplayer.multiplayerSettingsDisabledNarrationHint=启用多人游戏以更改设置	#
 hbui.CreateNewWorld.multiplayer.narrationComponentTypeSectionHeader=组	#
@@ -1012,8 +1018,8 @@ hbui.CreateNewWorld.resourcePacks.sharedPacksDescription=系统要求玩家下�
 hbui.CreateNewWorld.resourcePacks.sharedPacksTitle=共享包	#
 hbui.CreateNewWorld.resourcePacks.storeConnectionFailedBody=现在我们无法连接到市场。请稍后再试！	#
 hbui.CreateNewWorld.resourcePacks.storeConnectionFailedTitle=出错了	#
-hbui.CreateNewWorld.resourcePacks.userOwnsNoMessageDescription=前往市场或在线查找包，以不同的方式玩您的世界！	#
-hbui.CreateNewWorld.resourcePacks.userOwnsNoPacksMessageTitle=您尚未拥有任何包	#
+hbui.CreateNewWorld.resourcePacks.userOwnsNoMessageDescription=前往市场或在线查找包，以不同的方式玩你的世界！	#
+hbui.CreateNewWorld.resourcePacks.userOwnsNoPacksMessageTitle=你尚未拥有任何包	#
 hbui.CreateNewWorld.resourcePacks.warningBody=游玩世界后添加或删除行为包可能会对世界造成破坏，导致您丢失自己创建的行为包。点击“确定”可停用包，或点击“取消”以保持其活跃状态。	#
 hbui.CreateNewWorld.resourcePacks.warningTitle=这很危险！	#
 hbui.CreateNewWorld.resourcePacksDependencyWarningModal.activatePackButton=仍要激活	#
@@ -1044,7 +1050,7 @@ hbui.CreateNewWorld.signInPromptWorldOnRealmModal.title=需要登录	#
 hbui.CreateNewWorld.tabContainerNarrationSuffix=垂直子菜单	#
 hbui.CreateNewWorld.title=创建新的世界	#
 hbui.CreateNewWorld.unlockSettingsModal.keepSettings=保留初始设置	#
-hbui.CreateNewWorld.unlockSettingsModal.message=如果您解锁所有世界设置，则可能会破坏创作者的预期体验。这是永久性更改。	#
+hbui.CreateNewWorld.unlockSettingsModal.message=若解锁所有世界设置，则可能会破坏创作者的预期体验。这是永久性更改。	#
 hbui.CreateNewWorld.unlockSettingsModal.title=解锁所有世界设置	#
 hbui.CreateNewWorld.unlockSettingsModal.unlock=直接解锁	#
 hbui.CreateNewWorld.upsellModal.back=返回	#
@@ -1065,9 +1071,26 @@ hbui.CreateNewWorldSideMenu.multiplayerTabLabel=多人游戏	#
 hbui.CreateNewWorldSideMenu.narrationCreateButtonHint=创建一个名为“%3$s”的难度 %2$s 的 %1$s 世界。请浏览选择其他选项。	#
 hbui.CreateNewWorldSideMenu.resourcePacksTabLabel=资源包	#
 hbui.CreateNewWorldSideMenu.scriptingCodingTabLabel=脚本和编码	#
+hbui.CreatePartyRoute.createPartyHeader=创建派对 	#### Create Party page title. For the purposes of this feature, a Party is a group of players joining up to  play together.
+hbui.CreatePartyRoute.friendsTitle=好友 (%1$s) 	#### The header for a list of Player List Items containing the user's friends
+hbui.CreatePartyRoute.inviteOnly=仅邀请 	#### The title for a state where players can only join the party if invited
+hbui.CreatePartyRoute.inviteOnlyDescription=玩家必须受邀加入派对。 	#### Describes the invite only state
+hbui.CreatePartyRoute.maxPartyExplanation=一个派对最多可以有 15 名玩家。 	#### Description explaining the maximum size of a party
+hbui.CreatePartyRoute.open=打开 	#### The title for a state where anyone can join the party
+hbui.CreatePartyRoute.openDescription=玩家无需受邀加入派对。 	#### Describes the Open state
+hbui.CreatePartyRoute.partyPrivacy=派对隐私 	#### Title for the toggle which controls the party privacy state
+hbui.CreatePartyRoute.partySettings=派对设置 	#### title of the side bar which contains the party settings options
+hbui.CreatePartyRoute.recentlyPlayedWithTitle=最近的玩伴 	#### The header for a list of Player List Items containing players the user has recently played with
 hbui.DebugDrawer.closeButtonNarrationHint=使用向下箭头执行其他操作	#
 hbui.DebugDrawer.closeDrawerShortcutInputLegend=关闭	#
 hbui.DebugDrawer.title=调试	#
+hbui.EditRealmWorld.play=游玩   	#### String for button to start playing on the Realm world
+hbui.EditRealmWorld.title=编辑世界    	#### Title for the screen where users edit/change their realm world settings
+hbui.EditWorld.addonStackingWarningModal.cancelButton=取消    	#### {MaxLength="60"}
+hbui.EditWorld.addonStackingWarningModal.confirmButton=明白了！    	#### {MaxLength="60"}
+hbui.EditWorld.addonStackingWarningModal.description=堆叠多个追加内容可能会导致无法预测的体验。世界加载时间可能有所不同，追加内容可能会出现异常。    	#### {MaxLength="300"}
+hbui.EditWorld.addonStackingWarningModal.doNotShow=不再显示此屏幕    	#### {MaxLength="60"}
+hbui.EditWorld.addonStackingWarningModal.title=使用追加内容    	#### {MaxLength="60"}
 hbui.EditWorld.clearingPlayerDataModal.description=请不要退出游戏。退出可能会破坏进程...	#
 hbui.EditWorld.clearingPlayerDataModal.title=正在清除玩家数据	#
 hbui.EditWorld.clearPlayerDataErrorModal.description=请稍后再试。	#
@@ -1135,7 +1158,7 @@ hbui.EditWorld.saveChangesModal.title=是否要保存更改？	#
 hbui.EditWorld.startLocalWorldModal.title=加载世界中...	#
 hbui.EditWorldSideMenu.narrationPlayButtonHint=以难度 %2$s 玩名为“%3$s”的 %1$s 世界。请浏览选择其他选项。	#
 hbui.EditWorldSideMenu.play=游戏	#
-hbui.EditWorldSideMenu.playOnRealm=在 Realms 上玩游戏		#### {StrContains="Realms"}
+hbui.EditWorldSideMenu.playOnRealm=在 Realms 上开始游戏	#### {StrContains="Realms"}
 hbui.EmptyFriendList.noFriendsCaption=让我们添加一些好友吧！	#
 hbui.ErrorModal.goBack=返回	#
 hbui.ErrorModal.goingBack=正在返回上一个界面...	#
@@ -1143,16 +1166,7 @@ hbui.ErrorModal.title=出错了	#
 hbui.ExportWorld.error.incorrectWorldID.title=您不能导出不存在的世界	#
 hbui.ExportWorld.error.needToRemoveVRHeadset.title=请断开 VR 设备，然后重试	#
 hbui.ExportWorld.error.unknownError.title=发生错误。请稍后再试	#
-hbui.FirstTimeSignInRoute.altSignInButton=立即登录	#
-hbui.FirstTimeSignInRoute.altSignInList1=保存您的进度和购买物品	#
-hbui.FirstTimeSignInRoute.altSignInList2=使用双因素身份验证保护您的帐户	#
-hbui.FirstTimeSignInRoute.altSignInList3=访问成就、Realms、服务器和市场 	#### {StrContains="Realms"}
-hbui.FirstTimeSignInRoute.altSignInList3PS=访问 Realms、服务器和市场 	#### {StrContains="Realms"}
-hbui.FirstTimeSignInRoute.altSignInPrompt=登录或免费注册以解锁这些功能及更多功能：	#
-hbui.FirstTimeSignInRoute.altSignInPromptMobile=登录或免费注册以保存您的进度、获得成就、访问服务器等等	#
 hbui.FirstTimeSignInRoute.createAccountPrompt=没有 Microsoft 帐户？立即免费创建一个！	#
-hbui.FirstTimeSignInRoute.incentivizedSignInButton=登录并获取我的披风	#
-hbui.FirstTimeSignInRoute.incentivizedSignInPrompt=用 Microsoft 账号登录即可挑选一件永久性的免费披风！除此之外，您还可以访问完整的在线功能，比如：	#
 hbui.FirstTimeSignInRoute.laterButton=以后再说	#
 hbui.FirstTimeSignInRoute.notNowButton=稍后再说	#
 hbui.FirstTimeSignInRoute.signInButton=立即登录	#
@@ -1228,11 +1242,6 @@ hbui.FriendsDrawer.notLoggedInMessage.text=您需要一个账户，才能与好�
 hbui.FriendsDrawer.notLoggedInMessage.title=您尚未登录	#
 hbui.FriendsDrawer.numberOfFriends=您有 %1$s 位在线好友	#
 hbui.FriendsDrawer.openDrawerShortcutInputLegend=好友	#
-hbui.FriendsDrawer.OwnProfileModal.myProfile=我的个人资料	#
-hbui.FriendsDrawer.OwnProfileModal.showAway=显示为离开	#
-hbui.FriendsDrawer.OwnProfileModal.showBusy=显示为繁忙	#
-hbui.FriendsDrawer.OwnProfileModal.showOffline=显示为离线	#
-hbui.FriendsDrawer.OwnProfileModal.title=玩家设置	#
 hbui.FriendsDrawer.title=好友	#
 hbui.FriendsDrawer.titleWithAmount=好友 (%1$s)	#
 hbui.FriendsDrawer.you=您	#
@@ -1258,11 +1267,13 @@ hbui.general.multiplayerPermissionBanner.link=了解更多	#
 hbui.general.multiplayerPermissionBanner.text=你无法创建多人游戏世界。	#
 hbui.general.multiplayerPermissionBanner.textExternal=你无法创建多人游戏世界	#
 hbui.general.multiplayerPermissionBanner.textParental=由于家长监控的限制，你无法创建多人游戏世界。	#
+hbui.GenericErrorMessageModal.closeButton=关闭		#### Close button shown in a modal {MaxLength="40"}
+hbui.GenericErrorMessageModal.text=请稍后再试。		#### Please re try logging in to the platform network. {MaxLength="70"}
+hbui.GenericErrorMessageModal.title=出错了		#### Something went wrong while logging into the platform network. {MaxLength="40"}
 hbui.GetMoreButton.buttonNarration=按钮	#
 hbui.GetMoreButton.inputLegend=发现	#
 hbui.GuidedCreateWorldRoute.title=引导式世界创建	#
 hbui.HeroItem.role=文本块	#
-hbui.InboxContentItem.narration.createdBy=作者：%1$s	#
 hbui.InboxContentItem.view=查看	#
 hbui.InboxListItem.accept=接受	#
 hbui.InboxListItem.delete=删除	#
@@ -1384,7 +1395,7 @@ hbui.InboxSettingsRoute.showMessages=启用消息徽章提醒	#
 hbui.InboxSettingsRoute.title=收件箱设置	#
 hbui.JoinRealmsServer.buttonEnumeration=第 %1$s 个，共 %2$s 个	#
 hbui.JoinRealmsServer.helpButtonLabel=帮助	#
-hbui.JoinRealmsServer.inputDescription=输入您收到的邀请链接以加入 Realm。	#
+hbui.JoinRealmsServer.inputDescription=输入你收到的邀请链接以加入 Realm。	#
 hbui.JoinRealmsServer.inputLabel=邀请链接	#
 hbui.JoinRealmsServer.inputPlaceholder=示例：realms.gg/lCb-aaSCYBk	#
 hbui.JoinRealmsServer.joinButtonLabel=加入	#
@@ -1428,28 +1439,33 @@ hbui.JoinRealmsServerInvitationsButton.invitationsRole=组	#
 hbui.JoinRealmsServerInvitationsButton.narrationSuffix=按下以查看收件箱	#
 hbui.JoinRealmsServerInvitationsButton.noInvitesBody=您的收件箱中可能收到了邀请！	#
 hbui.JoinRealmsServerInvitationsButton.noInvitesTitle=没有邀请链接？	#
-hbui.JoinRealmsServerTransient.buttonEnumeration=第 %1$s 个，共 %2$s 个	#
-hbui.JoinRealmsServerTransient.cancelButtonLabel=取消	#
-hbui.JoinRealmsServerTransient.caption=您可以随时离开他们的 Realm。	#
+hbui.JoinRealmsServerTransient.caption=你可以随时离开对方的 Realm。以下是加入按钮。      	#### Realm here refers to a Realm server. Join is in the context of joining a Realm, meaning becoming a member of it. {StrContains="Realm"} {MaxLength="100"}
+hbui.JoinRealmsServerTransient.errorMessageTitle=出错了    	#### Something went wrong when trying to join a Realm, this is a generic header for it. {MaxLength="100"}
+hbui.JoinRealmsServerTransient.genericTitle=加入 Realm    	#### Becoming a member of a Realm. {StrContains="Realm"} {MaxLength="100"}
 hbui.JoinRealmsServerTransient.joinButtonLabel=加入	#
 hbui.JoinRealmsServerTransient.joinRealmModal=正在加入 Realm	#
-hbui.JoinRealmsServerTransient.ownerInformation=是否要加入%1$s的 Realm？	#
+hbui.JoinRealmsServerTransient.ownerInformation=你即将加入%1$s的 Realm    	#### The player is about to become a member of another players Realm. {StrContains="Realm"} {MaxLength="100"}
 hbui.JoinRealmsServerTransient.successSnackbar=您已加入“%1$s”！	#
-hbui.JoinRealmsServerTransient.title=加入 Realm	#
+hbui.JoinRealmsServerTransient.title=加入%1$s    	#### Join as in "Join Realm". Becoming a member of a Realm. {MaxLength="20"}
 hbui.JoinServerWarningModal.cancel=取消	#
 hbui.JoinServerWarningModal.continue=继续	#
 hbui.JoinServerWarningModal.text=您是主办者，如果您离开了这个世界，多人游戏会话也将结束。	#
 hbui.JoinServerWarningModal.title=结束多人游戏会话？	#
+hbui.JoinWorldBlockedModal.cancel=返回	#
+hbui.JoinWorldBlockedModal.confirmation=保存并加入好友	#
+hbui.JoinWorldBlockedModal.message_p1=加入好友意味着离开当前的世界。	#
+hbui.JoinWorldBlockedModal.message_p2=别担心，当你回来时，一切都会在这里。	#
+hbui.JoinWorldBlockedModal.title=离开当前世界？	#
 hbui.ManageShowcaseErrorModal.close=关闭	#
 hbui.ManageShowcaseErrorModal.text=将更改保存到展示相册时遇到问题。	#
 hbui.ManageShowcaseErrorModal.title=出错了	#
 hbui.ManageShowcaseModal.cancel=取消	#
 hbui.ManageShowcaseModal.confirm=确认	#
 hbui.ManageShowcaseModal.doNotShowAgain=不再显示	#
-hbui.ManageShowcaseRoute.clearFeaturedMessage=此截图目前被精选为您的个人档案背景。是否要将您的精选截图恢复为默认图片？	#
-hbui.ManageShowcaseRoute.clearFeaturedTitle=删除精选截图？	#
-hbui.ManageShowcaseRoute.clearShowcasedMessage=从您的展示相册中删除此截图？	#
-hbui.ManageShowcaseRoute.clearShowcasedTitle=删除屏幕截图？	#
+hbui.ManageShowcaseRoute.clearFeaturedMessage=此截图目前被精选为你的个人档案背景。是否要将你的精选截图恢复为默认图片？	#
+hbui.ManageShowcaseRoute.clearFeaturedTitle=是否删除精选截图？	#
+hbui.ManageShowcaseRoute.clearShowcasedMessage=是否从您的展示相册中删除此截图？	#
+hbui.ManageShowcaseRoute.clearShowcasedTitle=是否删除屏幕截图？	#
 hbui.ManageShowcaseRoute.clearShowcaseSlot=删除屏幕截图	#
 hbui.ManageShowcaseRoute.galleryBanner=朋友可以从您的档案查看您的展示相册。	#
 hbui.ManageShowcaseRoute.manageHeader=管理展示相册	#
@@ -1476,7 +1492,15 @@ hbui.MultiplayerPrivilegeBlockedModal.descriptionOnline=由于账号设置限制
 hbui.MultiplayerPrivilegeBlockedModal.descriptionParental=由于家长控制设置限制，您无法在 Realms 上游玩。使用家长控制设置中的“在线安全”查看和管理多人游戏设置。 	#### {StrContains="Realms"}
 hbui.MultiplayerPrivilegeBlockedModal.learnMore=了解更多	#
 hbui.MultiplayerPrivilegeBlockedModal.title=您需要许可！	#
+hbui.MultiplayerTab.PlayerAccessPanel.manageMembersButton=管理成员    	#### String for button that takes a realm owner to the settings page for managing the members of their Realm
+hbui.MultiplayerTab.PlayerAccessPanel.manageMembersLegend=管理成员    	#### String for button that takes a realm owner to the settings page for managing the members of their Realm
+hbui.MultiplayerTab.PlayerAccessPanel.title=玩家访问权限   	#### Heading for settings section that displays settings for what type of player can join/access the Realm
+hbui.NoInternetModal.button=关闭 	#### Close as in closing a modal. {MaxLength="50"}
+hbui.NoInternetModal.text=你处于离线状态。请检查你的互联网连接以访问在线功能。		####  Player is not connected to the internet, he is offline. {MaxLength="340"}
+hbui.NoInternetModal.title=无法访问互联网		####  Player is not connected to the internet. {MaxLength="40"}
 hbui.Notifications.achievementsDisabled=您无法获得成就。	#
+hbui.Notifications.addonStacking=堆叠多个追加内容。    	#### {MaxLength="80"}
+hbui.Notifications.addonStackingLink=链接    	#### This is a text button to open a dialog to provide more information {MaxLength="20"}
 hbui.Notifications.changeSkinLink=更改皮肤	#
 hbui.Notifications.experimentsWarning.informationMessage=实验性游戏内容是潜在的新功能。可能会发生错误，请小心。	#
 hbui.Notifications.freeSpace=自由空间	#
@@ -1487,12 +1511,10 @@ hbui.Notifications.inTrialMode=某些设置被锁定，因为您处于试用模�
 hbui.Notifications.multiplayerWarnings.checkInternetConnection=您未连接到互联网。请连接互联网，让您的朋友可以加入多人游戏世界。	#
 hbui.Notifications.multiplayerWarnings.multiplayerPrivilegesBlocked=由于您 Microsoft 账号的设置问题，您无法进行在线多人游戏。请确保您的在线安全设置允许多人游戏。请前往 aka.ms/MCMultiplayerHelp 查看如何更改这些设置。	#
 hbui.Notifications.multiplayerWarnings.multiplayerPrivilegesBlockedOnConsole=由于您 Microsoft 账号的设置问题，您无法进行在线多人游戏。请确保您的在线安全设置允许多人游戏。请前往 aka.ms/MCMultiplayerHelp 查看如何更改这些设置。	###disable_3rd_party_console_resource_pack_check
-hbui.Notifications.multiplayerWarnings.nintendoDisconnectedThirdPartyWithSubscription=您没有连接到 Nintendo Switch Online 服务。您的 Nintendo 好友将无法加入您的多人世界。登录至 Nintendo Switch Online 即可与好友尽情探索。	#
 hbui.Notifications.multiplayerWarnings.nintendoLocalMultiplayerPrivilegesBlockedThirdParty=由于家长控制的限制，您无法进行本地多人游戏。使用家长控制中的“与他人交流”查看并管理您的多人游戏设置。	#
 hbui.Notifications.multiplayerWarnings.nintendoMultiplayerPrivilegesBlockedThirdParty=由于家长控制的限制，您无法进行本地多人游戏。使用家长控制中的“与他人交流”查看并管理您的多人游戏设置。	#
 hbui.Notifications.multiplayerWarnings.nonMultiplayerSkinEquipped=您当前的皮肤不允许在多人游戏中使用。	#
 hbui.Notifications.multiplayerWarnings.playstationCrossPlatformDisabled=在设置菜单的文件部分启用跨平台游戏以与其他平台上的朋友一起游戏。	#
-hbui.Notifications.multiplayerWarnings.playstationDisconnectedThirdPartyWithSubscription=您未连接到 PlayStation™Network。您的 PlayStation™Network 好友将无法加入您的多人游戏世界。登录至 PlayStation™Network，与好友一起玩游戏。	#### CertRequirement: [PlayStation™Network]
 hbui.Notifications.multiplayerWarnings.playstationMultiplayerPrivilegesBlockedThirdParty=由于家长控制的限制，您无法进行本地多人游戏。使用家长控制中的“与他人交流”查看并管理您的多人游戏设置。	#
 hbui.Notifications.notEnoughStorage=您的存储空间即将不足！《我的世界》已限制您访问该功能，直至您清理出额外的存储空间为止。	#
 hbui.Notifications.readMoreLink=阅读更多	#
@@ -1609,6 +1631,7 @@ hbui.PlayerBannedModalRoute.xbox.report.terrorismOrViolentExtremism=提及仇恨
 hbui.PlayerBannedModalRoute.xbox.report.unsportingBehavior=没有体育道德的行为	#
 hbui.PlayerCard.addedButton=已添加	#
 hbui.PlayerCard.addFriendButton=添加好友	#
+hbui.PlayerCard.away=离开		####Used to show player status {MaxLength=20}
 hbui.PlayerCard.blocked=已阻止	#
 hbui.PlayerCard.buttonRole=按钮	#
 hbui.PlayerCard.buttonSiblings=第 %1$s 个，共 %2$s 个	#
@@ -1625,25 +1648,30 @@ hbui.PlayerListItem.accept=接受	#
 hbui.PlayerListItem.addButtonInputLegend=添加好友	#
 hbui.PlayerListItem.addButtonText=添加	#
 hbui.PlayerListItem.added=已添加	#
+hbui.PlayerListItem.away=离开	#
 hbui.PlayerListItem.buttonSiblings=第 %1$s 个按钮，共 %2$s 个	#
 hbui.PlayerListItem.delete=删除	#
 hbui.PlayerListItem.friends=好友	#
+hbui.PlayerListItem.inviteButtonInputLegend=邀请好友 	#### The input legend text for a button used to invite someone to a party
+hbui.PlayerListItem.inviteButtonText=邀请 	#### The text that appears on a button for inviting a player to a party
+hbui.PlayerListItem.invited=已邀请 	#### The text that appears after a player has been invited to a party
 hbui.PlayerListItem.join=加入	#
-hbui.PlayerListItem.narration.addedMutual=您是此玩家的好友	#
-hbui.PlayerListItem.narration.addedNotMutual=您已添加此玩家	#
+hbui.PlayerListItem.narration.addedMutual=你是此玩家的好友	#
+hbui.PlayerListItem.narration.addedNotMutual=你已添加此玩家	#
 hbui.PlayerListItem.narration.additionalActionsHint=使用向右箭头执行其他操作	#
 hbui.PlayerListItem.narration.buttonRole=按钮	#
 hbui.PlayerListItem.narration.itemOrderContext=第 %1$s 个，共 %2$s 个	#
 hbui.PlayerListItem.narration.joinFriend=加入好友世界	#
 hbui.PlayerListItem.narration.listItemRole=列表项	#
 hbui.PlayerListItem.narration.playerProfileHint=按下以访问玩家档案	#
-hbui.PlayerListItem.narration.receivedRequest=该玩家向您发送了请求	#
-hbui.PlayerListItem.narration.sentRequest=您向该玩家发送了请求	#
+hbui.PlayerListItem.narration.receivedRequest=该玩家向你发送了请求	#
+hbui.PlayerListItem.narration.sentRequest=你向该玩家发送了请求	#
 hbui.PlayerListItem.offline=离线	#
 hbui.PlayerListItem.online=在线	#
 hbui.PlayerListItem.online.playstation=PSN™ 在线		#### CertRequirement: [PSN™]
 hbui.PlayerListItem.online.switch=Switch 在线	#
 hbui.PlayerListItem.pending=待处理	#
+hbui.PlayerListItem.playingInSameWorld=正在这个世界中游玩		####Used as player status when players are in the same world {MaxLength=30}
 hbui.PlayerListItem.receivedRequest=向您发送了请求	#
 hbui.PlayerListItem.reject=拒绝	#
 hbui.PlayerListItem.select=选择	#
@@ -1658,6 +1686,7 @@ hbui.PlayerOptionsModal.optionsEnumeration= 第 %1$s 个，共 %2$s 个	#
 hbui.PlayerOptionsModal.optionsTitle=账号选项	#
 hbui.PlayerOptionsModal.privacyAndSafety=隐私和在线安全	#
 hbui.PlayerOptionsModal.removeFriend=移除好友	#
+hbui.PlayerOptionsModal.removeFromFavorites=从收藏夹中移除		####Button text for removing a profile from favorite list {MaxLength=35}
 hbui.PlayerOptionsModal.report=举报	#
 hbui.PlayerOptionsModal.setFeaturedScreenshot=设置精选截图	#
 hbui.PlayerOptionsModal.shareMyProfile=分享我的档案	#
@@ -1670,52 +1699,65 @@ hbui.PlayerPermissionsRoute.Details.ability.build=建造	#
 hbui.PlayerPermissionsRoute.Details.ability.description.attackMobs=参与玩家对环境的战斗	#
 hbui.PlayerPermissionsRoute.Details.ability.description.attackPlayers=参与玩家对玩家的战斗	#
 hbui.PlayerPermissionsRoute.Details.ability.description.build=在世界中放置方块	#
-hbui.PlayerPermissionsRoute.Details.ability.description.doorsAndSwitches=使用门和开关	#
+hbui.PlayerPermissionsRoute.Details.ability.description.doorsAndSwitches=在世界中激活最多可使用的物品 	####Description for doors and switches toggle {MaxLength=400}
 hbui.PlayerPermissionsRoute.Details.ability.description.mine=摧毁世界元素并收集方块	#
 hbui.PlayerPermissionsRoute.Details.ability.description.openContainers=查看宝箱，添加至宝箱，并从宝箱中获取奖励	#
 hbui.PlayerPermissionsRoute.Details.ability.description.operatorCommands=访问高级服务器选项	#
 hbui.PlayerPermissionsRoute.Details.ability.description.teleport=立即移动到世界中的任意位置	#
-hbui.PlayerPermissionsRoute.Details.ability.doorsAndSwitches=在世界中激活最多可使用的物品	#
+hbui.PlayerPermissionsRoute.Details.ability.doorsAndSwitches=使用门和开关 	####Title for toggle for doors and switches {MaxLength=120}
 hbui.PlayerPermissionsRoute.Details.ability.mine=挖掘	#
 hbui.PlayerPermissionsRoute.Details.ability.openContainers=打开容器	#
 hbui.PlayerPermissionsRoute.Details.ability.operatorCommands=操作员命令	#
 hbui.PlayerPermissionsRoute.Details.ability.teleport=传送	#
-hbui.PlayerPermissionsRoute.Details.kickButton=踢出 %1$s	#
+hbui.PlayerPermissionsRoute.Details.kickButton=从世界中踢出 %1$s     	####Text for the button that appears in the Player Permissions Screen - %1$s is the player name {maxLength=40}
 hbui.PlayerPermissionsRoute.Details.kickButton.inputLegend=选择	#
+hbui.PlayerPermissionsRoute.Details.loading=正在加载 	####Text on loading modal that appears when clicking "Go to game settings" link {MaxLength=60}
+hbui.PlayerPermissionsRoute.Details.notification.kickCommandFailedFlag=无法移除此玩家。   	####Text for snackbar that appears when trying to kick another player fails {maxLength=60}
+hbui.PlayerPermissionsRoute.Details.notification.kickCommandSuccess=玩家已成功移除 	####Text for snackbar that appears when a player has been kicked from a world {MaxLength=60}
+hbui.PlayerPermissionsRoute.Details.notification.selectedPlayerPermissionsChangedFlag=另一名操作员已更新玩家权限。   	####Text for snackbar that appears when another player has updated the selected player's permissions {maxLength=60}
 hbui.PlayerPermissionsRoute.Details.optionEnumeration=第 %1$s 个，共 %2$s 个	#
+hbui.PlayerPermissionsRoute.Details.playerIdInvalidFlag=无法加载此玩家的权限   	####Text for empty state that appears when you are trying to load the permissions for an invalid ID {maxLength=60}
 hbui.PlayerPermissionsRoute.Details.roleDropdown.description.custom=为该玩家定制的一组权限	#
 hbui.PlayerPermissionsRoute.Details.roleDropdown.description.member=成员可以建造、挖掘、攻击玩家和生物，并与物品和实体进行互动	#
 hbui.PlayerPermissionsRoute.Details.roleDropdown.description.operator=除成员拥有的权利之外，管理员还可以传送和使用命令	#
-hbui.PlayerPermissionsRoute.Details.roleDropdown.description.visitor=游客只能观察您的世界，无法进行互动	#
+hbui.PlayerPermissionsRoute.Details.roleDropdown.description.visitor=游客只能观察你的世界，无法进行互动	#
 hbui.PlayerPermissionsRoute.Details.roleDropdown.title=权限级别	#
 hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.link=前往游戏设置	#
 hbui.PlayerPermissionsRoute.Details.SettingsLockedBanner.text=解锁模板世界选项，以更改权限。	#
 hbui.PlayerPermissionsRoute.EnableCheatsModal.cheatsDisabledButton=禁用作弊并继续	#
-hbui.PlayerPermissionsRoute.EnableCheatsModal.description=传送等命令只有在启用作弊时才可用。立即启用或通过游戏设置菜单启用。	#
+hbui.PlayerPermissionsRoute.EnableCheatsModal.description=传送等命令只有在启用作弊时才可用。立即启用或通过游戏设置菜单启用。   	####Text that appears in modal when trying to change a permission from a user but the cheats are not on {MaxLength=300}
 hbui.PlayerPermissionsRoute.EnableCheatsModal.enableCheatsButton=启用作弊	#
 hbui.PlayerPermissionsRoute.EnableCheatsModal.inputLegend=选择	#
 hbui.PlayerPermissionsRoute.EnableCheatsModal.title=作弊已禁用	#
 hbui.PlayerPermissionsRoute.KickPlayerModal.backButton=返回	#
-hbui.PlayerPermissionsRoute.KickPlayerModal.description=确定要将 %1$s 踢出这个世界？对方将无法重新加入此会话。	#
+hbui.PlayerPermissionsRoute.KickPlayerModal.description=确定要将 %1$s 踢出这个世界？对方将无法重新加入此世界。	#
 hbui.PlayerPermissionsRoute.KickPlayerModal.inputLegend=选择	#
-hbui.PlayerPermissionsRoute.KickPlayerModal.kickButton=踢出 %1$s	#
-hbui.PlayerPermissionsRoute.KickPlayerModal.title=踢出玩家？	#
+hbui.PlayerPermissionsRoute.KickPlayerModal.kickButton=从世界中踢出 %1$s     	####Button that appears in modal when trying to kick player from a world in the new PP screen - %1$s is the player name {maxLengtah=40}
+hbui.PlayerPermissionsRoute.KickPlayerModal.title=是否踢出玩家？	#
+hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.closeButton=关闭    	####Close button for modal that appears when operator permissions have been revoked for the current player {MaxLength=40}
+hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.description=操作员权限已被撤销，无法再编辑其他玩家的权限。    	####Description for modal that appears when operator permissions have been revoked for the current player {MaxLength=600}
+hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.inputLegend=选择    	####Input legend for close button in this modal {MaxLength=40}
+hbui.PlayerPermissionsRoute.OperatorRevokedErrorModal.title=操作员权限已撤销  	####Title for modal that appears when operator permissions have been revoked for the current player {MaxLength=40}
+hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.closeButton=关闭    	####Close button for modal that appears when the selected player has left the world {MaxLength=40}
+hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.description=%1$s 离开了世界，无法更改他们的权限。    	####Description for modal that appears when the selected player has left the world {MaxLength=600}
+hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.inputLegend=选择    	####Input legend for close button in this modal {MaxLength=40}
+hbui.PlayerPermissionsRoute.PlayerLeftErrorModal.title=玩家已离开  	####Title for modal that appears when the selected player has left the world {MaxLength=40}
 hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.backButton=返回	#
-hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.description=降低该玩家的权限级别将会删除其访问操作员命令的权限。所有者可以随时恢复其权限。	#
+hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.description=降低该玩家的权限级别将会删除其访问管理员命令的权限。所有者可以随时恢复其权限。	#
 hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.inputLegend=选择	#
-hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.removeOperatorLevelButton=删除操作员权限	#
-hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.title=删除操作员权限？	#
+hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.removeOperatorLevelButton=删除管理员权限	#
+hbui.PlayerPermissionsRoute.RemoveOperatorLevelModal.title=是否删除管理员权限？	#
 hbui.PlayerPermissionsRoute.role.custom=自定义	#
 hbui.PlayerPermissionsRoute.role.member=成员	#
-hbui.PlayerPermissionsRoute.role.operator=操作员	#
+hbui.PlayerPermissionsRoute.role.operator=管理员	#
 hbui.PlayerPermissionsRoute.role.visitor=访客	#
 hbui.PlayerPermissionsRoute.SideMenu.inputLegend=打开	#
 hbui.PlayerPermissionsRoute.SideMenu.menuRole=打开	#
 hbui.PlayerPermissionsRoute.SideMenu.role.custom=自定义	#
 hbui.PlayerPermissionsRoute.SideMenu.role.member=成员	#
-hbui.PlayerPermissionsRoute.SideMenu.role.operator=操作员	#
+hbui.PlayerPermissionsRoute.SideMenu.role.operator=管理员	#
 hbui.PlayerPermissionsRoute.SideMenu.role.visitor=访客	#
-hbui.PlayerPermissionsRoute.title=玩家权限	#
+hbui.PlayerPermissionsRoute.title=%1$s 的玩家权限		#### %s is a string that represents the name of the world and should not be localized. This is the title of the screen Player Permissions OreUI version. Please take into consideration that the max length is not very accurate because it depends on a user interaction {MaxLength=30}
 hbui.PlayersOnlineInWorld.full=满	#
 hbui.PlayerTag.hint=按下以访问玩家档案	#
 hbui.PlayerTag.role=按钮	#
@@ -1732,6 +1774,8 @@ hbui.PlayScreen.allWorlds.emptyStateStartFromTemplateButton=从模板开始	#
 hbui.PlayScreen.allWorlds.emptyStateText=从头开始创建新世界或从模板创建世界。	#
 hbui.PlayScreen.allWorlds.emptyStateText.trialMode=从头开始创建新世界。	#
 hbui.PlayScreen.allWorlds.emptyStateTitle=这里还没有世界...！	#
+hbui.PlayScreen.AllWorldsTab.ButtonHeader.createFromContent=创建自...		#### Button text that leads to a page where players can create a world from some form of content, ex. Create from Template or Create from Add-On {MaxLength=30}
+hbui.PlayScreen.AllWorldsTab.ButtonHeader.createFromContentNarration=探索由合作伙伴创作者创建的内容。使用现有模板和追加内容或从市场中进行购买。 		#### Narration only, longer description for a button that says "Create from..." implying a player would create a world from some existing content {MaxLength=1000}
 hbui.PlayScreen.AllWorldsTab.ButtonHeader.createFromTemplate=从模板创建	#
 hbui.PlayScreen.AllWorldsTab.ButtonHeader.createFromTemplateNarration=探索由合作伙伴创作者创建的世界。使用现有模板或从市场中购买模板。	#
 hbui.PlayScreen.AllWorldsTab.ButtonHeader.createNewWorld=创建新世界	#
@@ -1777,8 +1821,10 @@ hbui.PlayScreen.genericError.servers.title=服务器无法加载	#
 hbui.PlayScreen.guestAccountMessage.bannerLogIn=登录	#
 hbui.PlayScreen.guestAccountMessage.bannerLogInMicrosoft=登录或注册 Microsoft	#
 hbui.PlayScreen.guestAccountMessage.buttonLogInMicrosoft=登录至 Microsoft 账号	#
-hbui.PlayScreen.GuestAccountMessage.nintendo.text=登录至 Nintendo 账号查看此处的内容。	#
-hbui.PlayScreen.GuestAccountMessage.playstation.text=登录至 PlayStation™Network 查看此处的内容。		#### CertRequirement: [PlayStation™Network]
+hbui.PlayScreen.GuestAccountMessage.nintendo.button=登录至 Nintendo Account 	#### Button that is shown in an empty state when the PlayScreen when the player is not logged into a NintendoAccount. {StrContains="Nintendo Account"} {MaxLength="50"}
+hbui.PlayScreen.GuestAccountMessage.nintendo.text=登录至 Nintendo Account 查看此处的内容。 	####  Text that is shown in an empty state when the PlayScreen when the player is not logged into a NintendoAccount. {StrContains="Nintendo Account"} {MaxLength="150"}
+hbui.PlayScreen.GuestAccountMessage.playstation.button=登录至 PlayStation™Network		#### Button that is shown in an empty state when the PlayScreen when the player is not logged into the Playstation network. CertRequirement: [PlayStation™Network] {MaxLength="50"}
+hbui.PlayScreen.GuestAccountMessage.playstation.text=登录至 PlayStation™Network 查看此处的内容。		#### Text that is shown in an empty state when the PlayScreen when the player is not logged into the Playstation network. CertRequirement: [PlayStation™Network] {MaxLength="150"}
 hbui.PlayScreen.guestAccountMessage.realmsNoMicrosoftAccount=您需要一个 Microsoft 账号才能在 Realms 上游玩。 	#### {StrContains="Realms"}
 hbui.PlayScreen.guestAccountMessage.realmsNoPlatformAccountNintendo=您需要一个 Nintendo 账号才能在 Realms 上游玩 	#### {StrContains="Realms"}
 hbui.PlayScreen.guestAccountMessage.realmsNoPlatformAccountPlaystation=您需要一个 PlayStation™Network 账号才能在 Realms 上游玩 	#### CertRequirement: [PlayStation™Network] {StrContains="Realms"}
@@ -1788,7 +1834,6 @@ hbui.PlayScreen.guestAccountMessage.serversNoMicrosoftAccount=您需要一个 Mi
 hbui.PlayScreen.guestAccountMessage.serversNoPlatformAccountNintendo=您需要一个 Nintendo 账号才能在服务器上游玩	#
 hbui.PlayScreen.guestAccountMessage.serversNoPlatformAccountPlaystation=您需要一个 PlayStation™Network 账号才能在服务器上游玩 	#### CertRequirement: [PlayStation™Network]
 hbui.PlayScreen.guestAccountMessage.serversPlaystationGuest=您需要一个 Microsoft 账号并且在服务器上游玩。	#
-hbui.PlayScreen.GuestAccountMessage.title=您尚未登录	#
 hbui.PlayScreen.importWorldErrorModal.close=关闭	#
 hbui.PlayScreen.importWorldErrorModal.unknownError.body=导入这个世界时出现问题。	#
 hbui.PlayScreen.importWorldErrorModal.unknownError.title=出现错误	#
@@ -1843,7 +1888,7 @@ hbui.PlayScreen.onlinePlayWarning.external.header=线上游戏未分级	#
 hbui.PlayScreen.onlinePlayWarning.multiplayerGeneric.body=线上游戏可能会含有聊天消息或其他用户创作的内容，这些内容未经评级，可能并不适合所有年龄段。	#
 hbui.PlayScreen.onlinePlayWarning.multiplayerGeneric.header=线上游戏未分级	#
 hbui.PlayScreen.onlinePlayWarning.proceed=继续	#
-hbui.PlayScreen.onlinePlayWarning.thirdParty.body=注意：在线游戏由第三方服务器提供，这些服务器并非 Mojang Studios 或 Microsoft 所拥有、运营或监督。在线游戏期间，您可能会接触到未经审核的聊天消息或其他类型的用户生成内容，这些内容可能并不适合所有人。	#
+hbui.PlayScreen.onlinePlayWarning.thirdParty.body=注意：在线游戏由第三方服务器提供，这些服务器并非 Mojang Studios 或 Microsoft 所拥有、运营或监督。在线游戏期间，你可能会接触到未经审核的聊天消息或其他类型的用户生成内容，这些内容可能并不适合所有人。	#
 hbui.PlayScreen.onlinePlayWarning.thirdParty.header=注意：第三方在线游戏	#
 hbui.PlayScreen.onlinePlayWarning.title=游戏	#
 hbui.PlayScreen.optOutButton=返回到旧版 UI    	#### {MaxLength="30"}
@@ -1855,18 +1900,19 @@ hbui.PlayScreen.outOfStorageModal.body=您的存储空间即将不足！《我�
 hbui.PlayScreen.outOfStorageModal.close=关闭	#
 hbui.PlayScreen.outOfStorageModal.closeInputLegend=关闭	#
 hbui.PlayScreen.outOfStorageModal.title=存储空间不足	#
-hbui.PlayScreen.PlatformMultiplayerDisabledMessage.text=在您的账号中启用多人游戏，访问上述及其他社交功能。	#
-hbui.PlayScreen.PlatformMultiplayerDisabledMessage.title=您不能通过	#
+hbui.PlayScreen.PlatformMultiplayerDisabledMessage.text=在你的账号中启用多人游戏，访问上述及其他社交功能。	#
+hbui.PlayScreen.PlatformMultiplayerDisabledMessage.textForPlayStation=通信功能已在 PlayStation™Network 账号中禁用。请在 PlayStation™Network 账号中启用通信功能进行访问。		#### This is a communication requirement for PS. CertRequirement: [PlayStation™Network] {MaxLength=300}
+hbui.PlayScreen.PlatformMultiplayerDisabledMessage.title=你不能通过	#
 hbui.PlayScreen.realms=Realms 	#### {StrContains="Realms"}
-hbui.PlayScreen.RealmsBannedMessage.Banned.bodyFirstParagraph=您已被禁止使用 Minecraft 的 Realms 服务。这意味着您无法游玩或加入 Realms。		#### {StrContains="Minecraft"} {StrContains="Realms"}
+hbui.PlayScreen.RealmsBannedMessage.Banned.bodyFirstParagraph=你已被禁止使用 Minecraft 的 Realms 服务。这意味着你无法游玩或加入 Realms。		#### {StrContains="Minecraft"} {StrContains="Realms"}
 hbui.PlayScreen.RealmsBannedMessage.Banned.bodySecondParagraph=如需更多信息，或者提交案例评论，请使用下面的按钮。	#
 hbui.PlayScreen.RealmsBannedMessage.Banned.helpButton=更多信息	#
-hbui.PlayScreen.RealmsBannedMessage.Banned.title=您已被禁止使用 Realms		#### {StrContains="Realms"}
+hbui.PlayScreen.RealmsBannedMessage.Banned.title=你已被禁止使用 Realms		#### {StrContains="Realms"}
 hbui.PlayScreen.RealmsBannedMessage.role=屏幕	#
-hbui.PlayScreen.RealmsBannedMessage.Suspended.bodyFirstParagraph=您已被暂停访问 Minecraft 的 Realms 服务。这意味着您无法游玩或加入 Realms。		#### {StrContains="Minecraft"} {StrContains="Realms"}
-hbui.PlayScreen.RealmsBannedMessage.Suspended.bodySecondParagraph=如需更多信息，或者索要案例评论，请使用下面的按钮。	#
+hbui.PlayScreen.RealmsBannedMessage.Suspended.bodyFirstParagraph=你已被暂停访问 Minecraft 的 Realms 服务。这意味着你无法游玩或加入 Realms。		#### {StrContains="Minecraft"} {StrContains="Realms"}
+hbui.PlayScreen.RealmsBannedMessage.Suspended.bodySecondParagraph=如需更多信息，或者申请案件审查，请使用下面的按钮。	#
 hbui.PlayScreen.RealmsBannedMessage.Suspended.helpButton=帮助	#
-hbui.PlayScreen.RealmsBannedMessage.Suspended.title=您已被暂停访问 Realms		#### {StrContains="Realms"}
+hbui.PlayScreen.RealmsBannedMessage.Suspended.title=你已被暂停访问 Realms		#### {StrContains="Realms"}
 hbui.PlayScreen.realmsTab.bannerClosed=关闭	#
 hbui.PlayScreen.realmsTab.bannerExpired=已过期	#
 hbui.PlayScreen.realmsTab.bannerFull=满	#
@@ -2114,7 +2160,7 @@ hbui.PrivacyAndOnlineSafetySuccessModal.header=权限已启用！	#
 hbui.ProfanityWarningModalRoute.body=您输入的文本包含可能对他人具有冒犯性的词汇，因此无法使用。请重试。	#
 hbui.ProfanityWarningModalRoute.close=关闭	#
 hbui.ProfanityWarningModalRoute.title=猥亵语言过滤器	#
-hbui.ProfileFollowersListRoute.errorMessage=您已经添加了所有关注者！请稍后再来查看。	#
+hbui.ProfileFollowersListRoute.errorMessage=你已经添加了所有关注者！请稍后再来查看。	#
 hbui.ProfileFollowersListRoute.errorMessageTitle=没有关注者	#
 hbui.ProfileFollowersListRoute.header=追随者	#
 hbui.ProfileFriendsListRoute.headerOther=%1$s 的好友	#
@@ -2135,10 +2181,12 @@ hbui.ProfileRoute.followersItemLabel=追随者	#
 hbui.ProfileRoute.followersNarration=粉丝 %1$s	#
 hbui.ProfileRoute.friendsInputLegend=查看好友	#
 hbui.ProfileRoute.friendsItemLabel=好友	#
+hbui.ProfileRoute.friendsItemLabelWithName=%1$s 的好友		#### Label stating <gamertags>'s friends {MaxLength=35}
 hbui.ProfileRoute.friendsNarration=好友 %1$s	#
+hbui.ProfileRoute.friendsNarrationWithName=%1$s 的好友 . %2$s		#### This narration is about how many friends that are connected to the profile. The %1$s is referring to a user game tag and %2$s to the number of friends. An example is: UserGameTag's friends . 19 {MaxLength=100}
 hbui.ProfileRoute.gamerscoreNarration=%1$s 玩家分数 共 %2$s 分	#
 hbui.ProfileRoute.headerOther=%1$s 的档案	#
-hbui.ProfileRoute.headerSelf=档案	#
+hbui.ProfileRoute.headerSelf=您的档案		#### Title of the page referring to the logged in users profile {MaxLength=55}
 hbui.ProfileRoute.learnMoreButton=了解更多	#
 hbui.ProfileRoute.linkedAccountHeader=关联账户	#
 hbui.ProfileRoute.listItemFractionValue=%1$s/%2$s	#
@@ -2154,11 +2202,11 @@ hbui.ProfileRoute.overviewTabButtonLabel=概述	#
 hbui.ProfileRoute.platformOnlyProfileErrorMessage=玩家档案需要一个 Microsoft 账户。	#
 hbui.ProfileRoute.playStationAccount=PlayStation™Network		#### CertRequirement: [PlayStation™Network]
 hbui.ProfileRoute.profileUnavailableErrorTitle=档案不可用	#
-hbui.ProfileRoute.replaceFeaturedMessage=用这张新截图替换您当前的精选截图？	#
+hbui.ProfileRoute.replaceFeaturedMessage=用这张新截图替换当前的精选截图？	#
 hbui.ProfileRoute.replaceFeaturedTitle=精选确认	#
 hbui.ProfileRoute.resetFeaturedImage=重置为默认设置	#
-hbui.ProfileRoute.resetFeaturedMessage=此截图目前被精选为您的个人档案背景。是否要将您的精选截图恢复为默认图片？	#
-hbui.ProfileRoute.resetFeaturedTitle=删除精选截图？	#
+hbui.ProfileRoute.resetFeaturedMessage=此截图目前被精选为你的个人档案背景。是否要将你的精选截图恢复为默认图片？	#
+hbui.ProfileRoute.resetFeaturedTitle=是否删除精选截图？	#
 hbui.ProfileRoute.screenshotsInputLegend=查看截图库	#
 hbui.ProfileRoute.screenshotsItemLabel=屏幕截图库	#
 hbui.ProfileRoute.screenshotsNarration=屏幕截图库 第 %1$s 幅，共 %2$s 幅	#
@@ -2262,7 +2310,7 @@ hbui.RealmsPDPFAQAccordion.clickToExpand=单击展开	#
 hbui.RealmsPDPFAQAccordion.enumeration=第 %1$s 个，共 %2$s 个	#
 hbui.RealmsPDPFAQAccordion.textBlock=文本块	#
 hbui.RealmsPDPScreen.banner.notLoggedIn.link=登录或注册	#
-hbui.RealmsPDPScreen.banner.notLoggedIn.title=您需要一个 Microsoft 账号才能在 Realms 上游玩。    	#### {StrContains="Realms"}
+hbui.RealmsPDPScreen.banner.notLoggedIn.title=你需要一个 Microsoft 账号才能在 Realms 上游玩。    	#### {StrContains="Realms"}
 hbui.RealmsPDPScreen.FAQ.Cost.description1=您可以订阅 Realms 计划：  	#### {StrContains="Realms"}
 hbui.RealmsPDPScreen.FAQ.Cost.description2=Realms Core 计划：%1$s/月。添加成员数无限制，同时与 2 名其他玩家进行在线游戏。   	#### {StrContains="Realms Core"}
 hbui.RealmsPDPScreen.FAQ.Cost.description3=Realms Plus 计划：%1$s/月。添加成员数无限制，同时与 10 名其他玩家进行在线游戏。此外，在 Marketplace Pass 目录中免费享受超过 150 个商城内容。   	#### {StrContains="Realms Plus"} {StrContains="Marketplace Pass"}
@@ -2279,14 +2327,14 @@ hbui.RealmsPDPScreen.FAQ.PersonalServer.title=什么是私人服务器？	#
 hbui.RealmsPDPScreen.FAQ.Realms.description=Realms 是一种小型个人服务器，其作用是为您的 Minecraft 世界提供联机环境。与常规多人游戏会话不同，Realms 始终在线，即使您不在线，您的好友也同样可以游玩。而与大型 Minecraft 公共服务器不同的是，Realms 只能通过邀请加入，所以您可以决定谁能加入您的游戏。  	#### {StrContains="Realms"}
 hbui.RealmsPDPScreen.FAQ.Realms.title=什么是 Realms？  	#### {StrContains="Realms"}
 hbui.RealmsPDPScreen.hero.content.header=通过 Realms Plus 获取额外内容    	#### {StrContains="Realms"}
-hbui.RealmsPDPScreen.hero.content.text=Realms Plus 订阅包括 Marketplace Pass：每月更新的免费市场内容。皮肤、角色创建器物品、世界等应有尽有，总有新内容供您体验。  	#### {MaxLength="250"} {StrContains="Realms"}
+hbui.RealmsPDPScreen.hero.content.text=Realms Plus 订阅包括 Marketplace Pass：每月更新的免费市场内容。皮肤、角色创建器物品、世界等应有尽有，总有新内容供您体验。  	#### {MaxLength="250"} {StrContains="Realms Plus"}
 hbui.RealmsPDPScreen.hero.content.title=访问超过 150 个市场包    	#### {MaxLength="56"}
 hbui.RealmsPDPScreen.hero.perks.header=Realms 包括的其他特权    	#### {StrContains="Realms"}
 hbui.RealmsPDPScreen.hero.perks.text=将您的冒险分享到故事动态，通过成员标签见证 Realm 的成长，使用时间线了解大家在 Realm 中的游戏时间安排。    	#### {MaxLength="250"} {StrContains="Realm"}
 hbui.RealmsPDPScreen.hero.perks.title=通过 Realms 故事进行社交    	#### {MaxLength="56"} {StrContains="Realms"}
 hbui.RealmsPDPScreen.promos.easy.description=无任何技术门槛。免费无忧备份。无需共享个人信息。	#
 hbui.RealmsPDPScreen.promos.easy.title=安全快捷	#
-hbui.RealmsPDPScreen.promos.free.description=您邀请的玩家会成为 Realm 成员。他们无需付费即可加入 Realm 进行游玩；唯一的条件就是拥有一份《Minecraft：基岩版》游戏。 	#### {StrContains="Realm"}
+hbui.RealmsPDPScreen.promos.free.description=你邀请的玩家会成为 Realm 成员。他们无需付费即可加入 Realm 进行游玩；唯一的条件就是拥有一份《Minecraft：基岩版》游戏。 	#### {StrContains="Realm"}
 hbui.RealmsPDPScreen.promos.free.title=成员免费游玩	#
 hbui.RealmsPDPScreen.promos.header=什么是 Realms？ 	#### {StrContains="Realms"}
 hbui.RealmsPDPScreen.promos.persistent.description=您和您邀请的 Realm 成员可随时在任意设备上游玩已上传至 Realm 中的世界。即使您不在线，成员也一样可以游玩。   	#### {StrContains="Realm"}
@@ -2297,12 +2345,16 @@ hbui.RealmsPDPScreen.splash.text=管理自己的 Minecraft 服务器！哪些玩
 hbui.RealmsPDPScreen.splash.title=您的专属服务器，永不下线    	#### {MaxLength="50"}
 hbui.RealmsPDPScreen.splash.tryFree=免费试用    	#### {MaxLength="20"}
 hbui.RealmsPDPScreen.title=Minecraft Realms 	#### {StrContains="Realms"}
+hbui.RealmsPlanPickerScreen.banners.coreSubscriptionsLimit=你已达到此平台上的 Realms Core 订阅服务上限		#### {MaxLength="150"} {StrContains="Realms Core"}
+hbui.RealmsPlanPickerScreen.banners.plusSubscriptionsLimit=你已达到此平台上的 Realms Plus 订阅服务上限		#### {MaxLength="150"} {StrContains="Realms Plus"}
 hbui.RealmsPlanPickerScreen.buyButtonCore=购买 Realms 核心				#### {StrContains="Realms"}
 hbui.RealmsPlanPickerScreen.buyButtonCoreNarrationHint=浏览下方以了解有关 Realms Core 的更多信息			#### {StrContains="Realms"}
 hbui.RealmsPlanPickerScreen.buyButtonPlus=购买 Realms Plus				#### {StrContains="Realms"}
 hbui.RealmsPlanPickerScreen.buyButtonPlusNarrationHint=浏览下方以了解有关 Realms Plus 的更多信息			#### {StrContains="Realms"}
 hbui.RealmsPlanPickerScreen.buyRealmsPlusButtonTrial=免费试用	#
 hbui.RealmsPlanPickerScreen.currency=$	#
+hbui.RealmsPlanPickerScreen.emptyStates.maxedOutSubscriptions.body=你已达到此平台上的 Realms Core 和 Realms Plus 订阅服务上限。		#### {MaxLength="150"} {StrContains="Realms Core"} {StrContains="Realms Plus"}
+hbui.RealmsPlanPickerScreen.emptyStates.maxedOutSubscriptions.title=此平台上的 Realms 订阅服务已达最大值		#### {MaxLength="150"} {StrContains="Realms"}
 hbui.RealmsPlanPickerScreen.error.body=请确认已使用同一账户登录 Minecraft 和设备的平台商店，然后重试。	#
 hbui.RealmsPlanPickerScreen.error.button=再试一次	#
 hbui.RealmsPlanPickerScreen.error.title=无法访问平台商店	#
@@ -2435,8 +2487,8 @@ hbui.RealmsStories.feed.fullImage=%1$s 故事完整图像	#
 hbui.RealmsStories.feed.fullImageClose=关闭	#
 hbui.RealmsStories.feed.fullImageRole=屏幕	#
 hbui.RealmsStories.feed.gamerTag=玩家代号。%1$s，共 %2$s 个	#
-hbui.RealmsStories.feed.guestAccountNotificationBanner.line1=Realm 成员可以访问更多 Realms 故事功能。	#
-hbui.RealmsStories.feed.guestAccountNotificationBanner.line2=请求 Realm 所有者发送邀请方可参与。	#
+hbui.RealmsStories.feed.guestAccountNotificationBanner=分屏玩家无法点赞、评论或添加新的故事 	#### {MaxLength="120"}
+hbui.RealmsStories.feed.inRealm=正在 Realm 上游玩    	#### Indication that the player/user is currently playing on the Realm(Product name for hosted server). {MaxLength=100}{StrContains="Realm"}
 hbui.RealmsStories.feed.newHoursLogged=新记录了 %1$s 小时	#
 hbui.RealmsStories.feed.newMinutesLogged=新记录了 %1$s 分钟	#
 hbui.RealmsStories.feed.offline=离线	#
@@ -2575,9 +2627,10 @@ hbui.RealmsStories.likePost=点赞帖子	#
 hbui.RealmsStories.members=成员	#
 hbui.RealmsStories.members.allMembers=所有成员	#
 hbui.RealmsStories.members.enumeration=第 %1$s 个，共 %2$s 个	#
-hbui.RealmsStories.members.filter.title=筛选选项	#
+hbui.RealmsStories.members.filter.title=筛选 Realm 成员	#
 hbui.RealmsStories.members.fromAtoZ=从 A 到 Z	#
 hbui.RealmsStories.members.fromZtoA=从 Z 到 A	#
+hbui.RealmsStories.members.inRealmMembers=正在 Realm 上游玩的成员		#### a option choice to filter members list by those who are currently playing in the Realm(Product name for host server). {MaxLength=60}{StrContains="Realm"}
 hbui.RealmsStories.members.leastRecentlyPlayed=最近玩得最少的	#
 hbui.RealmsStories.members.manage=管理成员	#
 hbui.RealmsStories.members.member=成员	#
@@ -2596,7 +2649,7 @@ hbui.RealmsStories.members.searchResult.hint.oneResult=一条搜索结果	#
 hbui.RealmsStories.members.searchResult.name=搜索结果	#
 hbui.RealmsStories.members.searchResult.role=屏幕	#
 hbui.RealmsStories.members.section=Section	#
-hbui.RealmsStories.members.sort.title=排序选项	#
+hbui.RealmsStories.members.sort.title=正在对 Realm 成员排序	#
 hbui.RealmsStories.members.visitor=访客	#
 hbui.RealmsStories.members.warning=这个 Realm 太受欢迎，无法列出所有成员	#
 hbui.RealmsStories.members.warning.optedOut=这个 Realm 太受欢迎，无法列出所有已选择退出的成员	#
@@ -2606,10 +2659,14 @@ hbui.RealmsStories.messages.timelineEmpty.body=在 Realm 上游玩以生成时�
 hbui.RealmsStories.messages.timelineEmpty.title=没有可用的数据	#
 hbui.RealmsStories.messages.timelineOff.body=Realm 所有者已禁用此 Realm 上的时间线。	#
 hbui.RealmsStories.messages.timelineOff.title=时间线已禁用	#
-hbui.RealmsStories.messages.timelineOptIn.body=查看其他成员的游玩时间，了解他们的创作或计划，这样下一次就可以加入他们。时间线显示玩家在 Realm 上的时间。彩色方块越大，游玩时间就越长。	#
+hbui.RealmsStories.messages.timelineOptIn.body=查看其他成员的游玩时间，了解他们的创作或计划，这样下一次就可以加入他们。时间线显示玩家在 Realm 上的时间。彩色方块越大，游玩时间就越长。		#### {StrContains="Realm"} {MaxLength="250"} This is an explanation of the Realms Timeline feature.
 hbui.RealmsStories.messages.timelineOptIn.button=我想加入	#
+hbui.RealmsStories.messages.timelineOptIn.maybeLaterButton=以后再说		#### {MaxLength="20"}  Player is currently declining to opt into the timeline.
 hbui.RealmsStories.messages.timelineOptIn.members=已选择加入的成员：%1$s/%2$s	#
 hbui.RealmsStories.messages.timelineOptIn.membersNarration=已选择加入的成员：%1$s/%2$s	#
+hbui.RealmsStories.messages.timelineOptIn.ownerRequire.body=选择加入时间线，从而在 Realm 上进行游戏。 	#### {StrContains="Realm"} {MaxLength="100"} Instructing the player they must opt into the Realms timeline feature before they are allowed to play on the Realm they are trying to join.
+hbui.RealmsStories.messages.timelineOptIn.ownerRequire.title=Realm 拥有者需选择加入时间线		#### {StrContains="Realm"} {MaxLength="100"}Secondary page title. The Owner of the realm the player wants to play on requires them to opt into the Timeline feature.
+hbui.RealmsStories.messages.timelineOptIn.requiredTitle=选择加入时间线		#### {MaxLength="50"}Title for the page that explains that the player needs to opt into the Timeline feature before they can play on the Realm they are attempting to join
 hbui.RealmsStories.messages.timelineOptIn.textblock=文字方块	#
 hbui.RealmsStories.messages.timelineOptIn.title=选择加入以查看时间线	#
 hbui.RealmsStories.messages.title=Realms Stories 无法加载！ 	#### {StrContains="Realms Stories"}
@@ -2729,6 +2786,8 @@ hbui.RealmsStories.settings.realmWideSettings.header=2. Realm 范围设置	#
 hbui.RealmsStories.settings.realmWideSettings.member.header=Realm 范围设置	#
 hbui.RealmsStories.settings.realmWideSettings.playerTimeline.description=允许所有人查看时间线。	#
 hbui.RealmsStories.settings.realmWideSettings.playerTimeline.title=时间线	#
+hbui.RealmsStories.settings.realmWideSettings.playerTimelineRequirement.description=要求每个人在 Realm 上进行游戏之前先加入时间线。 	#### {StrContains="Realm"} {MaxLength="100"} Description text for the feature a Realm owner can enable that requires members of this Realm to opt into the Timeline feature before they are allowed to play on the Realm
+hbui.RealmsStories.settings.realmWideSettings.playerTimelineRequirement.title=要求加入时间线		#### {MaxLength="30"}Title for the feature a Realm owner can enable that requires members of this Realm to opt into the Timeline feature before they are allowed to play on the Realm
 hbui.RealmsStories.settings.realmWideSettings.realmEvents.description=允许 Minecraft 发布有关游戏成就的故事。此设置将在您关闭并重新打开 Realm 后生效。（转到“编辑”>“管理 Realm”>“订阅”>“关闭 Realm”。然后再“打开 Realm”）	#
 hbui.RealmsStories.settings.realmWideSettings.realmEvents.title=Realm 事件	#
 hbui.RealmsStories.settings.realmWideSettings.storyCoordinates.description=显示特定 Realm 事件的坐标，前提是在触发事件时启用了世界的“显示坐标”设置。	#
@@ -2784,45 +2843,66 @@ hbui.RenderDistanceWarningRoute.confirmInputLegend=确认	#
 hbui.RenderDistanceWarningRoute.title=性能优化	#
 hbui.RenderDistanceWarningRoute.useCurrentSettingsButton=使用当前设置	#
 hbui.RenderDistanceWarningRoute.useRecommendedSettingsButton=使用推荐的设置	#
+hbui.ReportPlayerRoute.areaPanel.description=请告知我们事件发生的地方。这能帮我们研究您的案例。 	#### Description of a dropdown that allows players to select the area in which they saw the issue {MaxLength="100"}
+hbui.ReportPlayerRoute.areaPanel.title=您在哪里观察到了不好的行为？ 	#### Title of a dropdown that allows players to select the area in which they saw the issue {MaxLength="50"}
 hbui.ReportPlayerRoute.attestation=据我所知，这些信息是准确和完整的。	#
 hbui.ReportPlayerRoute.bullying=骚扰或欺凌	#
+hbui.ReportPlayerRoute.buttonLegend=选择 	#### Select this button {MaxLength="16"}
 hbui.ReportPlayerRoute.cancel=取消	#
 hbui.ReportPlayerRoute.chatSelectionDescription=选择要举报的消息	#
 hbui.ReportPlayerRoute.chatSelectionLimitReached=选择的最大消息数	#
+hbui.ReportPlayerRoute.chatSelectionPanel.description=选择要举报的消息 	#### Description of a panel that allows players to select the specific chat messages in a report {MaxLength="50"}
+hbui.ReportPlayerRoute.chatSelectionPanel.limitReached=选择的最大消息数 	#### Error message that shows up if players have selected the maximum messages {MaxLength="50"}
+hbui.ReportPlayerRoute.chatSelectionPanel.title=举报聊天消息 	#### Title of a panel that allows players to select the specific chat messages in a report {MaxLength="50"}
 hbui.ReportPlayerRoute.cheating=作弊	#
 hbui.ReportPlayerRoute.childSexualExploitationOrAbuse=儿童性剥削或性虐待	#
+hbui.ReportPlayerRoute.commentPanel.description=您即将举报此人。请添加评论，描述所发生的情况。 	#### Description of a text field for players to write a report comment {MaxLength="100"}
+hbui.ReportPlayerRoute.commentPanel.placeholder=告诉我们更多详情 	#### Placeholder for the report comment text field {MaxLength="32"}
+hbui.ReportPlayerRoute.commentPanel.title=评论（可选） 	#### Title of a text field for players to write a report comment {MaxLength="32"}
 hbui.ReportPlayerRoute.confirmSelection=确认选择	#
 hbui.ReportPlayerRoute.drugsOrAlcohol=毒品或酒精	#
+hbui.ReportPlayerRoute.error.buttonText=返回 	#### Go back from a route error {MaxLength="16"}
+hbui.ReportPlayerRoute.error.text=发生了内部错误 	#### todo {MaxLength="50"}
+hbui.ReportPlayerRoute.error.title=内部错误 	#### TItle for generic route error window {MaxLength="32"}
 hbui.ReportPlayerRoute.friendWarningText=确定要举报您的好友 %1$s 吗？提交虚假举报会违反我们的社区标准。	#
 hbui.ReportPlayerRoute.galleryScreenshot=图库屏幕截图	#
 hbui.ReportPlayerRoute.hateSpeech=仇恨言论	#
+hbui.ReportPlayerRoute.hideContent=隐藏内容 	#### Toggle to hide the screenshot or content that is being reported {MaxLength="32"}
 hbui.ReportPlayerRoute.imminentHarm=伤害他人的威胁	#
 hbui.ReportPlayerRoute.impersonation=冒充	#
 hbui.ReportPlayerRoute.nameOrGamertag=玩家名称或玩家代号	#
 hbui.ReportPlayerRoute.next=继续	#
 hbui.ReportPlayerRoute.nonConsensualIntimateImagery=未经同意的亲密影像	#
+hbui.ReportPlayerRoute.reasonPanel.description=如果有人处于紧急危险之中，请致电当地紧急服务部门。不要等待。 	#### Description for a dropdown where players will select the reason they are filing a report {MaxLength="100"}
+hbui.ReportPlayerRoute.reasonPanel.title=您为什么要举报 %1$s？ 	#### Title for a dropdown where players will select the reason they are filing a report {MaxLength="100"}
 hbui.ReportPlayerRoute.report=举报	#
 hbui.ReportPlayerRoute.reportConfirmation=感谢帮助我们确保《我的世界》的安全。我们会尽快审核您的举报，并在必要时采取适当的措施。	#
+hbui.ReportPlayerRoute.reportConfirmation.title=举报完成 	#### Confirmation window title for report {MaxLength="100"}
 hbui.ReportPlayerRoute.reportLimitWarningText1=看起来您一直在忙于举报其他玩家。感谢您帮助我们使 Minecraft 成为一个安全和广受欢迎的地方！	#
 hbui.ReportPlayerRoute.reportLimitWarningText2=请注意，提交虚假举报会违反我们的社区标准。	#
+hbui.ReportPlayerRoute.reportPanel.narration.disabledHint=若要提交报告，必须先填写表格 	#### Error message when trying to submit report when form is not complete {MaxLength="100"}
+hbui.ReportPlayerRoute.reportPanel.narration.enumeration=第 %1$s 个，共 %2$s 个 	#### Enumeration for buttons in panel {MaxLength="32"}
 hbui.ReportPlayerRoute.selfHarmOrSuicide=自残或自杀	#
 hbui.ReportPlayerRoute.sexuallyInappropriate=不恰当性内容	#
+hbui.ReportPlayerRoute.sidePanel.text=正在举报 %1$s 	#### Content of the side panel for reporting {MaxLength="32"}
 hbui.ReportPlayerRoute.terrorismOrViolentExtremism=恐怖主义或暴力极端主义	#
-hbui.ReportPlayerRoute.title=举报 %s	#
-hbui.ReportPlayerRoute.unknownGamertag=未知	#
+hbui.ReportPlayerRoute.title=举报不良行为 	#### Title for report route {MaxLength="32"}
 hbui.ReportPlayerRoute.unsportingBehavior=没有体育道德的行为	#
 hbui.ReportPlayerRoute.wantToReportThem=我想举报	#
 hbui.ReportPlayerRoute.warningReportAnyway=仍然举报	#
-hbui.ReportPlayerRoute.warningTitle=举报 %s？	#
+hbui.ReportPlayerRoute.warningTitle=是否举报 %1$s？ 	#### Title for warning modal for reporting a friend {MaxLength="32"}
 hbui.ReportPlayerRoute.whereReport=您在哪里观察到了不好的行为？	#
 hbui.ReportPlayerRoute.whereReportDescription=请告知我们事件发生的地方。这能帮我们研究您的案例。	#
-hbui.ReportPlayerRoute.whyReport=您为什么举报 %s？	#
+hbui.ReportPlayerRoute.whyReport=您为什么要举报 %1$s？ 	####Placeholder for dropdown that allows players to select the area in which they saw the issue {MaxLength="50"}
 hbui.ReportPlayerRoute.xbox.report.area.chat=聊天消息	#
 hbui.ReportPlayerRoute.xbox.report.area.gameplay=游戏	#
 hbui.ReportPlayerRoute.xbox.report.area.ingame=游戏内创作	#
 hbui.ReportPlayerRoute.xbox.report.area.nameOrGamertag=玩家名称或玩家代号	#
 hbui.ReportPlayerRoute.xbox.report.area.other=其他	#
 hbui.ReportPlayerRoute.xbox.report.area.skin=玩家皮肤	#
+hbui.ScreenshotDeleteErrorModal.close=关闭		#### {MaxLength=40} Closes the modal that has appeared. This was previously ScreenshotGalleryRoute.deleteScreenshotsErrorModal.close
+hbui.ScreenshotDeleteErrorModal.text=无法删除截图。请检查网络连接并重试。 	#### {MaxLength=1000} Indicates that an operation requested by the user to delete a screenshot in their gallery has failed. This was previously ScreenshotGalleryRoute.deleteScreenshotsErrorModal.text
+hbui.ScreenshotDeleteErrorModal.title=无法删除截图		#### {MaxLength=40} Indicates that an operation requested by the user to delete a screenshot in their gallery has failed. This was previously ScreenshotGalleryRoute.deleteScreenshotsErrorModal.title
 hbui.ScreenshotDeleteModal.cancel=取消	#
 hbui.ScreenshotDeleteModal.delete=删除	#
 hbui.ScreenshotDeleteModal.text=此操作无法撤销。确定要删除此屏幕截图吗？	#
@@ -2923,9 +3003,6 @@ hbui.ScreenshotGalleryItem.showcased=已展示	#
 hbui.ScreenshotGalleryMenu.optionsEnumeration=第 %1$s 个，共 %2$s 个	#
 hbui.ScreenshotGalleryRoute.deleteScreenshots=删除屏幕截图	#
 hbui.ScreenshotGalleryRoute.deleteScreenshotsButton=删除屏幕截图	#
-hbui.ScreenshotGalleryRoute.deleteScreenshotsErrorModal.close=关闭	#
-hbui.ScreenshotGalleryRoute.deleteScreenshotsErrorModal.text=无法删除截图。请检查您的网络连接并重试。	#
-hbui.ScreenshotGalleryRoute.deleteScreenshotsErrorModal.title=无法删除截图	#
 hbui.ScreenshotGalleryRoute.deleteScreenshotsLink=删除截图	#
 hbui.ScreenshotGalleryRoute.deleteScreenshotsModal.cancelButton=取消	#
 hbui.ScreenshotGalleryRoute.deleteScreenshotsModal.deleteButton=删除	#
@@ -2974,53 +3051,31 @@ hbui.ShowcaseDetailsRoute.title=%1$s 的屏幕截图详细信息	#
 hbui.SideStoryPostContainer.hint=%1$s的故事	#
 hbui.SideStoryPostContainer.name=故事帖子	#
 hbui.SideStoryPostContainer.role=文字方块	#
-hbui.SignInAchievementsRoute.altSignInHeader=获得成就	#
-hbui.SignInAchievementsRoute.altSignInPrompt=登录或免费注册以开始获得成就	#
 hbui.SignInAchievementsRoute.laterButton=过一会吧	#
 hbui.SignInAchievementsRoute.signInButton=立即登录	#
-hbui.SignInAchievementsRoute.signInHeader=登录以获得成就	#
-hbui.SignInAchievementsRoute.signInList1=跟踪您在《我的世界》中的进度和里程碑	#
-hbui.SignInAchievementsRoute.signInList2=解锁专属角色创建器物品	#
-hbui.SignInAchievementsRoute.signInList3=向朋友炫耀您获得的成就	#
-hbui.SignInAchievementsRoute.signInPrompt=猛击了一棵树？熬过了第一晚？登录以开始获得成就！	#
-hbui.SignInAddFriendRoute.altSignInHeader=在其他平台上查找好友	#
-hbui.SignInAddFriendRoute.altSignInPrompt=登录或免费注册以与其他平台上的好友联系	#
+hbui.SignInAchievementsRoute.signInHeader=获得成就 	####Short Header for modal, player can earn achievements{MaxLength=55}
+hbui.SignInAchievementsRoute.signInPrompt=登录或免费注册以开始获取成就。    	####Prompt encouraging player to sign in, informing them that signing in will allow them to earn achievements{MaxLength=1000}
 hbui.SignInAddFriendRoute.laterButton=以后再说	#
 hbui.SignInAddFriendRoute.signInButton=立即登录	#
-hbui.SignInAddFriendRoute.signInHeader=寻找跨平台好友	#
-hbui.SignInAddFriendRoute.signInList1=添加好友并邀请他们加入您的世界	#
-hbui.SignInAddFriendRoute.signInList1NXPS=添加跨平台好友并邀请他们加入你的世界	#
-hbui.SignInAddFriendRoute.signInList2=跨多个主机跟踪好友列表	#
-hbui.SignInAddFriendRoute.signInList3=接收来自好友的领域邀请	#
-hbui.SignInAddFriendRoute.signInPrompt=准备好跨平台加入你朋友的《我的世界》了吗？立即登录，开始一起玩！	#
+hbui.SignInAddFriendRoute.signInHeader=在其他平台上查找好友  	####Header for modal, allow for searching for friends via search bar{MaxLength=55}
+hbui.SignInAddFriendRoute.signInPrompt=登录或免费注册以与其他平台上的好友联机。  	####Prompt encouraging player to sign in, informing them that if signed in they can play multiplayer with friends on any device{MaxLength=1000}
 hbui.SignInDressingRoomRoute.laterButton=过一会吧	#
 hbui.SignInDressingRoomRoute.signInButton=立即登录	#
 hbui.SignInDressingRoomRoute.signInHeader=酷炫角色！	#
-hbui.SignInDressingRoomRoute.signInPrompt=登录以跨设备和平台保存角色。	#
+hbui.SignInDressingRoomRoute.signInPrompt=登录或免费注册以保存跨设备和平台创建的角色。  	####Prompt encouraging player to sign in, informing them that if signed in their character's appearance that they recently changed in the dressing room can be made available on any device{MaxLength=1000}
 hbui.SignInMarketplaceRoute.laterButton=过一会吧	#
 hbui.SignInMarketplaceRoute.signInButton=立即登录	#
 hbui.SignInMarketplaceRoute.signInHeader=欢迎来到市场！	#
-hbui.SignInMarketplaceRoute.signInList1=跨平台访问您从市场购买的内容和角色。	#
-hbui.SignInMarketplaceRoute.signInPrompt=登录后可将购买物品保存到您的账号中，方便随时使用。	#
-hbui.SignInPlayOnServerRoute.altSignInHeader=在特色服务器上玩	#
-hbui.SignInPlayOnServerRoute.altSignInPrompt=登录或免费注册以在特色服务器上玩	#
+hbui.SignInMarketplaceRoute.signInPrompt=登录或免费注册以将购买物品保存到您的账号中，方便随时使用。  	####Prompt encouraging player to sign in, informing them that if signed in their Marketplace purchases can be saved to their account{MaxLength=1000}
 hbui.SignInPlayOnServerRoute.laterButton=过一会吧	#
 hbui.SignInPlayOnServerRoute.signInButton=立即登录	#
-hbui.SignInPlayOnServerRoute.signInHeader=登录以在特色服务器上玩游戏	#
-hbui.SignInPlayOnServerRoute.signInList1=加入数以千计的玩家，进入始终就绪的在线世界	#
-hbui.SignInPlayOnServerRoute.signInList2=每个服务器上都有独特的迷你游戏和挑战	#
-hbui.SignInPlayOnServerRoute.signInList3=使用同一个帐户访问所有平台上的服务器	#
-hbui.SignInPlayOnServerRoute.signInPrompt=准备好加入各种在线多人迷你游戏了吗？登录以访问特色服务器！	#
-hbui.SignInSavePurchasesRoute.altSignInHeader=保存您的购买物品	#
-hbui.SignInSavePurchasesRoute.altSignInPrompt=登录或免费注册以保存您在市场中的购买物品	#
+hbui.SignInPlayOnServerRoute.signInHeader=在特色服务器上玩  	####Header for modal, allow player to play on big, custom featured servers made by other players{MaxLength=55}
+hbui.SignInPlayOnServerRoute.signInPrompt=登录或免费注册以在推荐服务器上游玩。  	####Prompt for the player to sign in so they can play on servers{MaxLength=1000}
 hbui.SignInSavePurchasesRoute.createAccountPrompt=没有 Microsoft 帐户？立即免费创建一个！	#
 hbui.SignInSavePurchasesRoute.laterButton=过一会吧	#
 hbui.SignInSavePurchasesRoute.signInButton=立即登录	#
-hbui.SignInSavePurchasesRoute.signInHeader=登录以保存购买	#
-hbui.SignInSavePurchasesRoute.signInList1=从任何平台访问您购买的市场内容	#
-hbui.SignInSavePurchasesRoute.signInList2=跨平台使用您的自定义角色	#
-hbui.SignInSavePurchasesRoute.signInList3=保存购买，以免在系统出现问题时导致丢失	#
-hbui.SignInSavePurchasesRoute.signInPrompt=您之前是否在市场中下载过内容或使用过 Minecoins？立即登录以跨平台共享您的购买。	#
+hbui.SignInSavePurchasesRoute.signInHeader=保存您的购买物品  	####Modal header, save marketplace skin and map entitlements{MaxLength=55}
+hbui.SignInSavePurchasesRoute.signInPrompt=登录或免费注册以保存您在市场中购买的物品。  	####Prompt encouraging player to sign in, informing them that if signed in their Marketplace purchases can be saved to their account{MaxLength=1000}
 hbui.SignInWorldsFriendsServersRoute.createAccountPrompt=没有 Microsoft 帐户？立即免费创建一个！	#
 hbui.SignInWorldsFriendsServersRoute.laterButton=过一会吧	#
 hbui.SignInWorldsFriendsServersRoute.signInButton=立即登录	#
@@ -3045,6 +3100,8 @@ hbui.StartFromTemplateRoute.feedbackPanel.button=提供反馈	#
 hbui.StartFromTemplateRoute.feedbackPanel.description=我们想听听您对这个新设计的意见。请注意新设计还未完工，一些功能可能缺失。	#
 hbui.StartFromTemplateRoute.feedbackPanel.inputLegend=选择	#
 hbui.StartFromTemplateRoute.feedbackPanel.title=欢迎观看设计预览！	#
+hbui.StartFromTemplateRoute.getMoreButton.AddOn.body=在市场中找到数百个其他模板和追加内容		#### Subtext on a button that leads to a store page with more content than what is shown on the current screen {MaxLength=210}
+hbui.StartFromTemplateRoute.getMoreButton.AddOn.title=探索新模板和追加内容		#### Main button text that leads to a store page with more content than what is shown on the current screen {MaxLength=50}
 hbui.StartFromTemplateRoute.getMoreButton.body=在市场中找到数百个其他模板	#
 hbui.StartFromTemplateRoute.getMoreButton.title=发现新模板	#
 hbui.StartFromTemplateRoute.ImportModal.title=正在导入内容	#
@@ -3052,6 +3109,8 @@ hbui.StartFromTemplateRoute.InitializationModal.message=正在查找服务器...
 hbui.StartFromTemplateRoute.InitializationModal.title=正在开始下载	#
 hbui.StartFromTemplateRoute.InstallModal.message=安装已开始	#
 hbui.StartFromTemplateRoute.InstallModal.title=正在安装内容 (2/2)	#
+hbui.StartFromTemplateRoute.MarketplacePass.AddOn.description=进一步探索 Marketplace Pass 订阅者的世界模板和追加内容。 	#### Subtext under the title for a screen displaying content from the Marketplace Pass that players can use to create a world {MaxLength=230}{StrContains="Marketplace Pass"}
+hbui.StartFromTemplateRoute.MarketplacePass.AddOn.title=Marketplace Pass		#### Main title for a screen displaying content from the Marketplace Pass that players can use to create a world {MaxLength=50}{StrContains="Marketplace Pass"}
 hbui.StartFromTemplateRoute.MarketplacePass.description=进一步探索 Marketplace Pass 订阅者的世界模板。 	#### {StrContains="Marketplace Pass"}
 hbui.StartFromTemplateRoute.MarketplacePass.imageNarration=Marketplace pass	#
 hbui.StartFromTemplateRoute.MarketplacePass.imageRole=图像	#
@@ -3067,6 +3126,7 @@ hbui.StartFromTemplateRoute.NoContentMessage.message=在市场上探索数千个
 hbui.StartFromTemplateRoute.NoContentMessage.title=您尚未拥有任何内容......！	#
 hbui.StartFromTemplateRoute.NoFilteredTemplatesMessage.message=请检查拼写情况或优化搜索。	#
 hbui.StartFromTemplateRoute.NoFilteredTemplatesMessage.title=未找到匹配项	#
+hbui.StartFromTemplateRoute.notification.downloadComplete=模板已下载  	####Text for snackbar that appears when the download of a template is completed {MaxLength=40}
 hbui.StartFromTemplateRoute.OwnedByMe.description=在这里，你可以找到从市场购买的所有模板。	#
 hbui.StartFromTemplateRoute.OwnedByMe.downloadUnavailableModal.goBack=返回	#
 hbui.StartFromTemplateRoute.OwnedByMe.downloadUnavailableModal.message=我们目前无法下载模板。请确保您已连接到互联网，然后再试一次。	#
@@ -3122,6 +3182,7 @@ hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.title.GenericError=出�
 hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.title.InsufficientStorage=存储空间已满	#
 hbui.StartFromTemplateRoute.TemplateOperationsErrorModal.title.MalformedZip=导入失败	#
 hbui.StartFromTemplateRoute.title=从模板创建	#
+hbui.StartFromTemplateRoute.title.AddOn=创建自...		#### Title for a screen where players can select content for the base of a new world {MaxLength=45}
 hbui.StartFromTemplateRoute.TrialModeModal.button=购买 Minecraft	#
 hbui.StartFromTemplateRoute.TrialModeModal.message=导入成千上万其他玩家创建的模板，并导出您自己的模板与他人分享。	#
 hbui.StartFromTemplateRoute.TrialModeModal.title=解锁完整体验	#
@@ -3286,17 +3347,17 @@ hbui.WorldTag.experimental=实验	#
 hbui.WorldTag.hardcore=极限	#
 hbui.WorldTag.lan=LAN	#
 hbui.WorldTag.survival=生存	#
-hbui.WorldTag.unknown=未知	#
+hbui.WorldTag.unknown=未知 	#### Unknown type of Minecraft world. A known type would be eg survival or creative. {MaxLength=21}
 hbui.Accordion.closeInputLegend=关闭	#
 hbui.Accordion.openInputLegend=打开	#
 hbui.BackButton.back=返回	#
-hbui.BackButton.narration.backButton=返回按钮	#
+hbui.BackButton.narration.backButton=返回键	#
 hbui.BaseDropdown.close=关闭	#
 hbui.BaseDropdown.enumeration=第 %1$s 个，共 %2$s 个	#
 hbui.BaseDropdown.open=打开	#
 hbui.BaseDropdown.selected=已选择	#
-hbui.BaseDropdown.stateCollapsed=崩溃的	#
-hbui.BaseDropdown.stateExpanded=扩展的	#
+hbui.BaseDropdown.stateCollapsed=已折叠	#
+hbui.BaseDropdown.stateExpanded=已扩展	#
 hbui.BaseDropdown.toggleElementType=选项	#
 hbui.BaseSlider.currentValue=当前值为	#
 hbui.BaseSlider.elementType=滑块	#
@@ -3304,8 +3365,8 @@ hbui.BaseSlider.maxValueIs=最大值为	#
 hbui.BaseSlider.minValueIs=最小值为	#
 hbui.BaseSwitch.elementType=开关	#
 hbui.BaseSwitch.narrationDisabled=禁用	#
-hbui.BaseSwitch.off=关闭	#
-hbui.BaseSwitch.on=打开	#
+hbui.BaseSwitch.off=关	#
+hbui.BaseSwitch.on=开	#
 hbui.BaseSwitch.toggle=切换	#
 hbui.BaseTextField.addedNarration=已添加	#
 hbui.BaseTextField.deselect=取消选择	#
@@ -3315,17 +3376,158 @@ hbui.BaseTextField.removedNarration=已移除	#
 hbui.BaseTextField.replacedNarration=替换为	#
 hbui.BaseTextField.select=选择	#
 hbui.BaseTextField.selected=已选择	#
-hbui.DropdownItem.elementType=物品	#
+hbui.DropdownItem.elementType=项目	#
 hbui.DropdownItem.narrationComponentType=选项	#
 hbui.DropdownItem.select=选择	#
 hbui.DropdownItem.selected=已选择	#
 hbui.DropdownItem.unselected=未选择	#
-hbui.ScrollView.loadingState=正在载入	#
+hbui.ScrollView.loadingState=正在加载	#
 hbui.ScrollView.narrationScrollViewComponentType=内容	#
 hbui.TitleBar.Buttons.Back.inputLegend=返回	#
-hbui.TitleBar.Buttons.Back.narration=返回按钮	#
+hbui.TitleBar.Buttons.Back.narration=返回键	#
 hbui.TitleBar.Buttons.Close.inputLegend=关闭	#
-hbui.TitleBar.Buttons.Close.narration=关闭按钮	#
+hbui.TitleBar.Buttons.Close.narration=关闭键	#
+hbui.BackButton.back=返回	#
+hbui.BackButton.narrationComponentType=按钮	#
+hbui.BackButton.narrationGoBack=返回	#
+hbui.Banner.closeButtonNarrationHint=向右导航以关闭此 %1$s	#
+hbui.Banner.narrationComponentTypeButton=按钮	#
+hbui.Banner.narrationComponentTypeTextBox=文本框	#
+hbui.Button.button=按钮	#
+hbui.Card.narrationComponentTypeButton=按钮	#
+hbui.Checkbox.elementType=复选框	#
+hbui.Checkbox.labelChecked=选中	#
+hbui.Checkbox.labelUnChecked=取消选中	#
+hbui.Checkbox.toggle=切换	#
+hbui.DescriptionList.progressLabel=进度	#
+hbui.Dropdown.elementType=下拉	#
+hbui.Dropdown.narrationComponentType=下拉	#
+hbui.Dropdown.narrationDisabled=已禁用	#
+hbui.Dropdown.option=选项	#
+hbui.Dropdown.selected=已选择	#
+hbui.Dropdown.stateCollapsed=崩溃的	#
+hbui.Dropdown.stateDisabled=已禁用	#
+hbui.Dropdown.toggleElementType=选项	#
+hbui.DropdownItem.disabled=已禁用	#
+hbui.DropdownItem.elementType=项目	#
+hbui.DropdownItem.select=选择	#
+hbui.DropdownItem.selected=已选择	#
+hbui.DropdownItem.unselected=未当选	#
+hbui.EmptyStateMessage.buttonSelectInputLegend=选择	#
+hbui.EmptyStateMessage.narrationTextBlock=文字方块	#
+hbui.HeroMessage.buttonEnumeration=第 %1$s 个，共 %2$s 个	#
+hbui.Link.narrationComponentType=按钮	#
+hbui.Link.open=打开	#
+hbui.Modal.backInputLegend=向后	#
+hbui.Modal.backNarration=返回按钮	#
+hbui.Modal.closeInputLegend=关闭	#
+hbui.Modal.closeNarration=关闭按钮	#
+hbui.Modal.narrationModalComponentType=模态	#
+hbui.Modal.progressPercentage=%1$s%	#
+hbui.Modal.select=选择	#
+hbui.ModalMenu.elementType=按钮	#
+hbui.ModalMenu.enumeration=第 %1$s 个，共 %2$s 个	#
+hbui.ModalMenu.modalTypeHint=下方操作列表	#
+hbui.ModalMenuDropdown.dropdown.collapsed=已折叠	#
+hbui.ModalMenuDropdown.dropdown.enumeration=第 %1$s 个，共 %2$s 个	#
+hbui.ModalMenuDropdown.dropdown.inputLegend=打开	#
+hbui.ModalMenuDropdown.dropdown.label.role=选项	#
+hbui.ModalMenuDropdown.dropdown.label.selected=已选择	#
+hbui.ModalMenuDropdown.dropdown.placeholder=选择一个选项...	#
+hbui.ModalMenuDropdown.dropdown.role=下拉	#
+hbui.ModalMenuDropdown.inputLegend=打开	#
+hbui.ModalMenuDropdown.narrationDisabled=已禁用	#
+hbui.ModalMenuDropdown.placeholder=选择一个选项...	#
+hbui.NavigationBarLayout.DebugButton.inputLegend=调试	#
+hbui.NavigationBarLayout.DebugButton.narration=调试按钮	#
+hbui.NavigationBarLayout.DeleteButton.inputLegend=删除	#
+hbui.NavigationBarLayout.DeleteButton.narration=删除按钮		####Narrating a button that says the word "Delete". Not deleting a button.
+hbui.NavigationBarLayout.FriendsButton.friends=好友	#
+hbui.NavigationBarLayout.FriendsButton.inputLegend=好友	#
+hbui.NavigationBarLayout.FriendsButton.narration=好友按钮	#
+hbui.NavigationBarLayout.MenuButton.inputLegend=菜单	#
+hbui.NavigationBarLayout.MenuButton.narration=“菜单”按钮	#
+hbui.Pagination.componentType=分页	#
+hbui.Pagination.context=水平页面选择器	#
+hbui.Pagination.contextHintGamepad=向左和向右导航以查看更多页面	#
+hbui.Pagination.contextHintMouse=左右两侧有更多的页面可浏览	#
+hbui.Pagination.currentPage=第 %1$s 页	#
+hbui.Pagination.disabled=已禁用	#
+hbui.Pagination.index=第 %1$s 页，共 %2$s %3$s 页	#
+hbui.Pagination.indexCounter=%1$s/%2$s	#
+hbui.Pagination.next=下一页是 %1$s，共 %2$s 页	#
+hbui.Pagination.nextPage=下一页，转到第 %1$s 页	#
+hbui.Pagination.nextPageDisabled=下一页，已禁用	#
+hbui.Pagination.nextPageInputLegend=下一页	#
+hbui.Pagination.nowOnPage=现位于第 %1$s 页	#
+hbui.Pagination.nowOnPageOf=现位于第 %1$s 页，共 %2$s 页	#
+hbui.Pagination.previous=上一页是 %1$s，共 %2$s 页	#
+hbui.Pagination.previousPage=上一页，转到第 %1$s 页	#
+hbui.Pagination.previousPageDisabled=上一页，已禁用	#
+hbui.Pagination.previousPageInputLegend=上一页	#
+hbui.Pagination.select=选择	#
+hbui.Pagination.selected=已选	#
+hbui.Pagination.skipNext=向前跳至第 %1$s 页	#
+hbui.Pagination.skipPrevious=向后跳至第 %1$s 页	#
+hbui.Pagination.unselected=未选择	#
+hbui.RadioBox.count=第 %1$s 个，共 %2$s 个	#
+hbui.RadioBox.disabled=禁用	#
+hbui.RadioBox.elementType=无线电	#
+hbui.RadioBox.select=选择	#
+hbui.RadioBox.selected=已选择	#
+hbui.SectionList.groupNarration=%1$s，%2$s 组，共 %3$s	#
+hbui.SideMenu.ListItem.narrationIndex=%1$s 个，共 %2$s 个	#
+hbui.SideMenu.ListItem.narrationRoleButton=按钮	#
+hbui.SideMenu.ListItem.narrationRoleMenuItem=菜单项	#
+hbui.SideMenu.ListItem.narrationSelected=已选择	#
+hbui.SideMenu.ListItem.narrationUnselected=未选择	#
+hbui.SideMenu.ListItem.selected=已选择	#
+hbui.SideMenu.narrationRoleMenu=垂直菜单	#
+hbui.SideMenu.sideMenuItem.selected=已选择	#
+hbui.Slider.availableValuesAre=可以是	#
+hbui.Slider.currentValue=当前值为	#
+hbui.Slider.disabled=滑杆已禁用	#
+hbui.Slider.elementType=滑块	#
+hbui.Slider.maxValueIs=最大值为	#
+hbui.Slider.minValueIs=最小值为	#
+hbui.Slider.narrationComponentType=滑块	#
+hbui.Slider.valueIs=是	#
+hbui.Slider.verbose.availableValuesAre=可用的值为	#
+hbui.Slider.verbose.maxValueIs=最大值为	#
+hbui.Slider.verbose.minValueIs=最小值为	#
+hbui.Slider.verbose.valueIs=所选择的值为	#
+hbui.SlidingNavigationPane.Menu.elementType=按钮	#
+hbui.SlidingNavigationPane.Menu.enumeration=第 %1$s 个，共 %2$s 个	#
+hbui.SlidingNavigationPane.Menu.select=选择	#
+hbui.Switch.elementType=开关	#
+hbui.Switch.narrationDisabled=禁用	#
+hbui.Switch.off=关闭	#
+hbui.Switch.on=打开	#
+hbui.Switch.toggle=切换	#
+hbui.TabBar.narrationComponentType=水平选项卡	#
+hbui.TabBar.narrationGroup=%1$s 选项卡组	#
+hbui.TabBar.notSelected=未选择	#
+hbui.TabBar.open=打开	#
+hbui.TabBar.selected=已选	#
+hbui.TabBar.selectedTab=第 %1$s 个，共 %2$s 个	#
+hbui.TextField.currentValue=当前值	#
+hbui.TextField.disabled=已禁用	#
+hbui.TextField.empty=空	#
+hbui.TextField.field=字段	#
+hbui.TextField.narrationComponentType=文本输入	#
+hbui.TextFieldWithButton.navigationHint=移动到此该字段右侧以进行其他操作。	#
+hbui.TextFieldWrapper.narrationComponentType=文本输入	#
+hbui.TextFieldWrapper.narrationDisabled=已禁用	#
+hbui.Toggle.count=第 %1$s 个，共 %2$s 个	#
+hbui.Toggle.narrationComponentType=“水平选择”组	#
+hbui.Toggle.narrationDisabled=禁用	#
+hbui.Toggle.narrationOptionType=选择	#
+hbui.Toggle.narrationSelected=已选择	#
+hbui.Toggle.narrationUnselected=未选择	#
+hbui.Toggle.select=选择	#
+hbui.TreeView.collapse=收齐	#
+hbui.TreeView.expand=扩建	#
+hbui.TreeView.open=打开	#
 hbui.Editor.title=输入映射	#
 hbui.EditorActionBar.leftTray=左	#
 hbui.EditorActionBar.rightTray=右	#
@@ -3573,7 +3775,7 @@ hbui.EditorKeyboardSettings.exclusive=独家	#
 hbui.EditorKeyboardSettings.exclusive.tooltip=开启独占切换后，仅当不存在其他修饰键，或与指定修饰键组合与该键一起使用时，单键操作才会被激活。	#
 hbui.EditorKeyboardSettings.name=动作	#
 hbui.EditorKeyboardSettings.project=项目	#
-hbui.EditorKeyboardSettings.projectDescription=十字准线和工具模式的全局上下文	#
+hbui.EditorKeyboardSettings.projectDescription=十字准线模式和工具模式的全局上下文	#
 hbui.EditorKeyboardSettings.projectTooltip=项目输入上下文	#
 hbui.EditorKeyboardSettings.reset=重置	#
 hbui.EditorKeyboardSettings.resetAll=全部重置	#
@@ -3591,6 +3793,7 @@ hbui.EditorKeyboardSettings.tools=模态工具	#
 hbui.EditorKeyboardSettings.viewport=视区	#
 hbui.EditorKeyboardSettings.viewportDescription=焦点视区的输入上下文	#
 hbui.EditorKeyboardSettings.viewportTooltip=视区输入上下文	#
+hbui.EditorLink.elementType=链接 	####Represent UI element type for a clickable link​. {MaxLength=100}
 hbui.EditorLink.warningModal.cancel=取消	#
 hbui.EditorLink.warningModal.content=注意，您要打开的链接尚未经过 Minecraft 验证。	#
 hbui.EditorLink.warningModal.continue=继续	#
@@ -3634,6 +3837,7 @@ hbui.EditorPaletteItem.title=调色板项	#
 hbui.EditorPaletteItem.type=简单方块	#
 hbui.EditorPaletteItem.weight=重量	#
 hbui.EditorRemotePane.narration=面板	#
+hbui.EditorRemotePane.overlayModal=覆盖模态框 	####Represents a modal panel overlaid on another panel. {MaxLength=100}
 hbui.EditorRoute.brushToolDescription=绘制自定义画笔描边。	#
 hbui.EditorRoute.brushToolTooltip=画笔工具	#
 hbui.EditorRoute.stampToolDescription=将世界的一个区域复制到另一个区域。	#
@@ -3649,25 +3853,45 @@ hbui.EditorStructurePanel.actionBarSortOptionBySource=按来源	#
 hbui.EditorStructurePanel.actionBarSortOptionByTags=按标记	#
 hbui.EditorStructurePanel.actionBarSortOptionZtoa=Z-a	#
 hbui.EditorStructurePanel.button=按钮	#
-hbui.EditorStructurePanel.contentElementsLabel=内容元素	#
 hbui.EditorStructurePanel.count=第 %1$s 个，共 %2$s 个	#
 hbui.EditorStructurePanel.countLabel=计数	#
+hbui.EditorStructurePanel.deleteButton=删除按钮 	####Narration description for a button that deletes selected structures. {MaxLength=100}
+hbui.EditorStructurePanel.deleteModal.button.cancel=取消 	####Structure delete modal button label that closes the modal with no operation {MaxLength=100}
+hbui.EditorStructurePanel.deleteModal.button.confirm=立即删除 	####Structure delete modal button label that confirms delete operation {MaxLength=100}
+hbui.EditorStructurePanel.deleteModal.button.ok=确定 	####Structure delete modal button label that closes the modal with no operation {MaxLength=100}
+hbui.EditorStructurePanel.deleteModal.messageMultiple=是否确定要删除 %1$s 结构？ 	####Modal message that indicates how many structures will be deleted {MaxLength=300}
+hbui.EditorStructurePanel.deleteModal.messageSingle=是否确定要删除“%1$s”？ 	####Modal message that indicates that a specific structure with a name will be deleted {MaxLength=300}
+hbui.EditorStructurePanel.deleteModal.note=注意：已导入包的结构无法删除（移除导入包即可将其从你的结构列表中移除）。 	####Modal note that explains imported/read only structures cant be deleted {MaxLength=300}
+hbui.EditorStructurePanel.deleteModal.title=删除结构？ 	####Label a modal that opens when deleting structures. {MaxLength=100}
+hbui.EditorStructurePanel.deleteModal.warning=此操作无法撤消。 	####Modal note that warns user that deleting structures cannot be reverted {MaxLength=300}
+hbui.EditorStructurePanel.details.contentLabel=内容 	####Label for structure block contents. {MaxLength=100}
+hbui.EditorStructurePanel.details.copyId=复制 ID 到剪贴板按钮 	####Narration description for a button that copies minecraft id of the structure. {MaxLength=100}
+hbui.EditorStructurePanel.details.deleteLabel=删除 	####Label for a button that deletes the selected structure as a new one. {MaxLength=100}
+hbui.EditorStructurePanel.details.duplicateLabel=复制 	####Label for a button that duplicates selected the structure as a new one. {MaxLength=100}
+hbui.EditorStructurePanel.details.fileNameLabel=文件/独特名称 	####Label for the structure file name. {MaxLength=100}
+hbui.EditorStructurePanel.details.includeInExports=添加至导出文件 	####A flag that determines if the editor structure instance should be included in export world/project. {MaxLength=100}
+hbui.EditorStructurePanel.details.itemMenu=结构项目菜单 	####Narration text for a context menu that has structure operations. {MaxLength=100}
+hbui.EditorStructurePanel.details.minecraftIdLabel=Minecraft ID 	####Label for in game identifier for the structure. {MaxLength=100}
+hbui.EditorStructurePanel.details.nameLabel=名称 	####Label for structure display name. {MaxLength=100}
+hbui.EditorStructurePanel.details.namespaceAndSourceLabel=命名空间和来源 	####Label for an expandable button that displays structure details. {MaxLength=100}
+hbui.EditorStructurePanel.details.namespaceLabel=命名空间 	####Label for the structure namespace. {MaxLength=100}
+hbui.EditorStructurePanel.details.originLabel=初始 	####Label for structure origin input field. {MaxLength=100}
+hbui.EditorStructurePanel.details.replaceClipboardLabel=复制到剪贴板 	####Label for a button that replaces in level clipboard with the selected structure. {MaxLength=100}
+hbui.EditorStructurePanel.details.saveLabel=保存 	####Label for a button that saves modified structure changes. {MaxLength=100}
+hbui.EditorStructurePanel.details.sizeLabel=大小 	####Label for structure size input field. {MaxLength=100}
+hbui.EditorStructurePanel.details.sourceLabel=初始 	####Label for the source content the structure belongs to. {MaxLength=100}
+hbui.EditorStructurePanel.filterButton=筛选器按钮 	####Narration description for a button that filters structure lists. {MaxLength=100}
 hbui.EditorStructurePanel.filterIconTooltip=筛选	#
 hbui.EditorStructurePanel.gridViewIconTooltip=网格视图	#
 hbui.EditorStructurePanel.importLabel=导入	#
 hbui.EditorStructurePanel.listViewIconTooltip=列表视图	#
-hbui.EditorStructurePanel.nameLabel=名称	#
-hbui.EditorStructurePanel.namespaceAndSourceSectionHeader=命名空间和来源	#
 hbui.EditorStructurePanel.narration=结构面板	#
 hbui.EditorStructurePanel.newFromClipboardLabel=以剪贴板的内容新建	#
-hbui.EditorStructurePanel.originLabel=原点	#
-hbui.EditorStructurePanel.replaceClipboardLabel=复制到剪贴板	#
-hbui.EditorStructurePanel.saveLabel=保存	#
-hbui.EditorStructurePanel.sizeLabel=大小	#
 hbui.EditorStructurePanel.sortLabel=排序	#
 hbui.EditorStructurePanel.structureContentSectionHeader=结构内容	#
 hbui.EditorStructurePanel.structureItem=StructureItem	#
 hbui.EditorStructurePanel.tagsSectionHeader=标签	#
+hbui.EditorStructurePanel.toggleButton=切换按钮 	####Narration description for a button that toggles all structures to be selected or deselected. {MaxLength=100}
 hbui.EditorStructurePanel.totalBlocksLabel=区块总数	#
 hbui.EditorStructurePanel.windowTitle=建筑	#
 hbui.EditorSwitch.elementType=开关	#
@@ -3724,19 +3948,19 @@ hbui.EditorWelcomeDemo.toolSectionText7=aka.ms/EditorHowADO	#
 hbui.EditorWelcomeDemo.toolSectionTitle=控制	#
 hbui.EditorWelcomePanel.actionsTabLabel=动作	#
 hbui.EditorWelcomePanel.actionsTabText1=位于屏幕顶部的是各种操作的快捷方式。按下操作栏中的 “+” 按钮来自定义显示哪些操作。	#
-hbui.EditorWelcomePanel.actionsTabText2=位于屏幕顶部中间的是方块快捷栏。点击一次以更改活跃方块，点击两次以打开方块选取器以自定义快捷栏。	#
+hbui.EditorWelcomePanel.actionsTabText2=位于屏幕顶部中间的是方块快捷栏。点击一次以更改使用中的方块，点击两次以打开方块选取器以自定义快捷栏。	#
 hbui.EditorWelcomePanel.actionsTabText3=你可以点击右侧的快捷栏菜单按钮，创建新的快捷栏。	#
 hbui.EditorWelcomePanel.actionsTabTitle=动作	#
 hbui.EditorWelcomePanel.actionsTabTooltip=动作	#
 hbui.EditorWelcomePanel.movementTabLabel=移动	#
 hbui.EditorWelcomePanel.movementTabText1=你需要键盘和鼠标以在编辑器中移动。不建议使用触控板或控制器。	#
-hbui.EditorWelcomePanel.movementTabText2=要在编辑器中四处移动：	#
+hbui.EditorWelcomePanel.movementTabText2=若要在编辑器中移动：	#
 hbui.EditorWelcomePanel.movementTabText3=按住鼠标右键可查看四周。	#
 hbui.EditorWelcomePanel.movementTabText4=在按住鼠标右键的同时，使用 WASD 水平移动，使用 SHIFT 和空格键垂直移动。	#
 hbui.EditorWelcomePanel.movementTabTitle=移动	#
 hbui.EditorWelcomePanel.movementTabTooltip=移动	#
 hbui.EditorWelcomePanel.toolsTabLabel=工具	#
-hbui.EditorWelcomePanel.toolsTabText1=你可以在左侧栏位上找到各种工具。每个工具都可以以不同的方式编辑你的世界。	#
+hbui.EditorWelcomePanel.toolsTabText1=左侧栏位提供各种工具。每种工具都能以不同的方式编辑世界。	#
 hbui.EditorWelcomePanel.toolsTabText2=点击每个工具右上角的信息按钮（“i”），了解有关其运行方式的更多信息。	#
 hbui.EditorWelcomePanel.toolsTabTitle=工具	#
 hbui.EditorWelcomePanel.toolsTabTooltip=工具	#
@@ -3746,7 +3970,7 @@ hbui.EditorWelcomePanel.welcomeTabLinkDocs=文档	#
 hbui.EditorWelcomePanel.welcomeTabLinkFeedback=报告问题并提供反馈	#
 hbui.EditorWelcomePanel.welcomeTabText1=欢迎来到《Minecraft》编辑器测试版，这是一款旨在帮助你在基岩版中轻松创建美丽世界而设计的工具。	#
 hbui.EditorWelcomePanel.welcomeTabText2=在使用过程中，这些链接可能会对你有所帮助：	#
-hbui.EditorWelcomePanel.welcomeTabText4=要重新打开快速开始，你可以在“帮助”菜单下找到它。	#
+hbui.EditorWelcomePanel.welcomeTabText4=若要重新打开快速入门，请前往“帮助”菜单查看。	#
 hbui.EditorWelcomePanel.welcomeTabTitle=欢迎使用《Minecraft》编辑器测试版！	#
 hbui.EditorWelcomePanel.welcomeTabTooltip=简介	#
 hbui.EditorWelcomePanel.windowTitle=快速探索	#
@@ -3755,157 +3979,17 @@ hbui.EditorWindowPanel.collapseButton=“折叠面板”按钮	#
 hbui.EditorWindowPanel.dragHandle=拖动手柄	#
 hbui.EditorWindowPanel.elementType=面板	#
 hbui.EditorWindowPanel.expandButton=“展开面板”按钮	#
-hbui.BackButton.back=返回	#
-hbui.BackButton.narrationComponentType=按钮	#
-hbui.BackButton.narrationGoBack=返回	#
-hbui.Banner.closeButtonNarrationHint=向右导航以关闭此 %1$s	#
-hbui.Banner.narrationComponentTypeButton=按钮	#
-hbui.Banner.narrationComponentTypeTextBox=文本框	#
-hbui.Button.button=按钮	#
-hbui.Card.narrationComponentTypeButton=按钮	#
-hbui.Checkbox.elementType=复选框	#
-hbui.Checkbox.labelChecked=选中	#
-hbui.Checkbox.labelUnChecked=取消选中	#
-hbui.Checkbox.toggle=切换	#
-hbui.DescriptionList.progressLabel=进度	#
-hbui.Dropdown.elementType=下拉	#
-hbui.Dropdown.narrationComponentType=下拉	#
-hbui.Dropdown.narrationDisabled=已禁用	#
-hbui.Dropdown.option=选项	#
-hbui.Dropdown.selected=已选择	#
-hbui.Dropdown.stateCollapsed=崩溃的	#
-hbui.Dropdown.stateDisabled=已禁用	#
-hbui.Dropdown.toggleElementType=选项	#
-hbui.DropdownItem.disabled=已禁用	#
-hbui.DropdownItem.elementType=项目	#
-hbui.DropdownItem.select=选择	#
-hbui.DropdownItem.selected=已选择	#
-hbui.DropdownItem.unselected=未当选	#
-hbui.EmptyStateMessage.buttonSelectInputLegend=选择	#
-hbui.EmptyStateMessage.narrationTextBlock=文字方块	#
-hbui.HeroMessage.buttonEnumeration=第 %1$s 个，共 %2$s 个	#
-hbui.Link.narrationComponentType=按钮	#
-hbui.Link.open=打开	#
-hbui.Modal.backInputLegend=向后	#
-hbui.Modal.backNarration=返回按钮	#
-hbui.Modal.closeInputLegend=关闭	#
-hbui.Modal.closeNarration=关闭按钮	#
-hbui.Modal.narrationModalComponentType=模态	#
-hbui.Modal.progressPercentage=%1$s%	#
-hbui.Modal.select=选择	#
-hbui.ModalMenu.elementType=按钮	#
-hbui.ModalMenu.enumeration=第 %1$s 个，共 %2$s 个	#
-hbui.ModalMenu.modalTypeHint=下方操作列表	#
-hbui.ModalMenuDropdown.dropdown.collapsed=已折叠	#
-hbui.ModalMenuDropdown.dropdown.enumeration=第 %1$s 个，共 %2$s 个	#
-hbui.ModalMenuDropdown.dropdown.inputLegend=打开	#
-hbui.ModalMenuDropdown.dropdown.label.role=选项	#
-hbui.ModalMenuDropdown.dropdown.label.selected=已选择	#
-hbui.ModalMenuDropdown.dropdown.placeholder=选择选项...	#
-hbui.ModalMenuDropdown.dropdown.role=下拉	#
-hbui.ModalMenuDropdown.inputLegend=打开	#
-hbui.ModalMenuDropdown.narrationDisabled=已禁用	#
-hbui.ModalMenuDropdown.placeholder=选择选项...	#
-hbui.NavigationBarLayout.DebugButton.inputLegend=调试	#
-hbui.NavigationBarLayout.DebugButton.narration=调试按钮	#
-hbui.NavigationBarLayout.DeleteButton.inputLegend=删除	#
-hbui.NavigationBarLayout.DeleteButton.narration=删除按钮		####Narrating a button that says the word "Delete". Not deleting a button.
-hbui.NavigationBarLayout.FriendsButton.friends=好友	#
-hbui.NavigationBarLayout.FriendsButton.inputLegend=好友	#
-hbui.NavigationBarLayout.FriendsButton.narration=好友按钮	#
-hbui.NavigationBarLayout.MenuButton.inputLegend=菜单	#
-hbui.NavigationBarLayout.MenuButton.narration=“菜单”按钮	#
-hbui.Pagination.componentType=分页	#
-hbui.Pagination.context=水平页面选择器	#
-hbui.Pagination.contextHintGamepad=向左和向右导航以查看更多页面	#
-hbui.Pagination.contextHintMouse=左右两侧有更多的页面可浏览	#
-hbui.Pagination.currentPage=第 %1$s 页	#
-hbui.Pagination.disabled=已禁用	#
-hbui.Pagination.index=第 %1$s 页，共 %2$s %3$s 页	#
-hbui.Pagination.indexCounter=%1$s/%2$s	#
-hbui.Pagination.next=下一页是 %1$s，共 %2$s 页	#
-hbui.Pagination.nextPage=下一页，转到第 %1$s 页	#
-hbui.Pagination.nextPageDisabled=下一页，已禁用	#
-hbui.Pagination.nextPageInputLegend=下一页	#
-hbui.Pagination.nowOnPage=现位于第 %1$s 页	#
-hbui.Pagination.nowOnPageOf=现位于第 %1$s 页，共 %2$s 页	#
-hbui.Pagination.previous=上一页是 %1$s，共 %2$s 页	#
-hbui.Pagination.previousPage=上一页，转到第 %1$s 页	#
-hbui.Pagination.previousPageDisabled=上一页，已禁用	#
-hbui.Pagination.previousPageInputLegend=上一页	#
-hbui.Pagination.select=选择	#
-hbui.Pagination.selected=已选	#
-hbui.Pagination.skipNext=向前跳至第 %1$s 页	#
-hbui.Pagination.skipPrevious=向后跳至第 %1$s 页	#
-hbui.Pagination.unselected=未选择	#
-hbui.RadioBox.count=第 %1$s 个，共 %2$s 个	#
-hbui.RadioBox.disabled=禁用	#
-hbui.RadioBox.elementType=无线电	#
-hbui.RadioBox.select=选择	#
-hbui.RadioBox.selected=已选择	#
-hbui.SectionList.groupNarration=%1$s，%2$s 组，共 %3$s	#
-hbui.SideMenu.ListItem.narrationIndex=%1$s 个，共 %2$s 个	#
-hbui.SideMenu.ListItem.narrationRoleButton=按钮	#
-hbui.SideMenu.ListItem.narrationRoleMenuItem=菜单项	#
-hbui.SideMenu.ListItem.narrationSelected=已选择	#
-hbui.SideMenu.ListItem.narrationUnselected=未选择	#
-hbui.SideMenu.ListItem.selected=已选择	#
-hbui.SideMenu.narrationRoleMenu=垂直菜单	#
-hbui.SideMenu.sideMenuItem.selected=已选择	#
-hbui.Slider.availableValuesAre=可以是	#
-hbui.Slider.currentValue=当前值为	#
-hbui.Slider.disabled=滑杆已禁用	#
-hbui.Slider.elementType=滑块	#
-hbui.Slider.maxValueIs=最大值为	#
-hbui.Slider.minValueIs=最小值为	#
-hbui.Slider.narrationComponentType=滑块	#
-hbui.Slider.valueIs=是	#
-hbui.Slider.verbose.availableValuesAre=可用的值为	#
-hbui.Slider.verbose.maxValueIs=最大值为	#
-hbui.Slider.verbose.minValueIs=最小值为	#
-hbui.Slider.verbose.valueIs=所选择的值为	#
-hbui.SlidingNavigationPane.Menu.elementType=按钮	#
-hbui.SlidingNavigationPane.Menu.enumeration=第 %1$s 个，共 %2$s 个	#
-hbui.SlidingNavigationPane.Menu.select=选择	#
-hbui.Switch.elementType=开关	#
-hbui.Switch.narrationDisabled=禁用	#
-hbui.Switch.off=关闭	#
-hbui.Switch.on=打开	#
-hbui.Switch.toggle=切换	#
-hbui.TabBar.narrationComponentType=水平选项卡	#
-hbui.TabBar.narrationGroup=%1$s 选项卡组	#
-hbui.TabBar.notSelected=未选择	#
-hbui.TabBar.open=打开	#
-hbui.TabBar.selected=已选	#
-hbui.TabBar.selectedTab=第 %1$s 个，共 %2$s 个	#
-hbui.TextField.currentValue=当前值	#
-hbui.TextField.disabled=已禁用	#
-hbui.TextField.empty=空	#
-hbui.TextField.field=字段	#
-hbui.TextField.narrationComponentType=文本输入	#
-hbui.TextFieldWithButton.navigationHint=移动到此该字段右侧以进行其他操作。	#
-hbui.TextFieldWrapper.narrationComponentType=文本输入	#
-hbui.TextFieldWrapper.narrationDisabled=已禁用	#
-hbui.Toggle.count=第 %1$s 个，共 %2$s 个	#
-hbui.Toggle.narrationComponentType=“水平选择”组	#
-hbui.Toggle.narrationDisabled=禁用	#
-hbui.Toggle.narrationOptionType=选择	#
-hbui.Toggle.narrationSelected=已选择	#
-hbui.Toggle.narrationUnselected=未选择	#
-hbui.Toggle.select=选择	#
-hbui.TreeView.collapse=收齐	#
-hbui.TreeView.expand=扩建	#
-hbui.TreeView.open=打开	#
+hbui.Sample.hello=你好，%1$s！	#
 hbui.Accordion.closeInputLegend=关闭	#
 hbui.Accordion.openInputLegend=打开	#
 hbui.BackButton.back=返回	#
-hbui.BackButton.narration.backButton=返回键	#
+hbui.BackButton.narration.backButton=返回按钮	#
 hbui.BaseDropdown.close=关闭	#
 hbui.BaseDropdown.enumeration=第 %1$s 个，共 %2$s 个	#
 hbui.BaseDropdown.open=打开	#
 hbui.BaseDropdown.selected=已选择	#
-hbui.BaseDropdown.stateCollapsed=已折叠	#
-hbui.BaseDropdown.stateExpanded=已扩展	#
+hbui.BaseDropdown.stateCollapsed=崩溃的	#
+hbui.BaseDropdown.stateExpanded=扩展的	#
 hbui.BaseDropdown.toggleElementType=选项	#
 hbui.BaseSlider.currentValue=当前值为	#
 hbui.BaseSlider.elementType=滑块	#
@@ -3913,8 +3997,8 @@ hbui.BaseSlider.maxValueIs=最大值为	#
 hbui.BaseSlider.minValueIs=最小值为	#
 hbui.BaseSwitch.elementType=开关	#
 hbui.BaseSwitch.narrationDisabled=禁用	#
-hbui.BaseSwitch.off=关	#
-hbui.BaseSwitch.on=开	#
+hbui.BaseSwitch.off=关闭	#
+hbui.BaseSwitch.on=打开	#
 hbui.BaseSwitch.toggle=切换	#
 hbui.BaseTextField.addedNarration=已添加	#
 hbui.BaseTextField.deselect=取消选择	#
@@ -3924,15 +4008,14 @@ hbui.BaseTextField.removedNarration=已移除	#
 hbui.BaseTextField.replacedNarration=替换为	#
 hbui.BaseTextField.select=选择	#
 hbui.BaseTextField.selected=已选择	#
-hbui.DropdownItem.elementType=项目	#
+hbui.DropdownItem.elementType=物品	#
 hbui.DropdownItem.narrationComponentType=选项	#
 hbui.DropdownItem.select=选择	#
 hbui.DropdownItem.selected=已选择	#
 hbui.DropdownItem.unselected=未选择	#
-hbui.ScrollView.loadingState=正在加载	#
+hbui.ScrollView.loadingState=正在载入	#
 hbui.ScrollView.narrationScrollViewComponentType=内容	#
 hbui.TitleBar.Buttons.Back.inputLegend=返回	#
-hbui.TitleBar.Buttons.Back.narration=返回键	#
+hbui.TitleBar.Buttons.Back.narration=返回按钮	#
 hbui.TitleBar.Buttons.Close.inputLegend=关闭	#
-hbui.TitleBar.Buttons.Close.narration=关闭键	#
-hbui.Sample.hello=你好，%1$s！	#
+hbui.TitleBar.Buttons.Close.narration=关闭按钮	#
