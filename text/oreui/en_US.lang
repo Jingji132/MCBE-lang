@@ -35,13 +35,23 @@ hbui.AchievementDetailsRoute.reward=Reward
 hbui.AchievementDetailsRoute.title=Achievement Details
 hbui.AchievementDetailsRoute.titleNarration=Achievement Details Screen
 hbui.AchievementDetailsRoute.viewReward=View reward
-hbui.AchievementDisabledModal.closeInputLegend=Close
-hbui.AchievementDisabledModal.goBackButtonText=Go back
-hbui.AchievementDisabledModal.multipleSettingsMessageCNW=You will not be able to earn achievements in this world with your current settings. If you would like to earn achievements, change these settings before creating your world:
-hbui.AchievementDisabledModal.multipleSettingsMessageEW=You will not be able to earn achievements in this world with your current settings. If you would like to earn achievements, change these settings:
-hbui.AchievementDisabledModal.oneSettingMessageCNW=You will not be able to earn achievements in this world with your current settings. If you would like to earn achievements, change this setting before creating your world:
-hbui.AchievementDisabledModal.oneSettingMessageEW=You will not be able to earn achievements in this world with your current settings. If you would like to earn achievements, change this setting:
-hbui.AchievementDisabledModal.title=You can’t earn achievements
+hbui.AchievementDisabledModal.behaviorPacks=A behaviour pack is activated   ###Reason world will have achievements permanently disabled {MaxLength=150}
+hbui.AchievementDisabledModal.cheatsEnabled=Cheats are enabled   ###Reason world will have achievements permanently disabled {MaxLength=150}
+hbui.AchievementDisabledModal.closeButton=Close  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}
+hbui.AchievementDisabledModal.confirmButton=Create anyway  ###Primary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}
+hbui.AchievementDisabledModal.confirmButtonEW=Continue anyway  ###Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}
+hbui.AchievementDisabledModal.creativeMode=The world is created in creative mode   ###Reason world will have achievements permanently disabled {MaxLength=150}
+hbui.AchievementDisabledModal.experiments=Beta features are turned on   ###Reason world will have achievements permanently disabled {MaxLength=150}
+hbui.AchievementDisabledModal.firstParagraph=Creating a world using any of the following features will mean you won't be able to earn achievements in this world. Even if you turn these options off later, you'll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=300}
+hbui.AchievementDisabledModal.firstParagraph.singleReason=Creating a world using the following feature will mean you won’t be able to earn achievements in that world. Even if you turn this option off later, you’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements for a single reason {MaxLength=300}
+hbui.AchievementDisabledModal.firstParagraphEW=The way this world has been set up means that you won’t be able to earn achievements while playing in it. Editing the world’s settings now can’t change this. You’ll need to visit a different world to earn achievements.   ###First paragraph of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=300}
+hbui.AchievementDisabledModal.flatWorld=The world is created as a flat world   ###Reason world will have achievements permanently disabled {MaxLength=150}
+hbui.AchievementDisabledModal.goBackButton=Go back  ###Secondary button of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}
+hbui.AchievementDisabledModal.operator=The world creator has Operator privileges   ###Reason world will have achievements permanently disabled {MaxLength=150}
+hbui.AchievementDisabledModal.secondParagraph=Achievements can't be earned in this world if:   ###Second paragraph of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=150}
+hbui.AchievementDisabledModal.template=The world is built from a template   ###Reason world will have achievements permanently disabled {MaxLength=150}
+hbui.AchievementDisabledModal.title=You can’t earn achievements   ###Title of modal that appears when the user tries to create a world with settings that will permanently disabled achievements {MaxLength=40}
+hbui.AchievementDisabledModal.trial=The world creator is using the trial version of Minecraft   ###Reason world will have achievements permanently disabled {MaxLength=150}
 hbui.AchievementListItem.completed=Completed
 hbui.AchievementListItem.gamerscoreNarration=gamerscore %1$s
 hbui.AchievementListItem.groupNarration=Group %1$s of %2$s
@@ -173,7 +183,7 @@ hbui.AnnouncementModalRoute.errorNoMessage=Message not found
 hbui.AnnouncementModalRoute.errorTitle=Announcement error
 hbui.AnnouncementModalRoute.errorUnsupportedTemplate=Template not implemented
 hbui.AnnouncementModalRoute.unlock=Unlock
-hbui.BannedOrSuspendedMessage.BannedMessage.bodyFirstParagraph=You’ve been permanently banned from Minecraft’s online services. This means you can’t play on servers, join Realms, host or join multiplayer games, or use Marketplace.
+hbui.BannedOrSuspendedMessage.BannedMessage.bodyFirstParagraph=You’ve been permanently banned from Minecraft’s online services. This means you can’t play on servers, join Realms, host or join multiplayer games, or use Marketplace.	### {StrContains=Realms} {MaxLength=510}
 hbui.BannedOrSuspendedMessage.BannedMessage.bodySecondParagraph=For more information or to submit a case review, use the button below.
 hbui.BannedOrSuspendedMessage.BannedMessage.helpButton=More info
 hbui.BannedOrSuspendedMessage.BannedMessage.reasonsTitle=Reason for ban:
@@ -231,12 +241,21 @@ hbui.Bedtime.chatScreenDisabled=Chat is currently disabled
 hbui.Bedtime.chattingDisabled=Chat with other players is currently disabled on this server
 hbui.Bedtime.enumeration=%1$s of %2$s
 hbui.Bedtime.leaveBedButton=Leave bed
-hbui.Bedtime.messageAllPlayersSleeping=Sleeping through the night
-hbui.Bedtime.messageWaitingForOthersPlural=Night will be skipped when %1$s more players sleep.
-hbui.Bedtime.messageWaitingForOthersSingular=Night will be skipped when one other player sleeps.
+hbui.Bedtime.messageAllPlayersSleepingNight=Sleeping through the night	### Displayed when the player is sleeping through the night using a bed {MaxLength="100"}
+hbui.Bedtime.messageAllPlayersSleepingThunderstorm=Sleeping through the thunderstorm	### Displayed when the player is sleeping through a thunderstorm using a bed {MaxLength="150"}
+hbui.Bedtime.messageWaitingForOthersPluralNight=Night will be skipped when %1$s more players sleep.	### Displayed during night time when a player is laying in bed and waiting for more multiple other players to go to bed {MaxLength="200"}
+hbui.Bedtime.messageWaitingForOthersPluralThunderstorm=Thunderstorm will be skipped when %1$s more players sleep.	### Displayed during a thunderstorm when a player is laying in bed and waiting for more multiple other players to go to bed {MaxLength="200"}
+hbui.Bedtime.messageWaitingForOthersSingularNight=Night will be skipped when one other player sleeps. ### Displayed during night time when a player is laying in bed and waiting for one other player to go to bed {MaxLength="200"}
+hbui.Bedtime.messageWaitingForOthersSingularThunderstorm=Thunderstorm will be skipped when one other player sleeps.  ### Displayed during a thunderstorm when a player is laying in bed and waiting for one other player to go to bed {MaxLength="200"}
 hbui.Bedtime.openChatButton=Open chat
 hbui.Bedtime.sleepingNotPossibleNotWorldOwner=The 'Skip night by sleeping' setting is turned off. The owner of this world needs to turn this setting on in edit world.	###This string refers to name of a specific setting (Skip night by sleeping) in a specific screen (Edit world) of the game.{MaxLength=240}
 hbui.Bedtime.sleepingNotPossibleWorldOwner=The 'Skip night by sleeping' setting is turned off. Turn it on under advanced settings in edit world.	###This string refers to name of a specific setting (Skip night by sleeping) in specifc UI tab (advanced) a specific screen (Edit world) of the game.{MaxLength=290}
+hbui.CapeIncentiveReceivedTransientRoute.buttonEnumeration=%1$s of %2$s	### Used for narrating eg "button one of two". Large MaxLength is because this is for narration {MaxLength=1000}
+hbui.CapeIncentiveReceivedTransientRoute.continueButton=Continue	### {MaxLength=30}
+hbui.CapeIncentiveReceivedTransientRoute.dressingRoomButton=Go to Dressing Room	### Go to the Dressing Room screen, where the player may equip the cape	{MaxLength=30}
+hbui.CapeIncentiveReceivedTransientRoute.text1=You did it! You're all logged in, which means you have a fancy new Common Cape to show off. Or use it to hide among the foliage. The choice is yours.	### "You did it!" refers to the player having logged in with their Microsoft account. Common is the rarity of the cape.	{MaxLength=1000}
+hbui.CapeIncentiveReceivedTransientRoute.text2=Go to the dressing room to equip now, or continue to play capeless. It's up to you. ### "it" is the cape the player has received. Dressing room is a screen in the game where the player may equip their cosmetic items. {MaxLength=1000}
+hbui.CapeIncentiveReceivedTransientRoute.title=Nice cape you've got there	### Complimenting the player on the wearable cape they have just received for signing in. {MaxLength=60}
 hbui.ChooseRealmRoute.addNewBetaRealm=Add Beta Realm
 hbui.ChooseRealmRoute.addNewPreviewRealm=Add Preview Realm
 hbui.ChooseRealmRoute.adventure=Adventure
@@ -279,6 +298,10 @@ hbui.Common.narration.roles.button=Button
 hbui.CompareStatsRoute.header=Stat Comparison
 hbui.CompareStatsRoute.playerItemsListRole=Horizontal List
 hbui.CompareStatsRoute.playerItemsNarration=Compare stats of two players
+hbui.ConfirmDisableAchievementsModal.confirmButton=Continue anyway  ###Primary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}
+hbui.ConfirmDisableAchievementsModal.goBackButton=Go back  ###Secondary button of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}
+hbui.ConfirmDisableAchievementsModal.message=Edits made to this world mean you will no longer be able to earn achievements in it, even if you update these settings later.   ###Description for modal that appears when a user edits a world with settings that will permanently disabled achievements and tries to save (or start the world) {MaxLength=300}
+hbui.ConfirmDisableAchievementsModal.title=You can’t earn achievements   ###Title of modal that appears when the user tries to edit a world with settings that will permanently disabled achievements {MaxLength=40}
 hbui.ConnectionErrorRoute.backToMenu=Back to menu
 hbui.ControllerSpecificButtonNarration.Gamepad.A.KEYBOARD=Press A
 hbui.ControllerSpecificButtonNarration.Gamepad.A.PS=Press A
@@ -609,6 +632,7 @@ hbui.CreateNewWorld.achievementsDisabledMessages.template=Remove template
 hbui.CreateNewWorld.advanced.bonusChestDescription=Spawn close to a chest with items to get you started
 hbui.CreateNewWorld.advanced.bonusChestTitle=Bonus chest
 hbui.CreateNewWorld.advanced.copyToClipboard=Copied to clipboard
+hbui.CreateNewWorld.advanced.expandHintNarration=More options for flat world expanded below ### More options for how to generate a flat world is shown below in the UI. {MaxLength="1000"}
 hbui.CreateNewWorld.advanced.exportSettingsDescription=Some functionality may be overridden during editing session, but are fully respected when exported
 hbui.CreateNewWorld.advanced.exportSettingsHeader=Export settings
 hbui.CreateNewWorld.advanced.firesSpreadsDescription=Fire can spread between entities
@@ -661,7 +685,7 @@ hbui.CreateNewWorld.advanced.tileDropsTitle=Tile drops
 hbui.CreateNewWorld.advanced.title=Advanced settings
 hbui.CreateNewWorld.advanced.tntExplodesDescription=Red box goes boom
 hbui.CreateNewWorld.advanced.tntExplodesTitle=TNT explodes
-hbui.CreateNewWorld.advanced.useFlatWorldDescription=A completely flat world stretching into the distance
+hbui.CreateNewWorld.advanced.useFlatWorldDescription=A flat world to build up or mine down into ### Flat world is a world that is generated as completely flat. Build up as eg adding structures, mine down as in digging or mining down into the flat world. {MaxLength="100"}
 hbui.CreateNewWorld.advanced.useFlatWorldTitle=Flat world
 hbui.CreateNewWorld.advanced.vanillaWorldGeneratorDescription=Standard Minecraft world creation based on a world seed
 hbui.CreateNewWorld.advanced.vanillaWorldGeneratorLabel=Infinite world
@@ -745,7 +769,7 @@ hbui.CreateNewWorld.createOnRealmsError.crossPlatformRestricted.title=Unsupporte
 hbui.CreateNewWorld.createOnRealmsError.memberOfTooManyRealms.message=This Realm has reached this limit for how many people can be connected at the same time.
 hbui.CreateNewWorld.createOnRealmsError.memberOfTooManyRealms.title=Can't join Realm
 hbui.CreateNewWorld.createOnRealmsError.unassignedDevVersion.message=You first need to select a version you want to use.
-hbui.CreateNewWorld.createOnRealmsError.unassignedDevVersion.message2=Go to Realms Slots, select a slot, press "Edit World" and then "Dev Options" to select a version.
+hbui.CreateNewWorld.createOnRealmsError.unassignedDevVersion.message2=Go to Realms Slots, select a slot, press "Edit World" and then "Dev Options" to select a version.	### {StrContains=Realms} {MaxLength=300}
 hbui.CreateNewWorld.createOnRealmsError.unassignedDevVersion.title=Realm version is unassigned
 hbui.CreateNewWorld.createOnRealmsError.unknown.message=Please try again later.
 hbui.CreateNewWorld.createOnRealmsError.unknown.title=Something went wrong
@@ -784,6 +808,8 @@ hbui.CreateNewWorld.experimentalFeatures.addOnCreatorsDescription=For creators o
 hbui.CreateNewWorld.experimentalFeatures.addOnCreatorsTitle=Add-on creators
 hbui.CreateNewWorld.experimentalFeatures.gameplayDescription=Change the way your world works
 hbui.CreateNewWorld.experimentalFeatures.gameplayTitle=Gameplay
+hbui.CreateNewWorld.experimentalFeatures.graphicsDescription=Change the way your world looks    ### Change the way visuals of a world are viewed {MaxLength="124"}
+hbui.CreateNewWorld.experimentalFeatures.graphicsTitle=Graphics ### Visuals, Graphical {MaxLength="60"}
 hbui.CreateNewWorld.experimentalFeatures.internalTestsDescription=For developers only, will not show up in retail
 hbui.CreateNewWorld.experimentalFeatures.internalTestsTitle=Internal tests
 hbui.CreateNewWorld.experimentalFeatures.narrationComponentTypeSectionHeader=Group
@@ -889,13 +915,13 @@ hbui.CreateNewWorld.multiplayer.playerPermissionsOperatorLabel=Operator
 hbui.CreateNewWorld.multiplayer.playerPermissionsTitle=Default player permissions
 hbui.CreateNewWorld.multiplayer.playerPermissionsVisitorDescription=Visitors can only observe your world, not interact with it
 hbui.CreateNewWorld.multiplayer.playerPermissionsVisitorLabel=Visitor
-hbui.CreateNewWorld.multiplayer.playstationPlayerAccessFriendsDescription=Anyone you’ve added as a PlayStation™Network friend can join	### CertRequirement: [PlayStation™Network]
-hbui.CreateNewWorld.multiplayer.playstationPlayerAccessFriendsOfFriendsDescription=Friends of your PlayStation™Network friends can join	### CertRequirement: [PlayStation™Network]
+hbui.CreateNewWorld.multiplayer.playstationPlayerAccessFriendsDescription=Anyone you’ve added as a PlayStation™Network friend can join	### CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network]{MaxLength=3000}
+hbui.CreateNewWorld.multiplayer.playstationPlayerAccessFriendsOfFriendsDescription=Friends of your PlayStation™Network friends can join	### CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network]{MaxLength=3000}
 hbui.CreateNewWorld.multiplayer.playstationPlayerAccessInvitedDescription=Anyone you send a direct invite can join
-hbui.CreateNewWorld.multiplayer.playstationPlayerAccessTitle=PlayStation™Network friends	### CertRequirement: [PlayStation™Network]
+hbui.CreateNewWorld.multiplayer.playstationPlayerAccessTitle=PlayStation™Network friends	### CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network]{MaxLength=3000}
 hbui.CreateNewWorld.multiplayer.playStationPlusSubscriptionPromotionBody=You need it to play online
 hbui.CreateNewWorld.multiplayer.playStationPlusSubscriptionPromotionButtonLabel=More information
-hbui.CreateNewWorld.multiplayer.playStationPlusSubscriptionPromotionTitle=You don’t have a PlayStation®Plus subscription	### CertRequirement: [PlayStation®Plus]
+hbui.CreateNewWorld.multiplayer.playStationPlusSubscriptionPromotionTitle=You don’t have a PlayStation®Plus subscription	### CertRequirement:{PS4}[PlayStation®Plus] CertRequirement:{PS5}[PlayStation®Plus] CertRequirement:{PS4}[subscription] CertRequirement:{PS5}[subscription]{MaxLength=300}
 hbui.CreateNewWorld.multiplayer.settingsTitle=Settings
 hbui.CreateNewWorld.multiplayer.visibleToLanPlayersDescription=Players on your local network can join your world
 hbui.CreateNewWorld.multiplayer.visibleToLanPlayersTitle=Visible to LAN players
@@ -967,6 +993,8 @@ hbui.CreateNewWorld.resourcePacks.errorInitializationTimeoutButton=Ok
 hbui.CreateNewWorld.resourcePacks.errorInitializationTimeoutTitle=Unable to download
 hbui.CreateNewWorld.resourcePacks.errorNoStoreBody=We can't connect to Marketplace right now. Please try again later.
 hbui.CreateNewWorld.resourcePacks.errorNoStoreTitle=Connection issue
+hbui.CreateNewWorld.resourcePacks.errorNotEnoughDiskSpaceBody=Free up %1$s on your device to download "%2$s".   ###Text that informs how much storage space the user needs to free up in order to be able to download the specified pack. %1$s - file size of the resource pack; %2$s - name of the resource pack {MaxLength=100}
+hbui.CreateNewWorld.resourcePacks.errorNotEnoughDiskSpaceTitle=Not enough space ###Title of modal which informs user that they do not have enough disc/storage space on the device {MaxLength=50}
 hbui.CreateNewWorld.resourcePacks.errorPluginRemovalBody=Removing behavior packs with a plugin might break the world and cause you to lose what you created.
 hbui.CreateNewWorld.resourcePacks.errorPluginRemovalTitle=Action not allowed.
 hbui.CreateNewWorld.resourcePacks.errorReadingBody=The game could not proceed reading this pack because it’s corrupted. Deleting and downloading again might solve the issue.
@@ -1042,9 +1070,9 @@ hbui.CreateNewWorld.signInPromptWorldOnRealmModal.cancel=Cancel
 hbui.CreateNewWorld.signInPromptWorldOnRealmModal.msaGuestCreateWorld.message=You need a Microsoft account to create a world on Realms. ### {StrContains="Realms"}
 hbui.CreateNewWorld.signInPromptWorldOnRealmModal.msaGuestEditWorld.message=You need a Microsoft account to play on Realms. ### {StrContains="Realms"}
 hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestCreate.nintendo.message=You need to be signed in to your Nintendo Account to create a world on Realms. ### {StrContains="Realms"}
-hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestCreate.playStation.message=You need to be signed in to your account for PlayStation™Network to create a world on Realms.	### CertRequirement: [account for PlayStation™Network] ### {StrContains="Realms"}
+hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestCreate.playStation.message=You need to be signed in to your account for PlayStation™Network to create a world on Realms.	### CertRequirement:{PS4}[account for PlayStation™Network] CertRequirement:{PS5}[account for PlayStation™Network] ### {StrContains="Realms"}{MaxLength=3000}
 hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestEdit.nintendo.message=You need to be signed in to your Nintendo Account to play on Realms. ### {StrContains="Realms"}
-hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestEdit.playStation.message=You need to be signed in to your account for PlayStation™Network to play on Realms.	### CertRequirement: [account for PlayStation™Network] ### {StrContains="Realms"}
+hbui.CreateNewWorld.signInPromptWorldOnRealmModal.platformGuestEdit.playStation.message=You need to be signed in to your account for PlayStation™Network to play on Realms.	### CertRequirement:{PS4}[account for PlayStation™Network] CertRequirement:{PS5}[account for PlayStation™Network] ### {StrContains="Realms"}{MaxLength=3000}
 hbui.CreateNewWorld.signInPromptWorldOnRealmModal.signIn=Sign in
 hbui.CreateNewWorld.signInPromptWorldOnRealmModal.title=Sign in required
 hbui.CreateNewWorld.tabContainerNarrationSuffix=Vertical Sub Menu
@@ -1071,16 +1099,19 @@ hbui.CreateNewWorldSideMenu.multiplayerTabLabel=Multiplayer
 hbui.CreateNewWorldSideMenu.narrationCreateButtonHint=Create a %1$s world on %2$s difficulty named "%3$s". Navigate to select other options.
 hbui.CreateNewWorldSideMenu.resourcePacksTabLabel=Resource packs
 hbui.CreateNewWorldSideMenu.scriptingCodingTabLabel=Scripting & coding
-hbui.CreatePartyRoute.createPartyHeader=Create party ### Create Party page title. For the purposes of this feature, a Party is a group of players joining up to  play together.
-hbui.CreatePartyRoute.friendsTitle=Friends (%1$s) ### The header for a list of Player List Items containing the user's friends
-hbui.CreatePartyRoute.inviteOnly=Invite only ### The title for a state where players can only join the party if invited
-hbui.CreatePartyRoute.inviteOnlyDescription=Players must be invited to join party. ### Describes the invite only state
-hbui.CreatePartyRoute.maxPartyExplanation=A party can have up to 15 players. ### Description explaining the maximum size of a party
-hbui.CreatePartyRoute.open=Open ### The title for a state where anyone can join the party
-hbui.CreatePartyRoute.openDescription=Players don't need to be invited to join party. ### Describes the Open state
-hbui.CreatePartyRoute.partyPrivacy=Party Privacy ### Title for the toggle which controls the party privacy state
-hbui.CreatePartyRoute.partySettings=Party Settings ### title of the side bar which contains the party settings options
-hbui.CreatePartyRoute.recentlyPlayedWithTitle=Recently Played With ### The header for a list of Player List Items containing players the user has recently played with
+hbui.CreatePartyRoute.createPartyHeader=Create party ### Create Party page title.  (Party here refers to a group of players) {MaxLength=50}
+hbui.CreatePartyRoute.friendsTitle=Friends ### The header for a list of Player List Items containing the user's friends (Party here refers to a group of players) {MaxLength=50}
+hbui.CreatePartyRoute.inviteOnly=Invite only ### The title for a state where players can only join the party if invited (Party here refers to a group of players) {MaxLength=30}
+hbui.CreatePartyRoute.inviteOnlyDescription=Players must be invited to join party. ### Describes the invite only state (Party here refers to a group of players) {MaxLength=120}
+hbui.CreatePartyRoute.maxPartyExplanation=A party can have up to 15 players. ### Description explaining the maximum size of a party (Party here refers to a group of players) {MaxLength=120}
+hbui.CreatePartyRoute.narration.createParty=Create Party ### narration stating the name of the Create party screen (Party here refers to a group of players) {MaxLength=1000}
+hbui.CreatePartyRoute.narration.screen=screen ### narration stating that the user is in a screen (Party here refers to a group of players) {MaxLength=1000}
+hbui.CreatePartyRoute.narration.verticalMenu=vertical menu ### narration stating that the user is in a vertical menu (Party here refers to a group of players) {MaxLength=1000}
+hbui.CreatePartyRoute.open=Open ### The title for a state where anyone can join the party (Party here refers to a group of players) {MaxLength=30}
+hbui.CreatePartyRoute.openDescription=Everyone can join. ### Describes the Open state (Party here refers to a group of players) {MaxLength=120}
+hbui.CreatePartyRoute.partyPrivacy=Party privacy ### Title for the toggle which controls the party privacy state (Party here refers to a group of players) {MaxLength=30}
+hbui.CreatePartyRoute.partySettings=Party settings ### title of the side bar which contains the party settings options {MaxLength="30"}
+hbui.CreatePartyRoute.recentlyPlayedWithTitle=Recently played with ### The header for a list of Player List Items containing players the user has recently played with (Party here refers to a group of players) {MaxLength=50}
 hbui.DebugDrawer.closeButtonNarrationHint=Use arrow down for additional actions
 hbui.DebugDrawer.closeDrawerShortcutInputLegend=Close
 hbui.DebugDrawer.title=Debug
@@ -1097,7 +1128,7 @@ hbui.EditWorld.clearPlayerDataErrorModal.description=Please try again later.
 hbui.EditWorld.clearPlayerDataErrorModal.title=Something went wrong
 hbui.EditWorld.clearPlayerDataModal.allButton=Delete all player data
 hbui.EditWorld.clearPlayerDataModal.descriptionOne=Select "Delete all player data" to delete absolutely all player data from the world. The next time any player enters the world, they will start with fresh, default data.
-hbui.EditWorld.clearPlayerDataModal.descriptionTwo=Selecting "Keep owning player data", will retain your current data (such as inventory items & location) and apply it the 'World Owner'. This is any player that loads the world locally or the owner of a realm it's on.
+hbui.EditWorld.clearPlayerDataModal.descriptionTwo=Selecting "Keep owning player data", will retain your current data (such as inventory items & location) and apply it the 'World Owner'. This is any player that loads the world locally or the owner of a Realm it's on.	### {MaxLength=650}
 hbui.EditWorld.clearPlayerDataModal.keepButton=Keep owning player data
 hbui.EditWorld.clearPlayerDataModal.title=Delete player data from world?
 hbui.EditWorld.clearPlayerDataToast=Data successfully erased
@@ -1160,6 +1191,10 @@ hbui.EditWorldSideMenu.narrationPlayButtonHint=Play your %1$s world on %2$s diff
 hbui.EditWorldSideMenu.play=Play
 hbui.EditWorldSideMenu.playOnRealm=Play on Realms	### {StrContains="Realms"}
 hbui.EmptyFriendList.noFriendsCaption=Let's add some friends!
+hbui.EndHostingMultiplayerSessionModal.cancel=Cancel ### Text of button to cancel joining another game, so the player stays in the current session {MaxLength="50"}
+hbui.EndHostingMultiplayerSessionModal.continue=Continue ### Text of button to continue joining another game, ending the current multiplayer session {MaxLength="50"}
+hbui.EndHostingMultiplayerSessionModal.text=You are the host, if you leave this world the multiplayer session will also end. ###  Text of modal warning that joining another game will cause current multiplayer session to end. {MaxLength="340"}
+hbui.EndHostingMultiplayerSessionModal.title=End multiplayer session? ###  Title of modal warning that joining another game will cause current multiplayer session to end. {MaxLength="40"}
 hbui.ErrorModal.goBack=Go back
 hbui.ErrorModal.goingBack=Going back to the previous screen...
 hbui.ErrorModal.title=An error has occurred
@@ -1167,6 +1202,12 @@ hbui.ExportWorld.error.incorrectWorldID.title=You can not export a world that do
 hbui.ExportWorld.error.needToRemoveVRHeadset.title=Please disconnect your VR device and try again
 hbui.ExportWorld.error.unknownError.title=Something went wrong. Please try again later
 hbui.FirstTimeSignInRoute.createAccountPrompt=Don't have a Microsoft account? Create one now - for free!
+hbui.FirstTimeSignInRoute.incentivizedSignInButton=Sign in and get my cape	### On clicking this button, the player will sign in to their Microsoft account and be granted a cape {MaxLength=25}
+hbui.FirstTimeSignInRoute.incentivizedSignInPrompt1=Sign in with your Microsoft account and receive an exclusive cape as a free gift!	### The cape is an item the player can wear on their model in-game, given to the player as a reward for signing in here with their Microsoft account. {MaxLength=1000}
+hbui.FirstTimeSignInRoute.incentivizedSignInPrompt2=On top of that, you'll get access to the full range of online features:	### "That" refers to the free cape they are given by signing in here. Signing in is what gives them access to the online features. {MaxLength=1000}
+hbui.FirstTimeSignInRoute.incentivizedSignInPrompt3=Limit 1 per Microsoft account. Offer valid May 6th, 2025 at 9 a.m. Pacific Time through May 6th, 2026 at 9 a.m. Pacific Time. Terms apply:	### Limit of one cape reward per microsoft account. The terms apply to the offer, and are not presented here in full but are linked to. {MaxLength=1000}
+hbui.FirstTimeSignInRoute.incentivizedSignInPrompt4=See full terms here	### A link that, when clicked, will send the user to an external webpage to view the full terms for the free cape offer. {MaxLength=1000}
+hbui.FirstTimeSignInRoute.incentivizedSignInPromptFeature1=A free Common Cape, to help you fit into the world of Minecraft	### The cape is the item the player is receiving for signing in here. Common refers to rarity. {MaxLength=1000}
 hbui.FirstTimeSignInRoute.laterButton=Maybe later
 hbui.FirstTimeSignInRoute.notNowButton=Not now
 hbui.FirstTimeSignInRoute.signInButton=Sign in now
@@ -1178,6 +1219,32 @@ hbui.FirstTimeSignInRoute.signInList3=Join hundreds of other players in unique s
 hbui.FirstTimeSignInRoute.signInList3PS=Join hundreds of other players in unique featured server experiences
 hbui.FirstTimeSignInRoute.signInList4=Access your Marketplace content and characters across multiple platforms
 hbui.FirstTimeSignInRoute.signInPrompt=Sign in with your Microsoft account now to unlock a variety of features, including:
+hbui.FlatWorld.description=The layers of blocks that make up your flat world    ### The Minecraft block layers used to generate a flat world, eg layer of stone and a layer of bedrock. {MaxLength="1000"}
+hbui.FlatWorld.designPreviewInputLegend=Select   ### Button legend for feedback button. {MaxLength="1000"}
+hbui.FlatWorld.designPreviewShortDescription=Tell us what you think of this new design!   ### Description below feedback button. {MaxLength="1000"}
+hbui.FlatWorld.feedbackButton=Give feedback   ### Text on feedback button {MaxLength="20"}
+hbui.FlatWorld.height=Height    ### Block height, eg 3 blocks high. {MaxLength="20"}
+hbui.FlatWorld.layers=Layers    ### Material layers, eg layer of stone. {MaxLength="20"}
+hbui.FlatWorld.material=Material    ### Minecraft material, eg stone, redstone block or dirt. {MaxLength="30"}
+hbui.FlatWorld.narration.dropdownHint=Layer material below    ### Below the content the player is focused on in the UI we show the material that the layers consists of, eg layer of stone. {MaxLength="1000"}
+hbui.FlatWorld.narration.dropdownHintEditWorldOff=Flat world can’t be switched on    ### Flat world setting can't be turned on. {MaxLength="1000"}
+hbui.FlatWorld.narration.dropdownHintEditWorldOn=Flat world can’t be switched off. Layer material below    ### Flat world setting can't be turned off. Below the content the player is focused on in the UI we show the material that the layers consists of, eg layer of stone. {MaxLength="1000"}
+hbui.FlatWorld.narration.height=Height    ### Block height, eg 3 blocks high. {MaxLength="1000"}
+hbui.FlatWorld.narration.layer=Layer %1$s   ### Material layer, eg layer of stone. {MaxLength="1000"}
+hbui.FlatWorld.narration.material=Material    ### Minecraft material, eg stone, redstone block or dirt. {MaxLength="1000"}
+hbui.FlatWorld.narration.switchHintOff=Flat World Presets dropdown hidden until flat world is enabled     ### Flat world is a world that is generated as completely flat, preset is a predetermined composition of layers and materials for this generation. {MaxLength="1000"}
+hbui.FlatWorld.narration.switchHintOffEditWorld=Flat world can’t be switched on    ### Flat world setting can't be turned on. {MaxLength="1000"}
+hbui.FlatWorld.narration.switchHintOn=Flat World Presets dropdown is shown     ### Flat world is a world that is generated as completely flat, preset is a predetermined composition of layers and materials for this generation. {MaxLength="1000"}
+hbui.FlatWorld.narration.switchHintOnEditWorld=Flat world can’t be switched off    ### Flat world setting can't be turned off. {MaxLength="1000"}
+hbui.FlatWorld.preset.bottomlessPit=Bottomless Pit   ### Flat world preset name. {MaxLength="20"}
+hbui.FlatWorld.preset.classicFlat=Classic Flat   ### Flat world preset name. {MaxLength="20"}
+hbui.FlatWorld.preset.desert=Desert   ### Flat world preset name. {MaxLength="20"}
+hbui.FlatWorld.preset.overworld=Overworld   ### Flat world preset name. {MaxLength="20"}
+hbui.FlatWorld.preset.redstoneReady=Redstone Ready   ### Flat world preset name. {MaxLength="20"}
+hbui.FlatWorld.preset.snowyKingdom=Snowy Kingdom   ### Flat world preset name. {MaxLength="20"}
+hbui.FlatWorld.preset.tunnelersDream=Tunneler's Dream   ### Flat world preset name. {MaxLength="20"}
+hbui.FlatWorld.preset.waterWorld=Water World   ### Flat world preset name. {MaxLength="20"}
+hbui.FlatWorld.title=Flat world preset ### Flat world is a world that is generated as completely flat, preset is a predetermined composition of layers and materials for this generation. {MaxLength="40"}
 hbui.FriendList.favoriteFriendsNumberMultiple=%1$s friends favorite
 hbui.FriendList.favoriteFriendsNumberSingular=%1$s friend favorite
 hbui.FriendList.favorites=Favorites (%1$s/%2$s)
@@ -1187,21 +1254,21 @@ hbui.FriendList.mutualFriendsFriendsNumberSingular=%1$s friend
 hbui.FriendList.narration.favorites=Favorite friends
 hbui.FriendList.narration.friends=Friends
 hbui.FriendList.narration.offline=Offline Friends
-hbui.FriendList.narration.offline.playstation=Offline PlayStation™Network friends	### CertRequirement: [PlayStation™Network]
+hbui.FriendList.narration.offline.playstation=Offline PlayStation™Network friends	### CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network]{MaxLength=3000}
 hbui.FriendList.narration.offline.switch=Offline Friends
 hbui.FriendList.narration.online=Online Friends
-hbui.FriendList.narration.online.playstation=Online PlayStation™Network Friends	### CertRequirement: [PlayStation™Network]
+hbui.FriendList.narration.online.playstation=Online PlayStation™Network Friends	### CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network]{MaxLength=3000}
 hbui.FriendList.narration.online.switch=Online Nintendo Friends
 hbui.FriendList.noFriends=All your friends hade been added as favorites!
 hbui.FriendList.noOfflineFriends=All your friends are online!
 hbui.FriendList.noOnlineFriends=No friends are online
 hbui.FriendList.offline=Offline (%1$s)
-hbui.FriendList.offline.playstation=Offline PSN™ friends (%1$s) ### CertRequirement: [PSN™]
+hbui.FriendList.offline.playstation=Offline PSN™ friends (%1$s) ### CertRequirement:{PS4}[PSN™] CertRequirement:{PS5}[PSN™]{MaxLength=3000}
 hbui.FriendList.offline.switch=Offline Nintendo friends (%1$s)
 hbui.FriendList.offlineFriendsNumberMultiple=%1$s friends offline
 hbui.FriendList.offlineFriendsNumberSingular=%1$s friend offline
 hbui.FriendList.online=Online (%1$s)
-hbui.FriendList.online.playstation=Online PSN™ friends (%1$s)	### CertRequirement: [PSN™]
+hbui.FriendList.online.playstation=Online PSN™ friends (%1$s)	### CertRequirement:{PS4}[PSN™] CertRequirement:{PS5}[PSN™]{MaxLength=3000}
 hbui.FriendList.online.switch=Online Nintendo friends (%1$s)
 hbui.FriendList.onlineFriendsNumberMultiple=%1$s friends online
 hbui.FriendList.onlineFriendsNumberSingular=%1$s friend online
@@ -1273,7 +1340,15 @@ hbui.GenericErrorMessageModal.title=Something went wrong	### Something went wron
 hbui.GetMoreButton.buttonNarration=Button
 hbui.GetMoreButton.inputLegend=Discover
 hbui.GuidedCreateWorldRoute.title=Guided World Creation
+hbui.HasMarketplacePassModal.body=Realms Plus includes Marketplace Pass content. We suggest that you cancel your Marketplace Pass subscription after signing up for Realms Plus.	### {StrContains="Realms Plus"} {StrContains="Marketplace Pass"} {MaxLength="200"} content for a modal suggesting users to cancel their marketplace pass after purchasing a realms plus subscription
+hbui.HasMarketplacePassModal.goBack=Go Back	### {MaxLength="10"} cancel button content for a modal suggesting users to cancel their marketplace pass after purchasing a realms plus subscription
+hbui.HasMarketplacePassModal.purchase=Purchase	### {MaxLength="10"} confirm button content for a modal suggesting users to cancel their marketplace pass after purchasing a realms plus subscription
+hbui.HasMarketplacePassModal.select=Select	### {MaxLength="10"} input legend when hovering over interactable UI elements for a modal suggesting users to cancel their marketplace pass after purchasing a realms plus subscription
+hbui.HasMarketplacePassModal.title=Subscription overlap	### {MaxLength="30"} title of a modal suggesting users to cancel their marketplace pass after purchasing a realms plus subscription
+hbui.HasMarketplacePassModal.understand=I understand	### {MaxLength="15"} checkbox caption inside a modal suggesting users to cancel their marketplace pass after purchasing a realms plus subscription
 hbui.HeroItem.role=TextBlock
+hbui.IdleScreenRoute.text=You’ve been away for a bit. Press any button to jump back into the game	### A message that appears when the player is in game and away from keyboard {MaxLength=73}
+hbui.InboxContentItem.narration.createdBy=By %1$s
 hbui.InboxContentItem.view=View
 hbui.InboxListItem.accept=Accept
 hbui.InboxListItem.delete=Delete
@@ -1393,11 +1468,14 @@ hbui.InboxSettingsRoute.onlyShowFriends=Only show invites from friends
 hbui.InboxSettingsRoute.showInvites=Enable invite badge alerts
 hbui.InboxSettingsRoute.showMessages=Enable message badge alerts
 hbui.InboxSettingsRoute.title=Inbox Settings
+hbui.InviteToPartyRoute.friendsTitle=Friends ### The header for a list of Player List Items containing the user's friends. (Party here refers to a group of players) {MaxLength=50}
+hbui.InviteToPartyRoute.inviteToPartyHeader=Invite to party ### Invite to party page title (Party here refers to a group of players) {MaxLength=50}
+hbui.InviteToPartyRoute.recentlyPlayedWithTitle=Recently Played With ### The header for a list of Player List Items containing players the user has recently played with
 hbui.JoinRealmsServer.buttonEnumeration=%1$s of %2$s
 hbui.JoinRealmsServer.helpButtonLabel=Help
 hbui.JoinRealmsServer.inputDescription=Enter the invite link you received to join a Realm.
 hbui.JoinRealmsServer.inputLabel=Invite link
-hbui.JoinRealmsServer.inputPlaceholder=Example: realms.gg/lCb-aaSCYBk
+hbui.JoinRealmsServer.inputPlaceholder=Example: realms.gg/lCb-aaSCYBk	### 'realms.gg/lCb-aaSCYBk' is a link {StrContains="Realms"} {MaxLength=90}
 hbui.JoinRealmsServer.joinButtonLabel=Join
 hbui.JoinRealmsServer.linkBoxNarrationName=Vertical panel
 hbui.JoinRealmsServer.linkBoxNarrationRole=Group
@@ -1447,15 +1525,11 @@ hbui.JoinRealmsServerTransient.joinRealmModal=Joining Realm
 hbui.JoinRealmsServerTransient.ownerInformation=You're about to join %1$s's Realm    ### The player is about to become a member of another players Realm. {StrContains="Realm"} {MaxLength="100"}
 hbui.JoinRealmsServerTransient.successSnackbar=You joined "%1$s"!
 hbui.JoinRealmsServerTransient.title=Join %1$s    ### Join as in "Join Realm". Becoming a member of a Realm. {MaxLength="20"}
-hbui.JoinServerWarningModal.cancel=Cancel
-hbui.JoinServerWarningModal.continue=Continue
-hbui.JoinServerWarningModal.text=You are the host, if you leave this world the multiplayer session will also end.
-hbui.JoinServerWarningModal.title=End multiplayer session?
-hbui.JoinWorldBlockedModal.cancel=Go back
-hbui.JoinWorldBlockedModal.confirmation=Save and join friend
-hbui.JoinWorldBlockedModal.message_p1=Joining a friend means leaving your current world.
-hbui.JoinWorldBlockedModal.message_p2=Don’t worry, it will all be here when you get back.
-hbui.JoinWorldBlockedModal.title=Leave current world?
+hbui.LeaveWorldThenJoinModal.cancel=Go back ###  Text of button to cancel joining another game, staying in your current game. {MaxLength="50"}
+hbui.LeaveWorldThenJoinModal.confirmation=Save and join friend ###  Text of button to accept joining another game and leave your current game. {MaxLength="50"}
+hbui.LeaveWorldThenJoinModal.message_p1=Joining a friend means leaving your current world.  ###  Text of modal warning that joining another game will leave your current game. {MaxLength="340"}
+hbui.LeaveWorldThenJoinModal.message_p2=Don’t worry, it will all be here when you get back.  ###  Text of modal warning that joining another game will leave your current game. {MaxLength="340"}
+hbui.LeaveWorldThenJoinModal.title=Leave current world? ###  Title of modal warning that joining another game will leave your current game. {MaxLength="40"}
 hbui.ManageShowcaseErrorModal.close=Close
 hbui.ManageShowcaseErrorModal.text=We ran into a problem saving the changes to your showcase gallery.
 hbui.ManageShowcaseErrorModal.title=Something went wrong
@@ -1488,15 +1562,57 @@ hbui.multiplayerBlockedModal.bodyMultiplayerDisabledParental=You cannot access m
 hbui.multiplayerBlockedModal.close=Close
 hbui.multiplayerBlockedModal.learnMore=Learn more
 hbui.multiplayerBlockedModal.title=Multiplayer is disabled
-hbui.MultiplayerPrivilegeBlockedModal.descriptionOnline=You cannot play multiplayer because of an account settings restriction. Manage your multiplayer settings with “Privacy & online safety” in the account settings.
-hbui.MultiplayerPrivilegeBlockedModal.descriptionParental=You cannot play on Realms because of a parental control restriction. View and manage your multiplayer settings with “Online Safety” in the parental controls. ### {StrContains="Realms"}
-hbui.MultiplayerPrivilegeBlockedModal.learnMore=Learn more
-hbui.MultiplayerPrivilegeBlockedModal.title=You need permission!
 hbui.MultiplayerTab.PlayerAccessPanel.manageMembersButton=Manage members    ### String for button that takes a realm owner to the settings page for managing the members of their Realm
 hbui.MultiplayerTab.PlayerAccessPanel.manageMembersLegend=Manage members    ### String for button that takes a realm owner to the settings page for managing the members of their Realm
 hbui.MultiplayerTab.PlayerAccessPanel.title=Player access   ### Heading for settings section that displays settings for what type of player can join/access the Realm
+hbui.NewPlayerPathRoute.CharacterSelector.character=Character	### Narration suffix to say character after each character is focused {MaxLength="30"}
+hbui.NewPlayerPathRoute.CharacterSelector.controlChangeDoesNotAffectGamePlay=Character choice does not affect gameplay	### Disclaimer under the selectable character thumbnails {MaxLength="50"}
+hbui.NewPlayerPathRoute.CharacterSelector.next=Next	### button to go to the game mode screen {MaxLength="20"}
+hbui.NewPlayerPathRoute.CharacterSelector.title=Select Character	### Title heading for the whole screen, shown a top. {MaxLength="50"}
+hbui.NewPlayerPathRoute.Difficulty.createInputLegend=Create	### Input legend that shows when selecting each difficulty card. Means that the action is create a world with the selected difficulty {MaxLength="20"}
+hbui.NewPlayerPathRoute.Difficulty.easyDescription=Hostile mobs spawn but deal less damage.	### Description for the Easy difficulty choice {MaxLength="50"}
+hbui.NewPlayerPathRoute.Difficulty.easyTitle=Easy	### Title for the Easy difficulty choice {MaxLength="20"}
+hbui.NewPlayerPathRoute.Difficulty.hardDescription=Hostile mobs spawn and deal more damage.	### Description for the Hard difficulty choice {MaxLength="50"}
+hbui.NewPlayerPathRoute.Difficulty.hardTitle=Hard	### Title for the Hard difficulty choice {MaxLength="20"}
+hbui.NewPlayerPathRoute.Difficulty.normalDescription=Hostile mobs spawn and deal standard damage.	### Description for the Normal difficulty choice {MaxLength="50"}
+hbui.NewPlayerPathRoute.Difficulty.normalTitle=Normal	### Title for the Normal difficulty choice {MaxLength="20"}
+hbui.NewPlayerPathRoute.Difficulty.peacefulDescription=No hostile mobs and only some neutral mobs spawn.	### Description for the Peaceful difficulty choice {MaxLength="50"}
+hbui.NewPlayerPathRoute.Difficulty.peacefulTitle=Peaceful	### Title for the Peaceful difficulty choice {MaxLength="20"}
+hbui.NewPlayerPathRoute.Difficulty.title=Survival Difficulty	### Title survival difficulty screen. Shown as the top header {MaxLength="30"}
+hbui.NewPlayerPathRoute.Mode.creativeDescription=Build and explore without limits. You can fly, have endless materials, and can’t be hurt by monsters.	### Description for the creative mode choice {MaxLength="105"}
+hbui.NewPlayerPathRoute.Mode.creativeInputLegend=Play	### Input legend for when having the creative card focused {MaxLength="20"}
+hbui.NewPlayerPathRoute.Mode.creativeTitle=Creative	### Title for the creative game mode card {MaxLength="20"}
+hbui.NewPlayerPathRoute.Mode.survivalDescription=Explore a mysterious world where you build, collect, craft, and fight monsters.	### Survival card description on the Game Mode screen {MaxLength="105"}
+hbui.NewPlayerPathRoute.Mode.survivalInputLegend=Select	### Input legend for when having the survival game mode card focused {MaxLength="20"}
+hbui.NewPlayerPathRoute.Mode.survivalTitle=Survival	### Title for the survival game mode card {MaxLength="30"}
+hbui.NewPlayerPathRoute.Mode.title=Game Mode	### Title for the game mode screen. Shown atop. {MaxLength="30"}
+hbui.NewPlayerPathRoute.SkipButton.skip=Skip	### button to go skip this screen {MaxLength="20"}
+hbui.NewPlayerPathRoute.Summary.controlClassicLabel=D-Pad & tap	### tag test for d-pad & tap {MaxLength="20"}
+hbui.NewPlayerPathRoute.Summary.controlCrosshairLabel=Joystick & crosshair	### tag test for joystick & crosshair {MaxLength="20"}
+hbui.NewPlayerPathRoute.Summary.controlTouchLabel=Joystick & tap	### tag test for joystick & tap {MaxLength="20"}
+hbui.NewPlayerPathRoute.Summary.creative=Creative	### Text for the game mode Creative summary tag {MaxLength="50"}
+hbui.NewPlayerPathRoute.Summary.creative.heading=Let’s play Creative mode! ### Heading for summary content {MaxLength="50"}
+hbui.NewPlayerPathRoute.Summary.creative.paragraph1=Build with unlimited resources, fly around, and never worry about dying.	### First paragraph explaining creative mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.creative.paragraph2=Create your way.	### Second paragraph explaining creative mode {MaxLength="30"}
+hbui.NewPlayerPathRoute.Summary.easy=Easy	### Easy tag text {MaxLength="20}
+hbui.NewPlayerPathRoute.Summary.hard=Hard	### Hard tag text {MaxLength="20}
+hbui.NewPlayerPathRoute.Summary.normal=Normal	### Normal tag text {MaxLength="20}
+hbui.NewPlayerPathRoute.Summary.peaceful=Peaceful	### Peaceful tag text {MaxLength="20}
+hbui.NewPlayerPathRoute.Summary.playMinecraft=Play Minecraft	### Text for hero play button {MaxLength="30"}
+hbui.NewPlayerPathRoute.Summary.survival=Survival	### Survival game mode tag text {MaxLength="20"}
+hbui.NewPlayerPathRoute.Summary.survival.easy.paragraph1=Explore a world full of mysteries to uncover.	### First paragraph explaining survival easy mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.survival.easy.paragraph2=This world is set to Easy - monsters deal less damage. But they can still hurt you.	### Second paragraph explaining survival easy mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.survival.hard.paragraph1=Explore a world full of dangerous monsters and mysteries to uncover.	### First paragraph explaining survival hard mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.survival.hard.paragraph2=This world is set to Hard - you’ll take more damage from monsters.	### Second paragraph explaining survival hard mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.survival.heading=Jump into Survival mode!	### Heading for summary content {MaxLength="50"}
+hbui.NewPlayerPathRoute.Summary.survival.normal.paragraph1=Explore a world full of dangerous monsters and mysteries to uncover.	### First paragraph explaining survival normal mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.survival.normal.paragraph2=This world is set to Normal - monsters will pursue you, but you can handle them.	### Second paragraph explaining survival normal mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.survival.peaceful.paragraph1=Explore a world full of mysteries to uncover.	### First paragraph explaining survival peaceful mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.survival.peaceful.paragraph2=This world is set to Peaceful - explore without fear, safe from monsters.	### Second paragraph explaining survival peaceful mode {MaxLength="100"}
+hbui.NewPlayerPathRoute.Summary.title=Ready to play	### Title for summary screen {MaxLength="50"}
+hbui.NewPlayerPathRoute.TouchControlSelectionRoute.skip=Skip	### button to go skip this screen {MaxLength="20"}
 hbui.NoInternetModal.button=Close ### Close as in closing a modal. {MaxLength="50"}
-hbui.NoInternetModal.text=You're offline. Please check your internet connection to access online features.	###  Player is not connected to the internet, he is offline. {MaxLength="340"}
+hbui.NoInternetModal.text=You're offline. Please check your internet connection to access online features. ###  Player is not connected to the internet, he is offline. {MaxLength="340"}
 hbui.NoInternetModal.title=No internet	###  Player is not connected to the internet. {MaxLength="40"}
 hbui.Notifications.achievementsDisabled=You can’t earn achievements.
 hbui.Notifications.addonStacking=Stacking multiple Add-Ons.    ### {MaxLength="80"}
@@ -1576,8 +1692,22 @@ hbui.PacksLoadingModal.title=Downloading...
 hbui.PackTabs.activeTabButtonLabel=Active
 hbui.PackTabs.availableTabButtonLabel=Available
 hbui.PackTabs.narration.tab=%1$s, tab %2$s of %3$s
+hbui.PartyInviteListGroup.titleWithLength=%1$s (%2$s) ### the title of a list followed by the number of items in the list. The number is in brackets.
+hbui.PartyTab.invited=Invited ### list header title for list of invited players {MaxLength=35}
+hbui.PartyTab.inviteOnlyParty=Invite only party ### list header title for list of players in the party indicating that players can only join the party when invited {MaxLength=35}
+hbui.PartyTab.joinableParties=Joinable parties ### list header title for list of other player's parties that are available for you to join {MaxLength=35}
+hbui.PartyTab.openParty=Open party ### list header title for list of players in the party indicating that the party is open to all players {MaxLength=35}
+hbui.PartyTab.optionsForPlayer=Options for %1$s ### title for a menu of actions related to a player {MaxLength=35}
+hbui.PartyTab.PlayerOptionsMenu.addFriend=Add friend ### menu option allowing you to add a player as a friend {MaxLength=45}
+hbui.PartyTab.PlayerOptionsMenu.mute=Mute ### menu option allowing you to mute a player {MaxLength=45}
+hbui.PartyTab.PlayerOptionsMenu.optionsEnumeration=%1$s of %2$s ### narration value showing placement in a list {MaxLength=1000}
+hbui.PartyTab.PlayerOptionsMenu.promoteToLeader=Promote to leader ### menu option allowing you to promote a player to the leader position {MaxLength=45}
+hbui.PartyTab.PlayerOptionsMenu.removeFromParty=Remove from party ### menu option allowing you to remove a player from the party (Party here refers to a group of players) {MaxLength=45}
+hbui.PartyTab.PlayerOptionsMenu.sendMessage=Send message ### menu option allowing you to send a message to a player {MaxLength=45}
+hbui.PartyTab.receivedInvites=Received invites ### list header title for list of players who have invited you to join their party {MaxLength=35}
+hbui.Patchnote.narration.textBlockRole=TextBlock	### The role of the UI element being narrated, referring to a quantity of text (not text being deflected) {MaxLength=1000}
 hbui.PlayerAvatarsOnlineInWorld.full=Full
-hbui.PlayerBannedModalRoute.body=You have been %1$s from playing multiplayer in Minecraft due to "%2$s". You won't be able to play on servers, join realms, host or join multiplayer games or use the marketplace.
+hbui.PlayerBannedModalRoute.body=You have been %1$s from playing multiplayer in Minecraft due to "%2$s". You won't be able to play on servers, join Realms, host or join multiplayer games or use the marketplace.	### {StrContains=Realms} {MaxLength=540}
 hbui.PlayerBannedModalRoute.body.day=You have 1 day remaining on your suspension.
 hbui.PlayerBannedModalRoute.body.days=You have %1$s days remaining on your suspension.
 hbui.PlayerBannedModalRoute.body.forever=This ban is permanent.
@@ -1626,8 +1756,10 @@ hbui.PlayerBannedModalRoute.xbox.report.realLifeInfo=Real life information and t
 hbui.PlayerBannedModalRoute.xbox.report.selfHarm=Violating community standards
 hbui.PlayerBannedModalRoute.xbox.report.sexuallyInappropriate=Topics or content of a sexual nature
 hbui.PlayerBannedModalRoute.xbox.report.sexualReference=References to sexual content & violence
+hbui.PlayerBannedModalRoute.xbox.report.sexualViolence=Topics or content of a sexual nature	###Communicated to player as reason for banning.{MaxLength="185"}
 hbui.PlayerBannedModalRoute.xbox.report.spam=Spamming for commercial purposes
 hbui.PlayerBannedModalRoute.xbox.report.terrorismOrViolentExtremism=References to hate groups, terrorist organizations, or notorious figures
+hbui.PlayerBannedModalRoute.xbox.report.unconfirmedCSE=Topics or content of a sexual nature	###Communicated to player as reason for banning.{MaxLength="185"}
 hbui.PlayerBannedModalRoute.xbox.report.unsportingBehavior=Unsporting behavior
 hbui.PlayerCard.addedButton=Added
 hbui.PlayerCard.addFriendButton=Add friend
@@ -1650,25 +1782,32 @@ hbui.PlayerListItem.addButtonText=Add
 hbui.PlayerListItem.added=Added
 hbui.PlayerListItem.away=Away
 hbui.PlayerListItem.buttonSiblings=Button %1$s of %2$s
+hbui.PlayerListItem.cancelButtonText=Cancel ### The text that appears on a button for cancelling an invite that you sent to a player {MaxLength=7}
 hbui.PlayerListItem.delete=Delete
+hbui.PlayerListItem.friendOfFriendPlaying=Mutual friend playing	### A friend of a friend is playing {MaxLength=40}
+hbui.PlayerListItem.friendOfFriendPlaying.playstation=PSN™ - Mutual friend playing  ### A friend of a friend is playing CertRequirement:{PS4}[PSN™] CertRequirement:{PS5}[PSN™] {MaxLength=40}
+hbui.PlayerListItem.friendOfFriendPlaying.switch=Switch - Mutual friend playing	### A friend of a friend is playing {MaxLength=40}
 hbui.PlayerListItem.friends=Friends
-hbui.PlayerListItem.inviteButtonInputLegend=Invite friend ### The input legend text for a button used to invite someone to a party
-hbui.PlayerListItem.inviteButtonText=Invite ### The text that appears on a button for inviting a player to a party
-hbui.PlayerListItem.invited=Invited ### The text that appears after a player has been invited to a party
+hbui.PlayerListItem.ignore=Ignore ### Label for button that hides a received invitation to join a party with another player (Party here refers to a group of players) {MaxLength=10}
+hbui.PlayerListItem.inviteButtonInputLegend=Invite friend ### The input legend text for a button used to invite someone to a party. (Party here refers to a group of players) {MaxLength=50}
+hbui.PlayerListItem.inviteButtonText=Invite ### The text that appears on a button for inviting a player to a party (Party here refers to a group of players) {MaxLength=12}
+hbui.PlayerListItem.invited=Invited ### The text that appears after a player has been invited to a party (Party here refers to a group of players) {MaxLength=30}
 hbui.PlayerListItem.join=Join
 hbui.PlayerListItem.narration.addedMutual=You are friends with this player
 hbui.PlayerListItem.narration.addedNotMutual=You added this player
 hbui.PlayerListItem.narration.additionalActionsHint=Use arrow right for additional actions
 hbui.PlayerListItem.narration.buttonRole=Button
+hbui.PlayerListItem.narration.inviteButtonText=Invite %1$s to party ### The text that appears on a button for inviting a player to a party (Party here refers to a group of players) {MaxLength=1000}
 hbui.PlayerListItem.narration.itemOrderContext=%1$s of %2$s
 hbui.PlayerListItem.narration.joinFriend=Join friends world
 hbui.PlayerListItem.narration.listItemRole=List item
+hbui.PlayerListItem.narration.playerInvited=This player has been invited ### narration on list item indicating that the player has been invited to the current party (Party here refers to a group of players) {MaxLength=1000}
 hbui.PlayerListItem.narration.playerProfileHint=Press to access player profile
 hbui.PlayerListItem.narration.receivedRequest=This player sent you a request
 hbui.PlayerListItem.narration.sentRequest=You sent a request to this player
 hbui.PlayerListItem.offline=Offline
 hbui.PlayerListItem.online=Online
-hbui.PlayerListItem.online.playstation=Online on PSN™	### CertRequirement: [PSN™]
+hbui.PlayerListItem.online.playstation=Online on PSN™	### CertRequirement:{PS4}[PSN™] CertRequirement:{PS5}[PSN™]{MaxLength=3000}
 hbui.PlayerListItem.online.switch=Online on Switch
 hbui.PlayerListItem.pending=Pending
 hbui.PlayerListItem.playingInSameWorld=Playing in this world	###Used as player status when players are in the same world {MaxLength=30}
@@ -1823,16 +1962,16 @@ hbui.PlayScreen.guestAccountMessage.bannerLogInMicrosoft=Log in or sign up to Mi
 hbui.PlayScreen.guestAccountMessage.buttonLogInMicrosoft=Log in to Microsoft account
 hbui.PlayScreen.GuestAccountMessage.nintendo.button=Log in to a Nintendo Account ### Button that is shown in an empty state when the PlayScreen when the player is not logged into a NintendoAccount. {StrContains="Nintendo Account"} {MaxLength="50"}
 hbui.PlayScreen.GuestAccountMessage.nintendo.text=Log in to a Nintendo Account to see what's here. ###  Text that is shown in an empty state when the PlayScreen when the player is not logged into a NintendoAccount. {StrContains="Nintendo Account"} {MaxLength="150"}
-hbui.PlayScreen.GuestAccountMessage.playstation.button=Log in to PlayStation™Network	### Button that is shown in an empty state when the PlayScreen when the player is not logged into the Playstation network. CertRequirement: [PlayStation™Network] {MaxLength="50"}
-hbui.PlayScreen.GuestAccountMessage.playstation.text=Log in to the PlayStation™Network to see what's here.	### Text that is shown in an empty state when the PlayScreen when the player is not logged into the Playstation network. CertRequirement: [PlayStation™Network] {MaxLength="150"}
+hbui.PlayScreen.GuestAccountMessage.playstation.button=Log in to PlayStation™Network	### Button that is shown in an empty state when the PlayScreen when the player is not logged into the Playstation network. CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network] {MaxLength="50"}
+hbui.PlayScreen.GuestAccountMessage.playstation.text=Log in to the PlayStation™Network to see what's here.	### Text that is shown in an empty state when the PlayScreen when the player is not logged into the Playstation network. CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network] {MaxLength="150"}
 hbui.PlayScreen.guestAccountMessage.realmsNoMicrosoftAccount=You need a Microsoft account to play on Realms. ### {StrContains="Realms"}
 hbui.PlayScreen.guestAccountMessage.realmsNoPlatformAccountNintendo=You need a Nintendo Account to play on Realms ### {StrContains="Realms"}
-hbui.PlayScreen.guestAccountMessage.realmsNoPlatformAccountPlaystation=You need a PlayStation™Network account to play on Realms ### CertRequirement: [PlayStation™Network] {StrContains="Realms"}
+hbui.PlayScreen.guestAccountMessage.realmsNoPlatformAccountPlaystation=You need a PlayStation™Network account to play on Realms ### CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network] {StrContains="Realms"} {MaxLength=3000}
 hbui.PlayScreen.guestAccountMessage.realmsPlaystationGuest=You need a Microsoft account to play on Realms. ### {StrContains="Realms"}
 hbui.PlayScreen.guestAccountMessage.serversNintendoGuest=You need a Microsoft account to play on servers.
 hbui.PlayScreen.guestAccountMessage.serversNoMicrosoftAccount=You need a Microsoft account to play on servers.
 hbui.PlayScreen.guestAccountMessage.serversNoPlatformAccountNintendo=You need a Nintendo Account to play on servers
-hbui.PlayScreen.guestAccountMessage.serversNoPlatformAccountPlaystation=You need a PlayStation™Network account to play on servers ### CertRequirement: [PlayStation™Network]
+hbui.PlayScreen.guestAccountMessage.serversNoPlatformAccountPlaystation=You need a PlayStation™Network account to play on servers ### CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network] {MaxLength=3000}
 hbui.PlayScreen.guestAccountMessage.serversPlaystationGuest=You need a Microsoft account and to play on servers.
 hbui.PlayScreen.importWorldErrorModal.close=Close
 hbui.PlayScreen.importWorldErrorModal.unknownError.body=There was an issue importing this world.
@@ -1901,7 +2040,7 @@ hbui.PlayScreen.outOfStorageModal.close=Close
 hbui.PlayScreen.outOfStorageModal.closeInputLegend=Close
 hbui.PlayScreen.outOfStorageModal.title=Out of storage space
 hbui.PlayScreen.PlatformMultiplayerDisabledMessage.text=Access these and other social features by enabling multiplayer in your account.
-hbui.PlayScreen.PlatformMultiplayerDisabledMessage.textForPlayStation=Communication features are disabled in your PlayStation™Network account. Access communication features by enabling it in your PlayStation™Network account.	### This is a communication requirement for PS. CertRequirement: [PlayStation™Network] {MaxLength=300}
+hbui.PlayScreen.PlatformMultiplayerDisabledMessage.textForPlayStation=Communication features are disabled in your PlayStation™Network account. Access communication features by enabling it in your PlayStation™Network account.	### This is a communication requirement for PS. CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network] {MaxLength=300}
 hbui.PlayScreen.PlatformMultiplayerDisabledMessage.title=You shall not pass
 hbui.PlayScreen.realms=Realms ### {StrContains="Realms"}
 hbui.PlayScreen.RealmsBannedMessage.Banned.bodyFirstParagraph=You’ve been banned from Minecraft’s Realms services. This means you can’t play or join Realms.	### {StrContains="Minecraft"} {StrContains="Realms"}
@@ -1983,16 +2122,16 @@ hbui.PlayScreen.realmsTab.sideMenu.joinedRealms=Joined Realms (%1$s) ### {StrCon
 hbui.PlayScreen.realmsTab.sideMenu.joinRealm=Join Realm
 hbui.PlayScreen.realmsTab.sideMenu.narration.addOrJoinRealm=Add/join Realm
 hbui.PlayScreen.realmsTab.sideMenu.narration.buttonSiblings=%1$s of %2$s
-hbui.PlayScreen.realmsTab.sideMenu.narration.context=List of Realms
-hbui.PlayScreen.realmsTab.sideMenu.narration.contextJoinedRealms=You have joined %1$s Realms
-hbui.PlayScreen.realmsTab.sideMenu.narration.contextOwnedRealms=You own %1$s Realms
+hbui.PlayScreen.realmsTab.sideMenu.narration.context=List of Realms	### {StrContains=Realms} {MaxLength=50}
+hbui.PlayScreen.realmsTab.sideMenu.narration.contextJoinedRealms=You have joined %1$s Realms	### {StrContains=Realms} {MaxLength=90}
+hbui.PlayScreen.realmsTab.sideMenu.narration.contextOwnedRealms=You own %1$s Realms	### {StrContains=Realms} {MaxLength=60}
 hbui.PlayScreen.realmsTab.sideMenu.narration.hasNotification=Notification
 hbui.PlayScreen.realmsTab.sideMenu.narration.invitations=Invitations
 hbui.PlayScreen.realmsTab.sideMenu.narration.invitationsAmount=Invitations pending %1$s
 hbui.PlayScreen.realmsTab.sideMenu.narration.onePlayerOnline=1 player online
 hbui.PlayScreen.realmsTab.sideMenu.narration.playersOnlineAmount=%1$s players online
 hbui.PlayScreen.realmsTab.sideMenu.narrationRoleMenu=Open
-hbui.PlayScreen.realmsTab.sideMenu.ownedRealms=Your Realms (%1$s)
+hbui.PlayScreen.realmsTab.sideMenu.ownedRealms=Your Realms (%1$s)	### {StrContains=Realms} {MaxLength=60}
 hbui.PlayScreen.select=Select
 hbui.PlayScreen.serverCapacity.fullLabel=Full
 hbui.PlayScreen.ServerPing.highPing=High ping
@@ -2018,8 +2157,13 @@ hbui.PlayScreen.serverTab.externalServer=Other Server (%1$s)
 hbui.PlayScreen.serverTab.externalServerDetails.address=Server address
 hbui.PlayScreen.serverTab.externalServerDetails.editBtnHint=Edit the custom server name, address or port
 hbui.PlayScreen.serverTab.externalServerDetails.editButton=Edit server
+hbui.PlayScreen.serverTab.externalServerDetails.hideButton=Hide     ### Button that appears next to the ip filed in the external server details {MaxLength=30}
+hbui.PlayScreen.serverTab.externalServerDetails.hideButtonHint=Hide server address    ### Hint for button that appears next to the ip filed in the external server details {MaxLength=30}
 hbui.PlayScreen.serverTab.externalServerDetails.name=Server name
+hbui.PlayScreen.serverTab.externalServerDetails.placeholder=XX.XXX.XXX.XXX    ### Placeholder that appears if the address is hidden {MaxLength=30}
 hbui.PlayScreen.serverTab.externalServerDetails.port=Server port
+hbui.PlayScreen.serverTab.externalServerDetails.showButton=Show     ### Button that appears next to the ip filed in the external server details {MaxLength=30}
+hbui.PlayScreen.serverTab.externalServerDetails.showButtonHint=Show server address    ### Hint for button that appears next to the ip filed in the external server details {MaxLength=30}
 hbui.PlayScreen.serverTab.featuredServer=Featured (%1$s)
 hbui.PlayScreen.serverTab.joinServerErrorModal.cancel=Close
 hbui.PlayScreen.serverTab.joinServerErrorModal.NoInternetError.message=You're not connected to internet right now. Reconnect to play on servers.
@@ -2072,6 +2216,11 @@ hbui.PlayScreen.serverTab.serverForm.serverPortInvalidValue=Value entered empty 
 hbui.PlayScreen.serverTab.serverForm.serverPortLabel=Port
 hbui.PlayScreen.serverTab.serverForm.serverPortNotWithinRange=Value entered is too high. Port number is reset to maximum value %1$s.
 hbui.PlayScreen.serverTab.ServerNotifications.highPingWarning=You don't have a strong connection to the chosen server. Your experience may be impacted.
+hbui.PlayScreen.serverTab.ShowServerAddressModal.firstParagraph=Warning: This will reveal your server address to anyone currently viewing your screen (including via streaming). If your server address is the same as your IP address, revealing it could leave you vulnerable to cyber attack.    ### Message of modal that appears to confirm that user wants to show server address {MaxLength=500}
+hbui.PlayScreen.serverTab.ShowServerAddressModal.primaryButton=Show server address    ### Primary button text of modal that appears to confirm that user wants to show server address {MaxLength=40}
+hbui.PlayScreen.serverTab.ShowServerAddressModal.secondaryButton=Go back    ### Secondary button text of modal that appears to confirm that user wants to show server address {MaxLength=40}
+hbui.PlayScreen.serverTab.ShowServerAddressModal.secondParagraph=Are you sure you want to show your server address?    ### Message of modal that appears to confirm that user wants to show server address {MaxLength=200}
+hbui.PlayScreen.serverTab.ShowServerAddressModal.title=Revealing private data    ### Title of modal that appears to confirm that user wants to show server address {MaxLength=60}
 hbui.PlayScreen.serverTab.sideMenuInputLegend=Open
 hbui.PlayScreen.serverTab.unsavedAddChanges.discardChangesButton=Go back without saving
 hbui.PlayScreen.serverTab.unsavedAddChanges.discardChangesButtonInputLegend=Go back
@@ -2102,10 +2251,6 @@ hbui.PlayScreen.templateScreenNotAvailableInPreview.select=Select
 hbui.PlayScreen.templateScreenNotAvailableInPreview.text=Create from template is only available in the release version of Minecraft.
 hbui.PlayScreen.templateScreenNotAvailableInPreview.title=Not available
 hbui.PlayScreen.title=Play
-hbui.PlayScreen.underConstructionMessage=We're still working on this feature. Check back soon!
-hbui.PlayScreen.underConstructionMessageRealmsAvailable=Looks like you've got a Realms subscription! We're still working on bringing Realms to the new menu design — please use the old UI for now. ### {StrContains="Realms"}
-hbui.PlayScreen.underConstructionMessageRealmsUnavailable=Realms is available in the old UI. We're still working on bringing it to the new menu design — please use the old UI for now. ### {StrContains="Realms"}
-hbui.PlayScreen.underConstructionTitle=Under construction
 hbui.PlayScreen.unexpectedLaunchErrorModal.body=There was a problem loading this world.
 hbui.PlayScreen.unexpectedLaunchErrorModal.body2=Error code: %1$s
 hbui.PlayScreen.unexpectedLaunchErrorModal.close=Close
@@ -2135,7 +2280,7 @@ hbui.PostToRealmStoriesRoute.accessDenied.button=Learn more
 hbui.PostToRealmStoriesRoute.accessDenied.message=You do not have permissions to share your screenshots. Go to “Online safety” and set “You can upload captures to Xbox” to allow.
 hbui.PostToRealmStoriesRoute.accessDenied.title=Access denied
 hbui.PostToRealmStoriesRoute.noRealmsFound.button=Learn more about Realms ### {StrContains="Realms"}
-hbui.PostToRealmStoriesRoute.noRealmsFound.title=No Realms found
+hbui.PostToRealmStoriesRoute.noRealmsFound.title=No Realms found	### {StrContains=Realms} {MaxLength=50}
 hbui.PostToRealmStoriesRoute.realmsCantLoad.button=Try again
 hbui.PostToRealmStoriesRoute.realmsCantLoad.message=We encountered an unknown error, please try again.
 hbui.PostToRealmStoriesRoute.realmsCantLoad.title=Realms can't load! ### {StrContains="Realms"}
@@ -2200,7 +2345,7 @@ hbui.ProfileRoute.noInternetErrorMessage=You're not connected to the internet ri
 hbui.ProfileRoute.notLoggedInMSAErrorMessage=Please sign in to a Microsoft account to view player profiles.
 hbui.ProfileRoute.overviewTabButtonLabel=Overview
 hbui.ProfileRoute.platformOnlyProfileErrorMessage=Player profiles require a Microsoft account.
-hbui.ProfileRoute.playStationAccount=PlayStation™Network	### CertRequirement: [PlayStation™Network]
+hbui.ProfileRoute.playStationAccount=PlayStation™Network	### CertRequirement:{PS4}[PlayStation™Network] CertRequirement:{PS5}[PlayStation™Network] {MaxLength=3000}
 hbui.ProfileRoute.profileUnavailableErrorTitle=Profile Unavailable
 hbui.ProfileRoute.replaceFeaturedMessage=Replace your current featured screenshot with this new one?
 hbui.ProfileRoute.replaceFeaturedTitle=Feature confirmation
@@ -2221,24 +2366,6 @@ hbui.ProgressSpinnerModal.title=Loading
 hbui.PromoListItem.enumeration=%1$s of %2$s
 hbui.PromoListItem.role=Textblock
 hbui.PurchaseRealmOnRetailBanner.text=Realms subscriptions can be purchased in the full version of Minecraft.    ### {StrContains="Realms"}
-hbui.QuickWorldCreationRoute.Difficulty.createInputLegend=Create
-hbui.QuickWorldCreationRoute.Difficulty.easyDescription=Hostile mobs spawn but deal less damage.
-hbui.QuickWorldCreationRoute.Difficulty.easyTitle=Easy
-hbui.QuickWorldCreationRoute.Difficulty.hardDescription=Hostile mobs spawn and deal more damage.
-hbui.QuickWorldCreationRoute.Difficulty.hardTitle=Hard
-hbui.QuickWorldCreationRoute.Difficulty.inputLegend=Play
-hbui.QuickWorldCreationRoute.Difficulty.normalDescription=Hostile mobs spawn and deal standard damage.
-hbui.QuickWorldCreationRoute.Difficulty.normalTitle=Normal
-hbui.QuickWorldCreationRoute.Difficulty.peacefulDescription=No hostile mobs and only some neutral mobs spawn.
-hbui.QuickWorldCreationRoute.Difficulty.peacefulTitle=Peaceful
-hbui.QuickWorldCreationRoute.Difficulty.title=Survival Difficulty
-hbui.QuickWorldCreationRoute.Mode.creativeDescription=Build and explore without limits. You can fly, have endless materials, and can’t be hurt by monsters.
-hbui.QuickWorldCreationRoute.Mode.creativeInputLegend=Play
-hbui.QuickWorldCreationRoute.Mode.creativeTitle=Creative
-hbui.QuickWorldCreationRoute.Mode.survivalDescription=Explore a mysterious world where you build, collect, craft, and fight monsters.
-hbui.QuickWorldCreationRoute.Mode.survivalInputLegend=Select
-hbui.QuickWorldCreationRoute.Mode.survivalTitle=Survival
-hbui.QuickWorldCreationRoute.Mode.title=Game Mode
 hbui.RealmListItem.enumeration=%1$s of %2$s
 hbui.RealmListItem.joinedRealm=Joined Realm
 hbui.RealmListItem.lastPlayed=Last Played
@@ -2267,6 +2394,14 @@ hbui.Realms.LoadingModals.fetchingRealmInformation=Fetching Realm information...
 hbui.Realms.LoadingModals.fetchingSubscriptionInformation=Fetching subscription information...
 hbui.Realms.LoadingModals.loading=Loading...
 hbui.Realms.LoadingModals.loadingRealmsStories=Loading Realms Stories... ### {StrContains="Realms Stories"}
+hbui.RealmsMultiplayerPrivilegeBlockedModal.getHelp=Get help fixing this	### {MaxLength="50"}
+hbui.RealmsMultiplayerPrivilegeBlockedModal.goBack=Go back	### {MaxLength="10"}
+hbui.RealmsMultiplayerPrivilegeBlockedModal.others=You cannot play Realms because of how your Microsoft account is set up. Please ensure your online safety setting allow Multiplayer. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.	### {MaxLength="250"}
+hbui.RealmsMultiplayerPrivilegeBlockedModal.others.xbox=You cannot play Realms because of how your Microsoft account is set up. Please ensure your online safety settings allow Multiplayer and you have an active Xbox Game Pass subscription. See instructions for changing these settings at aka.ms/MCMultiplayerHelp.	### {MaxLength="300"}
+hbui.RealmsMultiplayerPrivilegeBlockedModal.Platform_NintendoSwitch=You cannot play online multiplayer because of a Parental Control restriction. View and manage your multiplayer settings with “Communicating With Others” in the Parental Controls.	### {MaxLength="200"}
+hbui.RealmsMultiplayerPrivilegeBlockedModal.Platform_PlayStation=Communication features are disabled in your PlayStation™Network account. Access communication features by enabling it in your PlayStation™Network account.	### {MaxLength="200"}
+hbui.RealmsMultiplayerPrivilegeBlockedModal.select=Select	### {MaxLength="10"}
+hbui.RealmsMultiplayerPrivilegeBlockedModal.title=You need permission	### {MaxLength="50"}
 hbui.RealmsNewStoryImageSelectRoute.cancel=Cancel
 hbui.RealmsNewStoryImageSelectRoute.deleteScreenshotsLabel.plural=Delete %1$s screenshots
 hbui.RealmsNewStoryImageSelectRoute.deleteScreenshotsLabel.single=Delete %1$s screenshot
@@ -2309,8 +2444,6 @@ hbui.RealmsNewStoryRoute.textBoxPlaceholder=Write your story...
 hbui.RealmsPDPFAQAccordion.clickToExpand=Click to expand
 hbui.RealmsPDPFAQAccordion.enumeration=%1$s of %2$s
 hbui.RealmsPDPFAQAccordion.textBlock=Textblock
-hbui.RealmsPDPScreen.banner.notLoggedIn.link=Log in or Sign up
-hbui.RealmsPDPScreen.banner.notLoggedIn.title=You need a Microsoft account to play on Realms.    ### {StrContains="Realms"}
 hbui.RealmsPDPScreen.FAQ.Cost.description1=You can subscribe to a Realms plan:  ### {StrContains="Realms"}
 hbui.RealmsPDPScreen.FAQ.Cost.description2=Realms Core plan: %1$s per month. Add infinite members, play online with 2 other players at the same time.   ### {StrContains="Realms Core"}
 hbui.RealmsPDPScreen.FAQ.Cost.description3=Realms Plus plan: %1$s per month. Add infinite members, play online with 10 other players at the same time. Plus, enjoy over 150 pieces of Marketplace content from the Marketplace Pass catalog for free.   ### {StrContains="Realms Plus"} {StrContains="Marketplace Pass"}
@@ -2408,7 +2541,11 @@ hbui.RealmsPurchaseSubscriptionRoute.banner.subheading.narration=%1$s monthly fe
 hbui.RealmsPurchaseSubscriptionRoute.banner.subheading.trial=Free 30-day trial, then %1$s/month
 hbui.RealmsPurchaseSubscriptionRoute.banner.subheading.trial.narration=Free 30-day trial, then %1$s monthly fee
 hbui.RealmsPurchaseSubscriptionRoute.checkboxLabel=I agree
-hbui.RealmsPurchaseSubscriptionRoute.checkboxUncheckedHint=Accept terms and conditions in order to create a realm   ### {StrContains="Realm"}
+hbui.RealmsPurchaseSubscriptionRoute.checkboxUncheckedHint=Accept terms and conditions in order to create a Realm   ### {StrContains="Realm"} {MaxLength=170}
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.appStoreNotReady.body=Log in to your Apple Account to continue with this purchase.	### modal text telling players that they have to sign in to the Apple AppStore before they can continue with the Realm purchase {MaxLength="100"}
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.appStoreNotReady.cancel=Go back	### text on the cancel button of the modal that tells players that they have to sign in to the Apple AppStore before they can continue with the Realm purchase {MaxLength="10"}
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.appStoreNotReady.confirm=Sign in to Store	### text on the confirm button of the modal that tells players that they have to sign in to the Apple AppStore before they can continue with the Realm purchase {MaxLength="20"}
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.appStoreNotReady.title=Log in to continue	### title of the modal that tells players that they have to sign in to the Apple AppStore before they can continue with the Realm purchase {MaxLength="20"}
 hbui.RealmsPurchaseSubscriptionRoute.ErrorModals.close=Close
 hbui.RealmsPurchaseSubscriptionRoute.errorModals.failedClubNameValidation.body=The text you entered contains words that others may find offensive and cannot be used. Please try again.
 hbui.RealmsPurchaseSubscriptionRoute.errorModals.failedClubNameValidation.title=Profanity filter
@@ -2416,10 +2553,15 @@ hbui.RealmsPurchaseSubscriptionRoute.errorModals.genericFailure.body=Your purcha
 hbui.RealmsPurchaseSubscriptionRoute.errorModals.genericFailure.title=Something went wrong
 hbui.RealmsPurchaseSubscriptionRoute.errorModals.invalidRealmName.body=The Realm name you entered is invalid. Please make sure this field is filled and does not contain any special characters.
 hbui.RealmsPurchaseSubscriptionRoute.errorModals.invalidRealmName.title=Invalid Realm name
-hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.core.body=This purchase could not be processed because you have reached the limit for Realms Core subscriptions on this platform.
-hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.core.title=Realms Core subscriptions maxed out
-hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.plus.body=This purchase could not be processed because you have reached the limit for Realms Plus subscriptions on this platform.
-hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.plus.title=Realms Plus subscriptions maxed out
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.memberOfTooManyRealms.body=You are a member of too many Realms. Leave any old Realms to purchase a new Realms subscription.	### {StrContains=Realms} {MaxLength="150"} message saying that the player has been a member of too many Realms and thus cannot create more Realms
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.memberOfTooManyRealms.cancel=Go back	### {MaxLength="10"} the button text of the modal saying that the player has been a member of too many Realms
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.memberOfTooManyRealms.title=Too many memberships	### {MaxLength="25"} the title of the modal saying that the player has been a member of too many Realms
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.noAccess.body=You do not have access to Realms in pre-production. To get access, reach out in #ask-realms-preprod-access or see the guide at aka.ms/Realms-preprod-access. ### {StrContains=Realms} {MaxLength="160"} message saying that the player has no access to Realms and where to request for help (for devs only)
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.noAccess.title=Error ### {MaxLength="5"} the title of the modal saying that the player has no access to Realms
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.core.body=This purchase could not be processed because you have reached the limit for Realms Core subscriptions on this platform.	### {StrContains=Realms} {MaxLength=360}
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.core.title=Realms Core subscriptions maxed out	### {StrContains=Realms} {MaxLength=110}
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.plus.body=This purchase could not be processed because you have reached the limit for Realms Plus subscriptions on this platform.	### {StrContains=Realms} {MaxLength=360}
+hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.plus.title=Realms Plus subscriptions maxed out	### {StrContains=Realms} {MaxLength=110}
 hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.trial.body=This purchase could not be processed because the free trial is no longer available for this account.
 hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableAllOffersOccupied.trial.title=Trial offer unavailable
 hbui.RealmsPurchaseSubscriptionRoute.errorModals.offerNotAvailableIncompleteData.body=Your device lost connection to the store and we can't confirm this offer is still available. Please check your internet connection or try again later.
@@ -2435,7 +2577,7 @@ hbui.RealmsPurchaseSubscriptionRoute.heroButton.create=Create for %1$s per month
 hbui.RealmsPurchaseSubscriptionRoute.heroButton.renew=Renew for %1$s per month
 hbui.RealmsPurchaseSubscriptionRoute.heroButton.trial=Start free trial
 hbui.RealmsPurchaseSubscriptionRoute.inputLabel=Realm name
-hbui.RealmsPurchaseSubscriptionRoute.inputLabel.hint=You can rename your realm after realm creation ### {StrContains="Realm"}
+hbui.RealmsPurchaseSubscriptionRoute.inputLabel.hint=You can rename your Realm after Realm creation ### {StrContains="Realm"}{MaxLength=140}
 hbui.RealmsPurchaseSubscriptionRoute.inputLabel.role=Text input
 hbui.RealmsPurchaseSubscriptionRoute.inputPlaceholder=%1$s's Realm
 hbui.RealmsPurchaseSubscriptionRoute.modals.purchaseInProgress=Processing
@@ -2445,7 +2587,7 @@ hbui.RealmsPurchaseSubscriptionRoute.panelButton.role=Group
 hbui.RealmsPurchaseSubscriptionRoute.panelButton.termsAndConditions=Terms & conditions
 hbui.RealmsPurchaseSubscriptionRoute.panelButton.title=Terms and conditions
 hbui.RealmsPurchaseSubscriptionRoute.purchaseButton.disabled=disabled
-hbui.RealmsPurchaseSubscriptionRoute.purchaseButton.disabled.hint=You need to accept terms and condition above in order to create a realm   ### {StrContains="Realm"}
+hbui.RealmsPurchaseSubscriptionRoute.purchaseButton.disabled.hint=You need to accept terms and condition above in order to create a Realm   ### {StrContains="Realm"}{MaxLength=220}
 hbui.RealmsPurchaseSubscriptionRoute.screen=Screen
 hbui.RealmsPurchaseSubscriptionRoute.select=Select
 hbui.RealmsPurchaseSubscriptionRoute.termsAndConditionsTextBlock.enum=%1$s of %2$s
@@ -2473,11 +2615,11 @@ hbui.RealmsStories.DeleteScreenshotsModal.message.single=This will delete the sc
 hbui.RealmsStories.DeleteScreenshotsModal.title.plural=Delete %1$s screenshots?
 hbui.RealmsStories.DeleteScreenshotsModal.title.single=Delete screenshot?
 hbui.RealmsStories.errorMessageTitle=Realm Data could not load.
-hbui.RealmsStories.errorModal.commentPostFailedMessage=Your comment failed to post on this realm story.
+hbui.RealmsStories.errorModal.commentPostFailedMessage=Your comment failed to post on this Realm story.	### {MaxLength=150}
 hbui.RealmsStories.errorModal.continue=Continue
 hbui.RealmsStories.errorModal.defaultErrorMessage=An error has occurred.
 hbui.RealmsStories.errorModal.header=Realms Stories error ### {StrContains="Realms Stories"}
-hbui.RealmsStories.errorModal.storyPostFailedMessage=Your story failed to post to this realm's feed.
+hbui.RealmsStories.errorModal.storyPostFailedMessage=Your story failed to post to this Realm's feed.	### {MaxLength=150}
 hbui.RealmsStories.feed=Feed
 hbui.RealmsStories.feed.addStory=Add Story	### The term 'Story' represents a social feature, similar to a 'Post' on social media. Translations should use a term more fitting for a social posting rather than a story book, for example. {MaxLength='15'}
 hbui.RealmsStories.feed.emptyPlayerActivityFeed=No recent activity
@@ -2621,7 +2763,7 @@ hbui.RealmsStories.header=%1$s Stories
 hbui.RealmsStories.home=Home
 hbui.RealmsStories.home.banner.NewStories=There were %1$s new stories while you were away!!
 hbui.RealmsStories.home.banner.NewStory=There was a new story while you were away!
-hbui.RealmsStories.home.banner.Welcome=Welcome to Realms Stories
+hbui.RealmsStories.home.banner.Welcome=Welcome to Realms Stories	### {StrContains=Realms} {MaxLength=80}
 hbui.RealmsStories.invitePlayerToRealm=Invite player to Realm
 hbui.RealmsStories.likePost=Like post
 hbui.RealmsStories.members=Members
@@ -2654,7 +2796,7 @@ hbui.RealmsStories.members.visitor=Visitor
 hbui.RealmsStories.members.warning=This Realm is too popular to list all the members
 hbui.RealmsStories.members.warning.optedOut=This Realm is too popular to list all opted-out members
 hbui.RealmsStories.messages.button=Try again
-hbui.RealmsStories.messages.noInternetBody=You're not connected to the internet right now. Reconnect to access Realms Stories.
+hbui.RealmsStories.messages.noInternetBody=You're not connected to the internet right now. Reconnect to access Realms Stories.	### {StrContains=Realms} {MaxLength=250}
 hbui.RealmsStories.messages.timelineEmpty.body=Play on the Realm to generate Timeline data.
 hbui.RealmsStories.messages.timelineEmpty.title=No data available
 hbui.RealmsStories.messages.timelineOff.body=The Realm owner has disabled the Timeline on this Realm.
@@ -2704,7 +2846,7 @@ hbui.RealmsStories.OptInScreen.maybeLaterButton=Maybe later
 hbui.RealmsStories.OptInScreen.optInButton=I want to opt in
 hbui.RealmsStories.OptInScreen.optInButton.hint=This will opt you into Realms Stories ### {StrContains="Realms Stories"}
 hbui.RealmsStories.OptInScreen.screen=Screen
-hbui.RealmsStories.OptInScreen.title=Do you want to join Realms Stories?
+hbui.RealmsStories.OptInScreen.title=Do you want to join Realms Stories?	### {StrContains=Realms} {MaxLength=110}
 hbui.RealmsStories.OptInScreen.title.suffix=title
 hbui.RealmsStories.OptOutModal.cancel=No, I don't want to opt out
 hbui.RealmsStories.OptOutModal.confirm=Yes, opt out
@@ -2929,7 +3071,7 @@ hbui.ScreenshotDetailsSideMenu.next=Next
 hbui.ScreenshotDetailsSideMenu.optionsEnumeration=%1$s of %2$s
 hbui.ScreenshotDetailsSideMenu.personalize=Personalize
 hbui.ScreenshotDetailsSideMenu.personalizeHint=Share this screenshot on your profile, showcase or set as a world thumbnail.
-hbui.ScreenshotDetailsSideMenu.postToStories=Post to Realms Stories
+hbui.ScreenshotDetailsSideMenu.postToStories=Post to Realms Stories	### {StrContains=Realms} {MaxLength=70}
 hbui.ScreenshotDetailsSideMenu.prev=Previous
 hbui.ScreenshotDetailsSideMenu.report=Report
 hbui.ScreenshotDetailsSideMenu.saveToXboxAccount=Save to Xbox account
@@ -2972,7 +3114,7 @@ hbui.ScreenshotGalleryError.learnMore=Learn more
 hbui.ScreenshotGalleryError.loadErrorMessage=We encountered an unknown error, please try again.
 hbui.ScreenshotGalleryError.loadErrorTitle=Screenshot Gallery can't load!
 hbui.ScreenshotGalleryError.noRealmsFoundMessage=Create world on Realm Server
-hbui.ScreenshotGalleryError.noRealmsFoundTitle=No Realms found
+hbui.ScreenshotGalleryError.noRealmsFoundTitle=No Realms found	### {StrContains=Realms} {MaxLength=50}
 hbui.ScreenshotGalleryError.notLoggedInMessage=Please sign in to your Microsoft account to take screenshots and view screenshots galleries.
 hbui.ScreenshotGalleryError.notLoggedInTitle=Gallery unavailable
 hbui.ScreenshotGalleryError.pleaseTryAgain=Please try again later.
@@ -3087,6 +3229,15 @@ hbui.SignInWorldsFriendsServersRoute.signInList3=Join hundreds of other players 
 hbui.SignInWorldsFriendsServersRoute.signInList3PS=Join hundreds of other players in unique featured server experiences
 hbui.SignInWorldsFriendsServersRoute.signInList4=Access your Marketplace content and characters across multiple platforms
 hbui.SignInWorldsFriendsServersRoute.signInPrompt=Sign in with your Microsoft account now to unlock a variety of features, including:
+hbui.SocialDrawer.narration.title=Social Drawer ### Social Drawer title used for narrations
+hbui.SocialDrawer.partyTabButtonLabel=Party ### Tab button that shows people in the party section {MaxLength=13}
+hbui.SocialDrawer.peopleTabButtonLabel=People (%1$s) ### Tab button that shows people in the friends section followed by the number of friends online {MaxLength=13}
+hbui.SocialDrawerHeader.close=Close ### input legend for a textless button that closes the social drawer
+hbui.SocialDrawerHeader.narration.close=Close ### narration for a textless button that closes the social drawer
+hbui.SocialDrawerHeader.narration.search=Search for people . Button . Find people by searching for their gamertag ### narration for a textless button that opens the Search for Players screen
+hbui.SocialDrawerHeader.narration.socialSettings=Social settings ### narration for a textless button that opens the social drawer's settings menu
+hbui.SocialDrawerHeader.searchForPeople=Search for people ### Text for a button that links to the search for players screen {MaxLength=20}
+hbui.SocialDrawerHeader.socialSettings=Social settings ### input legend for a textless button that opens the social drawer's settings menu
 hbui.Splash.enumeration=%1$s of %2$s
 hbui.Splash.role=Textblock
 hbui.Splash.select=Select
@@ -3190,14 +3341,23 @@ hbui.StartFromTemplateRoute.useTemplateOperations.importNotification=Template im
 hbui.StatListItem.compareNarration=%1$s vs. %2$s
 hbui.StatListItem.itemNarration=%1$s of %2$s
 hbui.StorageIndicator.bytes=%1$s Bytes
-hbui.StorageIndicator.fullStorageTag=Full Storage
 hbui.StorageIndicator.gigabytes=%1$sGB
 hbui.StorageIndicator.kilobytes=%1$sKB
 hbui.StorageIndicator.megabytes=%1$sMB
 hbui.StorageIndicator.petabytes=%1$sPB
-hbui.StorageIndicator.settings=Settings
+hbui.StorageIndicator.storage=Go to storage	### Button that redirects the user to storage settings menu {MaxLength=20}
+hbui.StorageIndicator.storageLabelAlmostFullCreateWorld=Storage almost full. Delete data from Settings to create a world.	###Label used to warn players that storage is almost full and they cannot create a world {MaxLength=80}
+hbui.StorageIndicator.storageLabelAlmostFullEnterWorld=Storage almost full. Delete data from Settings to enter a world.	###Label used to warn players that storage is almost full and they cannot enter a world {MaxLength=80}
+hbui.StorageIndicator.storageLabelFullCreateWorld=Storage is full. Delete data from Settings to create a world.	###Label used to warn players that storage is full and they cannot create a world {MaxLength=80}
+hbui.StorageIndicator.storageLabelFullEnterWorld=Storage is full. Delete data from Settings to enter a world.	###Label used to warn players that storage is full and they cannot enter a world {MaxLength=80}
 hbui.StorageIndicator.storageSpace=%1$s used out of %2$s
 hbui.StorageIndicator.terabytes=%1$sTB
+hbui.SwitchAccordion.closeInputLegend=Close    ### Close an unfolded UI element. {MaxLength="16"}
+hbui.SwitchAccordion.narrationComponentType=Switch    ### UI element, behaves like a physical switch button. {MaxLength="1000"}
+hbui.SwitchAccordion.narrationCountLabel=%1$s - (%2$s)     ### Number x of n . {MaxLength="1000"}
+hbui.SwitchAccordion.openInputLegend=Open    ### Open a folded UI element. {MaxLength="16"}
+hbui.SwitchAccordion.stateCollapsed=Collapsed    ### Collapsed UI element. {MaxLength="16"}
+hbui.SwitchAccordion.stateExpanded=Expanded   ### Expanded UI element. {MaxLength="16"}
 hbui.TemplateCard.button=Button
 hbui.TemplateCard.componentRole=Template
 hbui.TemplateCard.creator=by %1$s
@@ -3304,7 +3464,7 @@ hbui.TrialModeMessage.serversMessage=Discover servers that offer unique Minecraf
 hbui.TrialModeMessage.title=Unlock the full experience
 hbui.TrialModeModal.buyMinecraft=Buy Minecraft
 hbui.TrialModeModal.firstParagraph=Trial mode is just the tip of the iceberg. Upgrade to the full version of the game and play online with friends on any other platform.
-hbui.TrialModeModal.secondParagraph=Build without restrictions in Creative mode, set up private and persistent Realms with your friends and download content packs to make the game truly yours.
+hbui.TrialModeModal.secondParagraph=Build without restrictions in Creative mode, set up private and persistent Realms with your friends and download content packs to make the game truly yours.	### {StrContains=Realms} {MaxLength=470}
 hbui.TrialModeModal.thirdParagraph=All this and more in the full version!
 hbui.TrialModeModal.title=Unlock the full experience
 hbui.useCaptureScreenshotInfo.controlHint.gamepad=While in game, press the %1$s buttons at the same time or use the camera button in the game menu to take a screenshot.
@@ -3317,12 +3477,18 @@ hbui.useCaptureScreenshotInfo.emptyGalleryTitle=No screenshots available
 hbui.useCaptureScreenshotInfo.plus=+
 hbui.Vanilla.ErrorModal.closeButton=Close
 hbui.VanillaScreenLayout.narration.title=%1$s Screen
+hbui.WideAnnouncementModal.back=Back	### As in to go back to the screen the user was on before the modal appeared above it {MaxLength=20}
+hbui.WideAnnouncementModal.narration.button=Button	### As in the UI element that can be clicked {MaxLength=1000}
+hbui.WideAnnouncementModal.narration.close=Close	### As in to close a modal/window {MaxLength=1000}
+hbui.WideAnnouncementModal.narration.modal=Modal	### As in the UI component, same as hbui.Modal.narrationModalComponentType {MaxLength=1000}
 hbui.WorldCard.button=Button
 hbui.WorldCard.edit=Edit
 hbui.WorldCard.multiplayerDisabled=Multiplayer disabled
 hbui.WorldCard.multiplayerWorldOffline=World offline
 hbui.WorldCard.narration.buttonSiblings=Button %1$s of %2$s
 hbui.WorldCard.narration.componentRole=World
+hbui.WorldCard.narration.componentRoleLan=LAN World    ### Minecraft LAN World {MaxLength=35}
+hbui.WorldCard.narration.componentRoleLocal=World    ### Minecraft World {MaxLength=30}
 hbui.WorldCard.narration.edit=Edit
 hbui.WorldCard.narration.gridAmountContext=%1$s of %2$s
 hbui.WorldCard.narration.play=Play
@@ -3335,15 +3501,27 @@ hbui.WorldListItem.multiplayerWorldOffline=Offline
 hbui.WorldListItem.narration.button=Button
 hbui.WorldListItem.narration.buttonSiblings=Button %1$s of %2$s
 hbui.WorldListItem.narration.componentRole=World
+hbui.WorldListItem.narration.componentRoleLan=LAN World    ### Minecraft LAN World {MaxLength=35}
+hbui.WorldListItem.narration.componentRoleLocal=World    ### Minecraft World {MaxLength=30}
 hbui.WorldListItem.narration.edit=Edit
 hbui.WorldListItem.narration.lastSaved=Last saved %1$s
 hbui.WorldListItem.narration.listLengthContext=%1$s of %2$s
 hbui.WorldListItem.narration.play=Play
 hbui.WorldListItem.narration.worldSize=World size %1$s
 hbui.WorldListItem.play=Play
+hbui.WorldSettingsButton.difficultyEasyLabel=Easy    ### Game difficulty setting. Should be the exact same translation as the one used elsewhere in the game. {MaxLength="20"}
+hbui.WorldSettingsButton.difficultyHardLabel=Hard    ### Game difficulty setting. Should be the exact same translation as the one used elsewhere in the game. {MaxLength="20"}
+hbui.WorldSettingsButton.difficultyNormalLabel=Normal    ### Game difficulty setting. Should be the exact same translation as the one used elsewhere in the game. {MaxLength="20"}
+hbui.WorldSettingsButton.difficultyPeacefulLabel=Peaceful    ### Game difficulty setting. Should be the exact same translation as the one used elsewhere in the game. {MaxLength="20"}
+hbui.WorldSettingsButton.gameModeAdventureLabel=Adventure    ### Game mode setting. Should be the exact same translation as the one used elsewhere in the game. {MaxLength="20"}
+hbui.WorldSettingsButton.gameModeCreativeLabel=Creative    ### Game mode setting. Should be the exact same translation as the one used elsewhere in the game. {MaxLength="20"}
+hbui.WorldSettingsButton.gameModeSurvivalLabel=Survival    ### Game mode setting. Should be the exact same translation as the one used elsewhere in the game. {MaxLength="20"}
+hbui.WorldSettingsButton.gameModeUnknownLabel=Unknown    ### Unknown type of Minecraft world. A known type would be eg survival or creative. {MaxLength=21}
+hbui.WorldSettingsButton.worldNamePlaceholder=My World    ### Placeholder for a world name. Should be the exact same translation as the one used in Create new world. {MaxLength="20"}
 hbui.WorldTag.adventure=Adventure
 hbui.WorldTag.creative=Creative
 hbui.WorldTag.experimental=Experimental
+hbui.WorldTag.full=Full    ### Full means that the Minecraft world is full {MaxLength=10}
 hbui.WorldTag.hardcore=Hardcore
 hbui.WorldTag.lan=LAN
 hbui.WorldTag.survival=Survival
@@ -3452,6 +3630,8 @@ hbui.EditorExpanderSample.expanderIconSample.title=Sample Expander With Icon
 hbui.EditorExpanderSample.expanderSample.text=Text inside expander
 hbui.EditorExpanderSample.expanderSample.title=Sample Expander
 hbui.EditorExpanderSample.panelTitle=Expander Sample
+hbui.EditorGraph.nodeCount=Node %1$s of %2$s ###Graph node that is interactive in appearance and functionality. Can be clicked to trigger actions and dragged to new position. {MaxLength=1000}
+hbui.EditorGraph.type=Graph ###Graph is a container that represents arbitrary data via nodes. Nodes hold the data, they are clickable and draggabe. {MaxLength=1000}
 hbui.EditorHotbar.default=Default
 hbui.EditorHotbar.manageHotbar=Manage Hotbar Menu
 hbui.EditorHotbar.manageHotbars=Manage Hotbars
@@ -3707,6 +3887,7 @@ hbui.EditorStructurePanel.importLabel=Import
 hbui.EditorStructurePanel.listViewIconTooltip=List View
 hbui.EditorStructurePanel.narration=Structure Panel
 hbui.EditorStructurePanel.newFromClipboardLabel=New from Clipboard
+hbui.EditorStructurePanel.newFromSelection=New from Selection ###Label for a button that creates a new structure from a selection {MaxLength=50}
 hbui.EditorStructurePanel.sortLabel=Sort
 hbui.EditorStructurePanel.structureContentSectionHeader=Structure Content
 hbui.EditorStructurePanel.structureItem=StructureItem
@@ -3734,6 +3915,25 @@ hbui.EditorToggleContainer.prevPage=Previous Page Button
 hbui.EditorToggleHeader.collapsed=collapsed
 hbui.EditorToggleHeader.elementType=toggle header
 hbui.EditorToolRail.title=Tool Rail
+hbui.EditorTutorial.button.begin=Begin ###Button on the tutorial modal that starts the tutorial. {MaxLength=1000}
+hbui.EditorTutorial.button.exit=Exit ###Button on the tutorial modal that completes tutorial and closes modal. {MaxLength=1000}
+hbui.EditorTutorial.button.next=Next ###Button on the tutorial modal that skips to the next tutorial stage. {MaxLength=1000}
+hbui.EditorTutorial.exit.cancel=Cancel ###Button label on the exit tutorial modal that returns user to the current tutorial stage. {MaxLength=1000}
+hbui.EditorTutorial.exit.confirm=Confirm ###Button label on the exit tutorial modal that ends tutorial. {MaxLength=1000}
+hbui.EditorTutorial.exit.message=Are you sure you want to exit the tutorial? ###Message that shows on the tutorial modal when exit button is clicked. {MaxLength=1000}
+hbui.EditorTutorial.stage.brush.activate.message=Now, let's explore the Brush Paint tool.[*newLine]Activate it by clicking %1$s on the toolrail or pressing %2$s. ###Editor tutorial message that explains how to activate brush tool from UI control or key shortcut. {MaxLength=1000} {StrContains="[*newLine]"}
+hbui.EditorTutorial.stage.brush.add.message=Hold Left Click and move the mouse to add blocks. ###Editor tutorial message that explains how to add blocks using brush tool. {MaxLength=1000}
+hbui.EditorTutorial.stage.brush.delete.message=Holding %1$s while using the Brush Paint tool removes blocks. ###Editor tutorial message that explains how to remove blocks using brush tool. {MaxLength=1000}
+hbui.EditorTutorial.stage.end.message=Great! You now know the basics of Minecraft Editor—enjoy creating your first Editor experience![*newLine]Use Test World to playtest anytime, then Export or upload to Realms to share with friends.[*newLine]For more, visit [*link|%1$s]Minecraft Editor Documentation[*link] or press the Info button on tooltips for details on specific tools. ###Message at the end of editor tutorial that indicates completion of the tutorial, shows a parameterized link to documentation and explains where to find additional information. {MaxLength=1000} {StrContains="[*newLine]"} {StrContains="[*link|%1$s]"} {StrContains="[*link]"}
+hbui.EditorTutorial.stage.hotbar.message=The hotbar sets the block for Fill operations, brushes, and more.[*newLine]Switch slots with 1-9 keys or the mouse.[*newLine]To change the block, reselect the active slot. ###Editor tutorial message that explains how hotbar is operated. {MaxLength=1000} {StrContains="[*newLine]"}
+hbui.EditorTutorial.stage.movement.message=While holding Right Click on the mouse:[*bullet]Use %1$s, %2$s, %3$s, and %4$s to move forward, backward, left and right.[*bullet]Use %5$s and %6$s to move up and down.[*bullet]Use the mouse to move the camera around the world.  ###Editor tutorial modal message about steps to execute for player movement, each step is listed as a bullet point and parameters are key shortcuts. {MaxLength=1000} {StrContains="[*bullet]"}
+hbui.EditorTutorial.stage.selection.activate.message=Let’s explore the Selection tool.[*newLine]Activate the Selection tool by clicking %1$s on the toolrail or pressing %2$s. ###Editor tutorial message that teaches how to activate selection tool with UI control or key shortcut. {MaxLength=1000} {StrContains="[*newLine]"}
+hbui.EditorTutorial.stage.selection.create.message=Left-click to set the selection start, then drag to adjust its size ###Editor tutorial text that teaches how to create a new selection in the world. {MaxLength=1000}
+hbui.EditorTutorial.stage.selection.fill.message=Click the Fill button on the Action Bar or %1$s to fill the selection with blocks. ###Editor tutorial message that explains how to fill a selection {MaxLength=1000}
+hbui.EditorTutorial.stage.selection.info.message=The Selection tool lets you move, copy, and build with precision. ###Editor tutorial message that explains general use cases of selection tool. {MaxLength=1000}
+hbui.EditorTutorial.stage.start.begin=Begin ###Button label that starts editor tutorial. {MaxLength=1000}
+hbui.EditorTutorial.stage.start.message=Welcome to Minecraft Editor, a powerful tool for creating stunning Bedrock worlds with ease.[*newLine]Things work differently in Editor and it's important that you understand a few basics first or you might get lost.[*newLine]Let's dive into the basics. ###Modal message that displays before starting editor tutorial. {MaxLength=1000} {StrContains="[*newLine]"}
+hbui.EditorTutorial.try.message=Try it out to continue... ###This text is displayed in the editor tutorial message to indicate player has to execute instruction to proceed to the next stage. {MaxLength=1000}
 hbui.EditorTypographySample.colorSectionTextSample1=Text Sample X
 hbui.EditorTypographySample.colorSectionTextSample2=Text Sample Y
 hbui.EditorTypographySample.colorSectionTextSample3=Text Sample Z
@@ -3857,6 +4057,7 @@ hbui.NavigationBarLayout.DeleteButton.narration=Delete Button	###Narrating a but
 hbui.NavigationBarLayout.FriendsButton.friends=Friends
 hbui.NavigationBarLayout.FriendsButton.inputLegend=Friends
 hbui.NavigationBarLayout.FriendsButton.narration=Friends Button
+hbui.NavigationBarLayout.FriendsButton.social=Social ### title for the button that opens the social drawer
 hbui.NavigationBarLayout.MenuButton.inputLegend=Menu
 hbui.NavigationBarLayout.MenuButton.narration=Menu Button
 hbui.Pagination.componentType=Pagination

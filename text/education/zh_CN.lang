@@ -77,7 +77,7 @@ library.noLessonsFound.body=此类别当前为空。我们一直在添加新的�
 library.tip.noAzureNotebook=Python 课程适用于 Windows 和 MacOS。	#
 library.findMoreWorlds=发现更多的世界	#
 library.leaveFeedback=留下反馈	#
-library.title=库	#
+library.title=图书馆	#
 library.searchResults=“%1”的结果	#
 library.item.createdBy=作者：%s	#
 library.item.age=年龄：%1	#
@@ -109,7 +109,7 @@ library.item.progress.body=正在下载你的世界。这可能需要几分钟�
 library.item.progress.title=正在下载世界...	#
 library.item.description=说明	#
 library.item.overview=概览	#
-library.item.expandable.readLess=折叠内容	#
+library.item.expandable.readLess=阅读较少	#
 library.item.expandable.readMore=阅读更多	#
 library.item.download.noSpace.title=空间不足	#
 library.item.download.noSpace.body=你的设备上没有足够的空间，无法下载此世界。	#
@@ -124,12 +124,12 @@ library.item.section.activities=用户活动	#
 library.item.section.assessment=评估	#
 library.item.section.extensions=延伸	#
 
-library.prompt.inGameLink=此操作将保存并退出您当前的游戏和多人游戏连接，是否确定退出？	#
-library.fetchingItem=正在连接库……	#
+library.prompt.inGameLink=此操作将保存并退出您当前的课程和多人课程连接，是否确定退出？	#
+library.fetchingItem=正在连接库…	#
 library.fetchingItem.failed=抱歉，我们无法在库中找到该物品。	#
 library.welcome.1=欢迎来到 Minecraft Education Library！	#
-library.welcome.2=这个库是我们打造的一个新功能，可以让教师和学生们方便地在游戏中找到和导入教育内容。在这个版本中，您将在我们的网站上看到我们的一些可供您导入和使用的最受欢迎的世界，以及访问完整的世界库的链接。	#
-library.welcome.3=我们正致力于在接下来的几个月中为更多类型的内容和功能添加支持。请通过点击反馈按钮让我们知道您的想法。	#
+library.welcome.2=这个库是我们打造的一个新功能，可以让教师和用户们方便地在课程中找到和导入教育内容。在这个版本中，您将在我们的网站上看到我们的一些可供您导入和使用的最受欢迎的世界，以及访问完整的世界库的链接。	#
+library.welcome.3=我们正致力于在接下来的几个月中为更多类型的内容和功能添加支持。请通过点击反馈按钮让我们知道你的想法。	#
 
 library.item.sharepopup.title.simple=共享链接	#
 library.item.sharepopup.title.educator=分配或共享	#
@@ -139,7 +139,7 @@ library.item.sharepopup.shareText.noResource.simple=共享通向这个世界的�
 library.item.sharepopup.shareText.resource.educator=您的世界已准备好分配或共享！	#
 library.item.sharepopup.shareText.resource.simple=您的世界已准备好共享！	#
 library.item.sharepopup.shareLink=分享链接	#
-library.item.sharepopup.body=分享通向这个世界的链接。	#
+library.item.sharepopup.body=共享通向这个世界的链接。	#
 library.item.sharepopup.copy=复制	#
 library.item.sharepopup.copyButton=复制链接	#
 library.item.sharepopup.addResourceButton=添加一个资源	#
@@ -157,7 +157,7 @@ library.item.sharepopup.addResource.deleteButton=删除	#
 library.item.sharepopup.addResource.invalidSchema=请输入以“http”或“https”开头的网址以继续。	#
 library.item.sharepopup.editResourceLabel=以下是我们将添加到游戏菜单的按钮预览，任何打开世界的人都可见。	#
 library.item.sharepopup.editResource.button.accessibility=编辑资源 URL	#
-library.item.share.toast.title=链接已复制到您的剪贴板。	#
+library.item.share.toast.title=链接已复制到你的剪贴板。	#
 
 library.item.share.toast.teams=已在您的网络浏览器中打开 Microsoft 团队。	#
 library.item.share.toast.email=已打开电子邮件。	#
@@ -262,7 +262,7 @@ library.category.description.computerScience.hourOfCode=编程一小时开始于
 
 library.category.label.computerScience.computingWithMinecraft=使用《我的世界》进行计算	#
 library.category.title.computerScience.computingWithMinecraft=使用《我的世界》进行计算	#
-library.category.description.computerScience.computingWithMinecraft=使用这些基于 CSTA 标准的计算机科学课程建造您自己的城市。探索基本的计算机科学概念，包括循环、算法、条件、调试、迭代等等。	#
+library.category.description.computerScience.computingWithMinecraft=使用这些基于 CSTA 标准的计算机科学课程建造你自己的城市。探索基本的计算机科学概念，包括循环、算法、条件、调试、迭代等等。	#
 
 library.category.label.computerScience.codingWithMinecraft=使用 Minecraft 进行编程	#
 library.category.title.computerScience.codingWithMinecraft=使用 Minecraft 进行编程	#
@@ -294,9 +294,9 @@ library.category.label.computerScience.python.python101=Python 入门	#
 library.category.title.computerScience.python.python101=Python 入门	#
 library.category.description.computerScience.python101=开始在 Minecraft 中用 Python 编程吧！了解 Python 的基础知识，包含语法、数据类型、变量、条件、“for”循环、条件循环、列表和函数。	#
 
-library.category.label.computerScience.python.python_islands=Python 群岛	#
+library.category.label.computerScience.python.python_islands=PYTHON 群岛	#
 library.category.title.computerScience.python.python_islands=Python 群岛	#
-library.category.description.computerScience.python.python_islands=欢迎来到浮岛王国！这个神秘的王国高高地漂浮在下方的世界之上。在这一课程集合中，学生将学习 Python 的基本知识，通过完成各个世界的一系列任务。完成这些任务，帮助王国繁荣发展！	#
+library.category.description.computerScience.python.python_islands=欢迎来到浮岛王国！这个神秘的王国高高地漂浮在下方的世界之上。在这一系列课程中，学生将通过完成各个世界的一系列主题任务来学习 Python 的基本知识。完成这些任务，帮助王国繁荣发展！	#
 
 library.category.label.computerScience.languageAgnostic=语言无关	#
 library.category.title.computerScience.languageAgnostic=语言无关	#
@@ -550,4 +550,4 @@ worlds.storage.android.settings=打开 Android 设置	#
 worlds.storage.permission.dialog.title=需要设备权限	#
 worlds.storage.missing=您的世界不见了吗？请尝试更改《我的世界》的存储位置：	#
 
-bookAndQuill.unsignedName=未签名的书	#
+bookAndQuill.unsignedName=书		####This is the name of a book without a title {MaxLength=30}

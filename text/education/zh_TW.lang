@@ -76,8 +76,8 @@ library.noLessonsFound.title=找不到課程	#
 library.noLessonsFound.body=此類別目前是空的。我們會不斷新增課程，所以請稍後再回來查看！	#
 library.tip.noAzureNotebook=Python 課程適用於 Windows 和 MacOS。	#
 library.findMoreWorlds=尋找更多世界	#
-library.leaveFeedback=離開反饋	#
-library.title=資料庫	#
+library.leaveFeedback=留下意見回饋	#
+library.title=圖書館	#
 library.searchResults=結果：「%1」	#
 library.item.createdBy=作者：%s	#
 library.item.age=年齡：%1	#
@@ -129,7 +129,7 @@ library.fetchingItem=正在連接至資料庫…	#
 library.fetchingItem.failed=很抱歉，我們在資料庫中找不到該物品。	#
 library.welcome.1=歡迎來到《Minecraft Education》資料庫！	#
 library.welcome.2=資料庫是我們建立的一種新功能，讓教師和學生可以輕鬆地尋找和直接匯入教育內容至遊戲中。在此版本中，您可以看到一份幾個我們可供匯入和使用的最熱門世界名單，還有我們網站的完整世界資料庫連結。	#
-library.welcome.3=我們正在努力，希望可以在未來幾個月內為更多內容和功能類型提供支援。請按一下意見按鈕，和我們分享您的看法。	#
+library.welcome.3=我們正在努力，希望可以在未來幾個月內為更多內容和功能類型提供支援。請按一下 [意見回饋] 按鈕，和我們分享您的看法。	#
 
 library.item.sharepopup.title.simple=分享連結	#
 library.item.sharepopup.title.educator=指派或分享	#
@@ -139,7 +139,7 @@ library.item.sharepopup.shareText.noResource.simple=分享連結至這個世界�
 library.item.sharepopup.shareText.resource.educator=您的世界已準備好指派或分享！	#
 library.item.sharepopup.shareText.resource.simple=您的世界已準備好分享！	#
 library.item.sharepopup.shareLink=分享連結	#
-library.item.sharepopup.body=分享這個世界的連結。	#
+library.item.sharepopup.body=分享連結至這個世界。	#
 library.item.sharepopup.copy=複製	#
 library.item.sharepopup.copyButton=複製連結	#
 library.item.sharepopup.addResourceButton=新增資源	#
@@ -203,7 +203,7 @@ library.category.description.digitalCitizen=這些世界和活動著重於數位
 
 library.category.label.equity_and_inclusion=公平與包容	#this has already been localized	#
 library.category.title.equity_and_inclusion=公平與包容	#this has already been localized	#
-library.category.description.equity_and_inclusion=這些世界和活動重視公平與包容。其概念包括社會正義、身份認同和寬容。	#change in capitalization only, has otherwise been localized	#
+library.category.description.equity_and_inclusion=這些世界和活動的重點是公平和包容。概念包括社會正義、身分認同和寬容。	#change in capitalization only, has otherwise been localized	#
 
 library.category.label.lessons=課程	#
 library.category.title.lessons=課程	#
@@ -258,11 +258,11 @@ library.category.title.computerScience=電腦科學	#
 
 library.category.label.computerScience.hourOfCode=一小時程式設計	#
 library.category.title.computerScience.hourOfCode=一小時程式設計	#
-library.category.description.computerScience.hourOfCode=「一小時程式設計」始於 2013 年，是一個為時一小時的電腦科學入門課程，其課程目標是為了證明所有人都可以學習編碼基礎。這些課程提供在 Minecraft 中進行編碼的有趣入門體驗，適合所有年齡層的學習者。	#
+library.category.description.computerScience.hourOfCode=「一小時程式設計」在 2013年開始，為時長一小時的電腦科學介紹，目的為讓大家學習程式設計的基本知識。這些課程提供在 Minecraft 中進行程式設計的有趣入門體驗，適合所有年齡層的學習者。	#
 
 library.category.label.computerScience.computingWithMinecraft=使用 Minecraft 進行運算	#
 library.category.title.computerScience.computingWithMinecraft=使用 Minecraft 進行運算	#
-library.category.description.computerScience.computingWithMinecraft=利用這些根據 CSTA 標準設計的電腦科學課程，建造您自己的城市。學習基本的 CS 概念，包括迴圈、算法、條件式、除錯、疊代法及更多。	#
+library.category.description.computerScience.computingWithMinecraft=用這些以 CSTA 標準為基礎的電腦科學課程建造自己的城市。學習基本的 CS 概念，包括迴圈、演算法、條件式、偵錯、迭代等等。	#
 
 library.category.label.computerScience.codingWithMinecraft=利用 Minecraft 進行編碼	#
 library.category.title.computerScience.codingWithMinecraft=利用 Minecraft 進行編碼	#
@@ -294,12 +294,12 @@ library.category.label.computerScience.python.python101=PYTHON 101	#
 library.category.title.computerScience.python.python101=Python 101	#
 library.category.description.computerScience.python101=開始在 Minecraft 中編寫 Python 程式碼！學習 Python 的基礎知識，包括語法、資料類型、變數、條件、「for」迴圈、條件迴圈、清單和函數。	#
 
-library.category.label.computerScience.python.python_islands=Python 群島	#
+library.category.label.computerScience.python.python_islands=PYTHON 群島	#
 library.category.title.computerScience.python.python_islands=Python 群島	#
-library.category.description.computerScience.python.python_islands=歡迎來到浮島王國！這個神秘的王國漂浮在地表世界之上。在一系列課程中，學生將透過各世界的一系列任務，學習 Python 的基本知識。完成這些任務，協助王國發展茁壯！	#
+library.category.description.computerScience.python.python_islands=歡迎來到漂浮島王國！這個神秘的王國高高地漂浮在地表世界之上。在一系列課程中，學生將透過各世界的一系列任務，學習 Python 的基本知識。完成這些任務，協助王國發展茁壯！	#
 
-library.category.label.computerScience.languageAgnostic=語言無關	#
-library.category.title.computerScience.languageAgnostic=語言無關	#
+library.category.label.computerScience.languageAgnostic=跨語言	#
+library.category.title.computerScience.languageAgnostic=跨語言	#
 library.category.description.computerScience.languageAgnostic=如果你想了解特定的編碼概念，這裡就是最棒的啟蒙之地！了解如何使用迴圈、序列、條件、變數和函數。在這些課程中，你可以選擇使用 Blocks、Python 或 JavaScript 進行編碼。	#
 
 library.category.label.computerScience.featuredLessons=特色課程	#
@@ -365,7 +365,7 @@ popup.buttons.eduConflictResolution.both=兩者都保留	#
 progressScreen.title.eduCloudFetch=雲端同步中	#
 progressScreen.message.eduFetchingCloudWorld=正在檢查...	#
 progressScreen.title.eduCloudUpload=上傳到雲端	#
-progressScreen.message.eduUploadingCloudWorld=正在上傳...	#
+progressScreen.message.eduUploadingCloudWorld=正在上傳…	#
 progressScreen.message.eduFinishedCloudUpload=完成！	#
 progressScreen.title.eduCloudDownload=從雲端下載中	#
 progressScreen.message.eduDownloadingCloudWorld=正在下載...	#
@@ -550,4 +550,4 @@ worlds.storage.android.settings=打開 Android 設定	#
 worlds.storage.permission.dialog.title=需要裝置權限	#
 worlds.storage.missing=你的世界不見了嗎？試著變更 Minecraft 的儲存空間位置：	#
 
-bookAndQuill.unsignedName=尚未簽名的書	#
+bookAndQuill.unsignedName=書本		####This is the name of a book without a title {MaxLength=30}
